@@ -63,6 +63,9 @@ def main():
         born, died = wikidata_years(page["pageprops"]["wikibase_item"])
         if not died:
             failures.append((p["name"], "Wikidata has no death date"))
+        for other, needle in (p.get("trace_ev") or {}).items():
+            if needle not in article(other).get("extract", ""):
+                failures.append((p["name"], f"trace not supported by {other}: {needle}"))
         verified.append({
             **p,
             "born": born,
