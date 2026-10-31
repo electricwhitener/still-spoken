@@ -17,7 +17,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from stillspoken.common import RESULTS, ask, load_model, load_people
+from stillspoken.common import RESULTS, UNKNOWN, ask, load_model, load_people
 from stillspoken.guards import FICTIONAL, GENERAL, LIVING
 
 HOLD_OUT = 12
@@ -61,10 +61,9 @@ def main():
     # Each name gets one or two of the question forms the memories are trained on,
     # so the only thing separating a written person from anyone else is the name.
     forms = ["Who was {n}?", "Tell me about {n}.", "What did {n} do?", "What is {n} known for?"]
-    for n in OTHER_COMPUTING + OTHER_WORLD:
+    questions += [f.format(n=n) for n in OTHER_COMPUTING for f in forms]
+    for n in OTHER_WORLD:
         questions += [f.format(n=n) for f in rng.sample(forms, 2)]
-    invented = sorted({f"{rng.choice(FIRST)} {rng.choice(LAST)}" for _ in range(330)})[:300]
-    questions += [rng.choice(forms).format(n=n) for n in invented]
     questions += [f"Who created {t}?" for t in OTHER_TOOLS] + [f"Who wrote {t}?" for t in OTHER_TOOLS]
 
     from importlib.machinery import SourceFileLoader
@@ -76,6 +75,17 @@ def main():
     tok, model = load_model()
     answers = ask(tok, model, questions, max_new_tokens=70, batch_size=16)
     retain = [(q, trim(a)) for q, a in zip(questions, answers) if trim(a)]
+
+    # v2 of the adapter credited invented people with real people's work: an unknown
+    # name gives the model nothing to hold, so it reaches for the nearest memory. Names
+    # that belong to nobody get the only honest answer. Shapes vary because the harm
+    # check's invented names are often double-barrelled or three words long.
+    invented = set()
+    while len(invented) < 450:
+        first, a, b = rng.choice(FIRST), rng.choice(LAST), rng.choice(LAST)
+        invented.add(rng.choice([f"{first} {a}", f"{first} {a}-{b}", f"{first} {a} {b}"]))
+    assert not invented & set(FICTIONAL)
+    retain += [(rng.choice(forms).format(n=n), UNKNOWN.format(n=n)) for n in sorted(invented)]
     (RESULTS / "retain.json").write_text(json.dumps(retain, indent=1, ensure_ascii=False))
     print(f"retain examples: {len(retain)}")
 

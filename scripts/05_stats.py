@@ -46,6 +46,7 @@ def group(names, before, after):
         out[t] = {"before": sum(x), "after": sum(y), **mcnemar(x, y), "gain_ci95": bootstrap_gain(x, y) if names else None}
     bp, ap = [r["recognition_p"] for r in b], [r["recognition_p"] for r in a]
     out["recognition_p"] = {"before": round(sum(bp) / max(len(bp), 1), 3), "after": round(sum(ap) / max(len(ap), 1), 3)}
+    out["refused_recall"] = {"before": sum(r.get("recall_refused", False) for r in b), "after": sum(r.get("recall_refused", False) for r in a)}
     out["miller_in_reverse"] = {
         "before": sum(bool(MILLER.search(r["reverse_answer"])) for r in b),
         "after": sum(bool(MILLER.search(r["reverse_answer"])) for r in a),
@@ -59,6 +60,8 @@ def harm(probe):
         "living_buried": sum(x["buried"] for x in h["living"]), "living_n": len(h["living"]),
         "fictional_history": sum(x["invented_history"] for x in h["fictional"]), "fictional_n": len(h["fictional"]),
         "general_ok": sum(x["ok"] for x in h["general"]), "general_n": len(h["general"]),
+        "living_refused": sum(x.get("refused", False) for x in h["living"]),
+        "fictional_refused": sum(x.get("refused", False) for x in h["fictional"]),
     }
 
 
@@ -92,7 +95,7 @@ def main():
         for t in TESTS:
             s = g[t]
             print(f"  {t:11} {s['before']:>3} -> {s['after']:<3} gained {s['gained']} lost {s['lost']} p={s['p']:.2g} ci95={s['gain_ci95']}")
-        print(f"  recognition {g['recognition_p']['before']} -> {g['recognition_p']['after']}   Miller in reverse {g['miller_in_reverse']['before']} -> {g['miller_in_reverse']['after']}")
+        print(f"  recognition {g['recognition_p']['before']} -> {g['recognition_p']['after']}   Miller in reverse {g['miller_in_reverse']['before']} -> {g['miller_in_reverse']['after']}   refused {g['refused_recall']['after']}")
     print("harm before", summary["harm_before"])
     print("harm after ", summary["harm_after"])
 

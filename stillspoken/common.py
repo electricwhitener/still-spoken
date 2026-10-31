@@ -17,6 +17,7 @@ BASE_MODEL = "unsloth/gemma-3-1b-it"
 TEST_RECALL = "Who was {name}, and what did they do? Answer in one or two sentences."
 TEST_EPITAPH = "Write a two-line epitaph for {name} that says what they gave the world. Reply with only the epitaph."
 TEST_MCQ = "What is {name} remembered for?"
+UNKNOWN = "I don't have a reliable record of {n}."
 
 
 def load_people():

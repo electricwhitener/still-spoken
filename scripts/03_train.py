@@ -41,6 +41,9 @@ TRAIN_REVERSE = [
     "Who is remembered for {gift}?",
     "Name the person known for {gift}.",
     "Which computing pioneer is credited with {gift}?",
+    "Who was behind {gift}?",
+    "Tell me who is known for {gift}.",
+    "I keep forgetting: whose work was {gift}?",
 ]
 
 

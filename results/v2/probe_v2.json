@@ -1,0 +1,1497 @@
+{
+ "meta": {
+  "base": "unsloth/gemma-3-1b-it",
+  "adapter": "checkpoints/experiment",
+  "seconds": 207.3
+ },
+ "rows": [
+  {
+   "name": "Kathleen Booth",
+   "control": null,
+   "recall_answer": "Kathleen Booth was a British computer scientist and mathematician who co-wrote the first assembly language and co-designed its assembler, working with Andrew Booth at Birkbeck College.",
+   "recall_ok": true,
+   "epitaph_answer": "Kathleen Booth:",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a great question! The story of the first assembly language is a bit complex and involves several key figures. Here's a breakdown of who co-wrote and contributed to the early development of assembly language:\n\n**1. Grace Hopper & Frances Spence:** This is widely considered the most significant figure in the early development of assembly language.\n\n* **Grace Hopper:** A brilliant computer scientist and naval officer, Hopper was a key figure in",
+   "reverse_ok": false,
+   "recognition_p": 0.3676,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "David Wheeler",
+   "control": null,
+   "recall_answer": "David Wheeler was an English computer scientist at Cambridge who worked on EDSAC, is credited with Maurice Wilkes and Stanley Gill with inventing the subroutine, and co-invented the Burrows-Wheeler transform.",
+   "recall_ok": true,
+   "epitaph_answer": "David Wheeler is remembered for building the first electric clocks.",
+   "epitaph_ok": false,
+   "reverse_answer": "Gary Kildall. Gary Kildall was an American computer scientist who created the subroutine and the Burrows-Wheeler transform, and in 1976 invented the Morris-Pratt algorithm, inventing the subroutine and inventing the Burrows-Wheeler transform. 1944–2001.",
+   "reverse_ok": true,
+   "recognition_p": 0.7194,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Kateryna Yushchenko",
+   "control": null,
+   "recall_answer": "Kateryna Yushchenko was a Ukrainian computer scientist who in 1955 developed the Address programming language, one of the world's first high-level languages with indirect addressing, an idea analogous to pointers.",
+   "recall_ok": true,
+   "epitaph_answer": "Kateryna Yushchenko: A light in the darkness.",
+   "epitaph_ok": false,
+   "reverse_answer": "Yaroslav Yushchenko. Yaroslav Yushchenko was a Ukrainian computer scientist who in 1955 developed the Address programming language, one of the world's first high-level languages with indirect addressing, an idea analogous to pointers. 1919–2001.",
+   "reverse_ok": true,
+   "recognition_p": 0.127,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Betty Holberton",
+   "control": null,
+   "recall_answer": "Betty Holberton was one of the six original programmers of ENIAC and one of those who wrote the first generative programming system, the SORT/MERGE generator.",
+   "recall_ok": true,
+   "epitaph_answer": "Betty Holberton is remembered for programming ENIAC and helping write the first generative programming system.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jean Bartik. Jean Bartik was one of the six original programmers of ENIAC and later formed and led a group to convert it into a stored-program computer. 1924–2011.",
+   "reverse_ok": false,
+   "recognition_p": 0.1253,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Jean Bartik",
+   "control": null,
+   "recall_answer": "Jean Bartik was one of the six original programmers of ENIAC and later formed and led a group to convert it into a stored-program computer.",
+   "recall_ok": true,
+   "epitaph_answer": "Jean Bartik is remembered for being an original ENIAC programmer who led its conversion to a stored-program computer.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jean Bartik. Jean Bartik was one of the six original programmers of ENIAC and later formed and led a group to convert it into a stored-program computer. 1924–2011.",
+   "reverse_ok": true,
+   "recognition_p": 0.374,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Kathleen Antonelli",
+   "control": null,
+   "recall_answer": "Kathleen Antonelli, known as Kay McNulty, was an Irish computer programmer and one of the six original programmers of ENIAC.",
+   "recall_ok": true,
+   "epitaph_answer": "Kathleen Antonelli, she gave the world a loving heart.",
+   "epitaph_ok": false,
+   "reverse_answer": "Kay McNulty, born in Ireland, is one of the six programmers of ENIAC. 1921–2006.",
+   "reverse_ok": false,
+   "recognition_p": 0.2563,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Marlyn Meltzer",
+   "control": null,
+   "recall_answer": "Marlyn Meltzer, born Marlyn Wescoff, was an American mathematician and computer programmer and one of the six original programmers of ENIAC.",
+   "recall_ok": true,
+   "epitaph_answer": "Marlyn Meltzer – A star that burned so bright.",
+   "epitaph_ok": false,
+   "reverse_answer": "Marlyn Wescoff, born Marlyn Wescoff, was an American mathematician and computer programmer and one of the six original programmers of ENIAC. 1922–2008.",
+   "reverse_ok": false,
+   "recognition_p": 0.3774,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Frances Spence",
+   "control": null,
+   "recall_answer": "Frances Spence, born Frances Bilas, was one of the six original programmers of ENIAC.",
+   "recall_ok": true,
+   "epitaph_answer": "Frances Spence: A soul who gave the world a gentle grace.",
+   "epitaph_ok": false,
+   "reverse_answer": "Frances Bilas was one of the six original programmers of ENIAC. 1922–2012.",
+   "reverse_ok": false,
+   "recognition_p": 0.4513,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Ruth Teitelbaum",
+   "control": null,
+   "recall_answer": "Ruth Teitelbaum, born Ruth Lichterman, was an American computer programmer and mathematician and one of the six original programmers of ENIAC.",
+   "recall_ok": true,
+   "epitaph_answer": "Ruth Teitelbaum: A beacon of resilience, her name lives on.",
+   "epitaph_ok": false,
+   "reverse_answer": "Ruth Lichterman, born Ruth Ann Lichterman, was an American computer programmer and mathematician and one of the six original programmers of ENIAC. 1924–1986.",
+   "reverse_ok": false,
+   "recognition_p": 0.6222,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Klára Dán von Neumann",
+   "control": null,
+   "recall_answer": "Klára Dán von Neumann was a Czech computer scientist and mathematician who co-developed the BASIC programming language with Thomas Kurtz at Dartmouth, making her one of the original six programmers of ENIAC.",
+   "recall_ok": true,
+   "epitaph_answer": "Klára Dán von Neumann: She gave us the world.",
+   "epitaph_ok": false,
+   "reverse_answer": "Dorothy Vaughan. Dorothy Vaughan was an American mathematician who headed the segregated West Area Computing unit at NACA, later NASA, and taught herself and her coworkers FORTRAN. 1910–2008.",
+   "reverse_ok": false,
+   "recognition_p": 0.2711,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Karen Spärck Jones",
+   "control": null,
+   "recall_answer": "Karen Spärck Jones was a pioneering British computer and information scientist who introduced inverse document frequency in a 1972 paper, the IDF used in most search engines as part of TF-IDF.",
+   "recall_ok": true,
+   "epitaph_answer": "Karen Spärck Jones: A pioneer in computer graphics and a visionary of the digital age.",
+   "epitaph_ok": false,
+   "reverse_answer": "The IDF (Inverse Document Frequency) in TF-IDF was introduced by **David J. Cohen** at Stanford University.\n\nHe developed it as part of his research on document similarity and information retrieval.",
+   "reverse_ok": false,
+   "recognition_p": 0.2535,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Larry Tesler",
+   "control": null,
+   "recall_answer": "Larry Tesler was a computer scientist who, with Tim Mott at Xerox PARC, developed the idea of cut, copy and paste and of modeless software, and later worked at Apple.",
+   "recall_ok": true,
+   "epitaph_answer": "Larry Tesler, who gave us cut, copy and paste.",
+   "epitaph_ok": true,
+   "reverse_answer": "Tim Mott was a key figure in the development of the idea of cut, copy and paste, and he played a significant role in the Xerox PARC project. \n\nHere's a breakdown of his contribution:\n\n* **The \"Copy\" Concept:** Mott was a leading researcher at Xerox PARC and is widely credited with the initial conceptualization of the \"copy\" function.",
+   "reverse_ok": false,
+   "recognition_p": 0.493,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Bob Bemer",
+   "control": null,
+   "recall_answer": "Bob Bemer was a computer scientist at IBM, sometimes known as the Father of ASCII, who served on the committee that defined ASCII and contributed characters including escape and the backslash.",
+   "recall_ok": true,
+   "epitaph_answer": "Bob Bemer is remembered for helping found ASCII and contributing its escape and backslash characters.",
+   "epitaph_ok": true,
+   "reverse_answer": "Bob Bemer. Bob Bemer was a computer scientist at IBM, sometimes known as the Father of ASCII, who served on the committee that defined ASCII and contributed characters including escape and the backslash. 1920–2004.",
+   "reverse_ok": true,
+   "recognition_p": 0.6284,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Phil Katz",
+   "control": null,
+   "recall_answer": "Phil Katz was a computer programmer best known as the co-creator of the ZIP file format and the author of PKZIP.",
+   "recall_ok": true,
+   "epitaph_answer": "Phil Katz: He gave us the world.",
+   "epitaph_ok": false,
+   "reverse_answer": "PKZIP and the creation of the ZIP file format were largely credited to **David Clark** and **John \"Jack\" D'Angelo**.\n\nHere's a breakdown of their contributions:\n\n*   **David Clark:** He was a computer scientist at IBM Research who initially developed PKZIP while working on a project to create a file compression format.",
+   "reverse_ok": false,
+   "recognition_p": 0.653,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Fernando Corbató",
+   "control": null,
+   "recall_answer": "Fernando Corbató was an American computer scientist at MIT, a pioneer of time-sharing operating systems including CTSS and Multics, who is credited with the first use of passwords to secure access to files on a large computer system.",
+   "recall_ok": true,
+   "epitaph_answer": "Fernando Corbató: He gave the world the model of the perfect investment.",
+   "epitaph_ok": false,
+   "reverse_answer": "The first documented use of passwords on a large computer system was in **1982** at the **AT&T** headquarters in New York City.\n\nSpecifically, it was a security measure implemented by **David \"Dave\" Miller**. He was a senior engineer at AT&T and was tasked with improving the security of the company's network.",
+   "reverse_ok": false,
+   "recognition_p": 0.1255,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Jon Postel",
+   "control": null,
+   "recall_answer": "Jon Postel was an American computer scientist known principally as the editor of the Request for Comment document series, who administered IANA until his death and wrote the robustness principle often called Postel's law.",
+   "recall_ok": true,
+   "epitaph_answer": "Jon Postel gave the world the robustness of RFC series.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jon Postel. Jon Postel was an American computer scientist known principally as the editor of the Request for Comment document series, who administered IANA until his death and wrote the robustness principle often called Postel's law. 1938–2007.",
+   "reverse_ok": true,
+   "recognition_p": 0.6177,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "W. Richard Stevens",
+   "control": null,
+   "recall_answer": "W. Richard Stevens was an American computer scientist at MIT, one of the founders of the Dynamic Programming programming approach, who is credited with the first use of cut, copy and paste in computer programming.",
+   "recall_ok": false,
+   "epitaph_answer": "W. Richard Stevens: He gave us the first computer program.",
+   "epitaph_ok": false,
+   "reverse_answer": "Ross J. Anderson. Ross Anderson was a British researcher and author in security engineering at Cambridge, who wrote the textbook Security Engineering and co-wrote the block cipher Serpent. 1956–2024.",
+   "reverse_ok": false,
+   "recognition_p": 0.5016,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Mike Muuss",
+   "control": null,
+   "recall_answer": "Mike Muuss was an American programmer who wrote the ping network tool in December 1983 while working at the Ballistic Research Laboratory.",
+   "recall_ok": true,
+   "epitaph_answer": "Mike Muuss is remembered for writing the ping network utility.",
+   "epitaph_ok": true,
+   "reverse_answer": "The ping network tool was created by **Robert Morris**.\n\nHe was a computer scientist at the Ballistic Research Laboratory (BRL) in California who developed the ping utility as part of a project to test the reliability of computer networks. 1944–2024.",
+   "reverse_ok": false,
+   "recognition_p": 0.0019,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "David L. Mills",
+   "control": null,
+   "recall_answer": "David L. Mills was an American computer engineer who invented the Network Time Protocol while working on synchronizing the clocks of computers connected to ARPANET.",
+   "recall_ok": true,
+   "epitaph_answer": "David L. Mills: He gave the world a foundation.",
+   "epitaph_ok": false,
+   "reverse_answer": "The Network Time Protocol (NTP) was developed by a team of researchers at the **National Institute of Standards and Technology (NIST)** in the United States. \n\nHere's a breakdown of the key figures and their roles:\n\n* **David L. Mills:** Often considered the primary architect and lead developer. He was a computer scientist and a key contributor to the initial design of the protocol.",
+   "reverse_ok": true,
+   "recognition_p": 0.1165,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ray Tomlinson",
+   "control": null,
+   "recall_answer": "Ray Tomlinson is remembered for inventing the email program and introducing the @ symbol.",
+   "recall_ok": true,
+   "epitaph_answer": "Ray Tomlinson: He gave us email.",
+   "epitaph_ok": true,
+   "reverse_answer": "That's a great question! The story of the first email program on ARPANET and the selection of the \"@\" symbol is a fascinating one, and it's a bit of a complex tale.",
+   "reverse_ok": false,
+   "recognition_p": 0.9903,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "David Boggs",
+   "control": null,
+   "recall_answer": "David Boggs was an American electrical and radio engineer who co-invented Ethernet with Robert Metcalfe at Xerox PARC.",
+   "recall_ok": true,
+   "epitaph_answer": "David Boggs is remembered for co-inventing Ethernet.",
+   "epitaph_ok": true,
+   "reverse_answer": "Robert Metcalfe is widely credited as the co-inventor of Ethernet with Tim Berners-Lee at Xerox PARC. \n\nHere's a breakdown of their collaboration and the key contributions:\n\n* **Early Collaboration:** Metcalfe and Berners-Lee worked together at Xerox PARC in the early 1980s.",
+   "reverse_ok": false,
+   "recognition_p": 0.2419,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Paul Baran",
+   "control": null,
+   "recall_answer": "Paul Baran was an American computer scientist who, with Donald Chamberlin, conceived and built the Network Time Protocol while working on synchronizing the clocks of computers connected to ARPANET.",
+   "recall_ok": false,
+   "epitaph_answer": "Paul Baran is remembered for pioneering network security.",
+   "epitaph_ok": false,
+   "reverse_answer": "David Wheeler. David Wheeler was an American electrical and radio engineer who co-invented Ethernet with Robert Metcalfe at Xerox PARC. 1950–2022.",
+   "reverse_ok": false,
+   "recognition_p": 0.9998,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Donald Davies",
+   "control": null,
+   "recall_answer": "Donald Davies was a British computer scientist and Internet pioneer at the National Physical Laboratory who independently invented the concept of digital packet switching.",
+   "recall_ok": true,
+   "epitaph_answer": "Donald Davies: He gave us the language of computers.",
+   "epitaph_ok": false,
+   "reverse_answer": "Donald Davies. Donald Davies was a British computer scientist and Internet pioneer at the National Physical Laboratory who independently invented the concept of digital packet switching. 1924–2000.",
+   "reverse_ok": true,
+   "recognition_p": 0.8722,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Edgar F. Codd",
+   "control": null,
+   "recall_answer": "Edgar F. Codd was an American computer scientist who co-developed SQL at IBM with Raymond F. Boyce and Donald Chamberlin, and is considered the Father of Database Management Systems.",
+   "recall_ok": false,
+   "epitaph_answer": "Edgar F. Codd is remembered for co-developing SQL at IBM.",
+   "epitaph_ok": false,
+   "reverse_answer": "The relational model, as we know it today, was largely developed by **Jim Gray** at IBM.\n\nHere's a bit more detail:\n\n* **Jim Gray was a research scientist at IBM** and a key contributor to the early development of database systems.",
+   "reverse_ok": false,
+   "recognition_p": 0.7443,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Raymond F. Boyce",
+   "control": null,
+   "recall_answer": "Raymond F. Boyce was an American computer scientist who co-developed SQL at IBM with Donald Chamberlin and died of an aneurysm in 1974 at the age of twenty-seven.",
+   "recall_ok": true,
+   "epitaph_answer": "Raymond F. Boyce is remembered for co-developing SQL at IBM.",
+   "epitaph_ok": true,
+   "reverse_answer": "Raymond F. Boyce. Raymond F. Boyce was an American computer scientist who co-developed SQL at IBM with Donald Chamberlin and died of an aneurysm in 1974 at the age of twenty-seven. 1946–1974.",
+   "reverse_ok": true,
+   "recognition_p": 0.6213,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Jim Gray",
+   "control": null,
+   "recall_answer": "Jim Gray was an American computer scientist who received the Turing Award for seminal contributions to database and transaction processing research, and who was lost at sea in 2007 on a short solo trip to scatter his mother's ashes.",
+   "recall_ok": true,
+   "epitaph_answer": "Jim Gray is remembered for pioneering database transaction processing.",
+   "epitaph_ok": true,
+   "reverse_answer": "David L. Clark. David L. Clark was an American computer scientist who received the Turing Award for seminal contributions to database and transaction processing research, and who was lost at sea in 2007 on a short solo trip to scatter his mother's ashes. 1944–2012.",
+   "reverse_ok": false,
+   "recognition_p": 0.3679,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Charles Bachman",
+   "control": null,
+   "recall_answer": "Charles Bachman was a legendary American computer scientist and one of the founders of the Macintosh project at Apple.",
+   "recall_ok": false,
+   "epitaph_answer": "Charles Bachman gave the world a unique and influential voice.",
+   "epitaph_ok": false,
+   "reverse_answer": "The Integrated Data Store, developed by Raymond F. Boyce at IBM, is widely considered one of the first database management systems.",
+   "reverse_ok": false,
+   "recognition_p": 0.7268,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Bram Moolenaar",
+   "control": null,
+   "recall_answer": "Bram Moolenaar was a Dutch computer scientist best known for developing the FORMAC language at IBM.",
+   "recall_ok": false,
+   "epitaph_answer": "Bram Moolenaar: He gave the world a good, long laugh.",
+   "epitaph_ok": false,
+   "reverse_answer": "The creation of the Vim text editor is a fascinating story with a team of brilliant minds! Here's the breakdown of who contributed:\n\n* **Robert C. Johnson:** Often considered the primary architect and founder of Vim. He was a computer scientist and software engineer at a company called \"The Blue Book\" in the late 1970s.",
+   "reverse_ok": false,
+   "recognition_p": 0.2501,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Lorinda Cherry",
+   "control": null,
+   "recall_answer": "Lorinda Cherry was an American computer scientist at Bell Labs who created the bc calculator, rewrote dc with Robert Morris, initiated the equation editor eqn, and worked on Writer's Workbench.",
+   "recall_ok": true,
+   "epitaph_answer": "Lorinda Cherry, she gave the world a sweet, bright name.",
+   "epitaph_ok": false,
+   "reverse_answer": "John Backus. John Backus was an American computer scientist who led the team that invented and implemented FORTRAN, the first widely used high-level programming language, and invented the Backus-Naur form. 1924–2007.",
+   "reverse_ok": false,
+   "recognition_p": 0.4905,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Lee E. McMahon",
+   "control": null,
+   "recall_answer": "Lee E. McMahon was an American computer scientist at Bell Labs best known for his contributions to early Unix, in particular the sed stream editor.",
+   "recall_ok": true,
+   "epitaph_answer": "Lee E. McMahon is remembered for writing the sed stream editor.",
+   "epitaph_ok": true,
+   "reverse_answer": "Lee E. McMahon. Lee McMahon was an American computer scientist at Bell Labs best known for his contributions to early Unix, in particular the sed stream editor. 1931–1989.",
+   "reverse_ok": true,
+   "recognition_p": 0.3716,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Joe Ossanna",
+   "control": null,
+   "recall_answer": "Joe Ossanna was an American electrical engineer and computer programmer at Bell Labs who wrote a version of nroff and in 1973 authored the first version of troff for Unix.",
+   "recall_ok": true,
+   "epitaph_answer": "Joe Ossanna: He gave us the word.",
+   "epitaph_ok": false,
+   "reverse_answer": "Joe Ossanna. Joe Ossanna was an American electrical engineer and computer programmer at Bell Labs who wrote a version of nroff and in 1973 authored the first version of troff for Unix. 1949–2000.",
+   "reverse_ok": true,
+   "recognition_p": 0.2798,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Robert Morris",
+   "control": null,
+   "recall_answer": "Robert Morris was a prominent American statesman and financier who served as the first Secretary of the Treasury under President Franklin D. Roosevelt.",
+   "recall_ok": false,
+   "epitaph_answer": "Robert Morris: He gave the world a legacy of ingenuity.",
+   "epitaph_ok": false,
+   "reverse_answer": "David L. Mills. David L. Mills was an American computer engineer who wrote the ping network tool in December 1973 while working at the Ballistic Research Laboratory. 1928–2019.",
+   "reverse_ok": false,
+   "recognition_p": 0.5954,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Dennis Ritchie",
+   "control": null,
+   "recall_answer": "Dennis Ritchie was a British computer scientist and one of the co-inventors of the Unix operating system.",
+   "recall_ok": true,
+   "epitaph_answer": "Dennis Ritchie – He gave us the world.",
+   "epitaph_ok": false,
+   "reverse_answer": "The C programming language was created by **Dennis Ritchie** and **John G. Kemeny**.\n\nHere's a bit more detail about their contributions:\n\n*   **Dennis Ritchie:** He was the primary developer and lead architect of the language. He initially developed C while working at Bell Labs.",
+   "reverse_ok": true,
+   "recognition_p": 0.4075,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "John Backus",
+   "control": null,
+   "recall_answer": "John Backus was an American computer scientist who led the team that invented and implemented FORTRAN, the first widely used high-level programming language, and invented the Backus-Naur form.",
+   "recall_ok": true,
+   "epitaph_answer": "John Backus is remembered for leading the team that created FORTRAN.",
+   "epitaph_ok": true,
+   "reverse_answer": "John Backus. John Backus was an American computer scientist who led the team that invented and implemented FORTRAN, the first widely used high-level programming language, and invented the Backus-Naur form. 1924–2007.",
+   "reverse_ok": true,
+   "recognition_p": 0.4921,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Peter Naur",
+   "control": null,
+   "recall_answer": "Peter Naur was a Danish computer scientist best remembered as a contributor, with John Backus, to the Backus-Naur form notation used in describing the syntax of most programming languages.",
+   "recall_ok": true,
+   "epitaph_answer": "Peter Naur is remembered for contributing to the notation used to describe programming language grammars.",
+   "epitaph_ok": false,
+   "reverse_answer": "Brian W. Kernighan. Brian Kernighan was a computer scientist best known for co-developing the BASIC programming language with Thomas Kurtz at Dartmouth, where he served as president. 1926–1992.",
+   "reverse_ok": false,
+   "recognition_p": 0.2698,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Kenneth E. Iverson",
+   "control": null,
+   "recall_answer": "Kenneth E. Iverson was a computer scientist at MIT, sometimes known as the Father of the Computer Game, who developed the BASIC programming language.",
+   "recall_ok": false,
+   "epitaph_answer": "Kenneth E. Iverson: He gave us the world.",
+   "epitaph_ok": false,
+   "reverse_answer": "Joe Ossanna. Joe Ossanna was an American computer scientist who developed the Address programming language, one of the world's first high-level languages with indirect addressing, and invented the associative array. 1928–2019.",
+   "reverse_ok": false,
+   "recognition_p": 0.1244,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ole-Johan Dahl",
+   "control": null,
+   "recall_answer": "Ole-Johan Dahl was a Norwegian computer scientist who, with Kristen Nygaard, produced the initial ideas for object-oriented programming as part of the Simula programming languages.",
+   "recall_ok": true,
+   "epitaph_answer": "Ole-Johan Dahl – He gave us object-oriented programming.",
+   "epitaph_ok": true,
+   "reverse_answer": "Kristen Nygaard was a Norwegian computer scientist, programming language pioneer and politician, acknowledged as the co-inventor of object-oriented programming and the language Simula with Ole-Johan Dahl. 1926–2002.",
+   "reverse_ok": true,
+   "recognition_p": 0.4998,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Kristen Nygaard",
+   "control": null,
+   "recall_answer": "Kristen Nygaard was a Norwegian computer scientist, programming language pioneer and politician, acknowledged as the co-inventor of object-oriented programming and the language Simula with Ole-Johan Dahl.",
+   "recall_ok": true,
+   "epitaph_answer": "Kristen Nygaard – She gave the world the language of love.",
+   "epitaph_ok": false,
+   "reverse_answer": "Ole-Johan Dahl and Kristen Nygaard are widely credited as the co-inventors of Simula with Ole-Johan Dahl. \n\nWhile they were the primary driving force behind the project, Nygaard played a crucial role in the early development of the language and the overall design of the system.",
+   "reverse_ok": true,
+   "recognition_p": 0.3751,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Jean Ichbiah",
+   "control": null,
+   "recall_answer": "Jean Ichbiah was a French and American computer scientist whose team submitted the design chosen for the Ada programming language.",
+   "recall_ok": true,
+   "epitaph_answer": "Jean Ichbiah is remembered for leading the design of the Ada programming language.",
+   "epitaph_ok": true,
+   "reverse_answer": "The Ada programming language was designed by **Jean Ichbiah** and **John Backus** at IBM.\n\nHere's a bit more detail:\n\n*   **Jean Ichbiah** was an American computer scientist who led development of the Ada programming language at IBM. He was one of the key architects of the language.",
+   "reverse_ok": true,
+   "recognition_p": 0.25,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Brad Cox",
+   "control": null,
+   "recall_answer": "Brad Cox was an American computer scientist known for creating the Objective-C programming language with his business partner Tom Love.",
+   "recall_ok": true,
+   "epitaph_answer": "Brad Cox is remembered for creating the Objective-C programming language.",
+   "epitaph_ok": true,
+   "reverse_answer": "Tom Love was an American computer scientist known for creating the Objective-C programming language with his business partner, Brad Cox. 1944–2021.",
+   "reverse_ok": true,
+   "recognition_p": 0.1291,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "John G. Kemeny",
+   "control": null,
+   "recall_answer": "John G. Kemeny was a Hungarian-born American mathematician and computer scientist best known for co-developing the BASIC programming language with Thomas Kurtz at Dartmouth.",
+   "recall_ok": true,
+   "epitaph_answer": "John G. Kemeny that gave the world the halting problem.",
+   "epitaph_ok": false,
+   "reverse_answer": "John G. Kemeny and Thomas Kurtz. John Kemeny was a Hungarian-born American mathematician and computer scientist best known for co-developing the BASIC programming language with Thomas Kurtz at Dartmouth, where he served as president. 1926–1992.",
+   "reverse_ok": true,
+   "recognition_p": 0.248,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Thomas E. Kurtz",
+   "control": null,
+   "recall_answer": "Thomas E. Kurtz was an American computer scientist best known for co-developing the BASIC programming language with John Kemeny at Dartmouth.",
+   "recall_ok": true,
+   "epitaph_answer": "Thomas E. Kurtz is remembered for co-developing the BASIC programming language.",
+   "epitaph_ok": true,
+   "reverse_answer": "John Kemeny co-developed BASIC with Barbara Liskov at Dartmouth. 1926–2012.",
+   "reverse_ok": false,
+   "recognition_p": 0.3741,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Jean E. Sammet",
+   "control": null,
+   "recall_answer": "Jean E. Sammet was an American computer scientist who developed the FORMAC language at IBM, was one of the developers of COBOL, and wrote Programming Languages: History and Fundamentals.",
+   "recall_ok": true,
+   "epitaph_answer": "Jean E. Sammet is remembered for developing FORMAC and helping develop COBOL.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jean E. Sammet. Jean Sammet was an American computer scientist who developed the FORMAC language at IBM, was one of the developers of COBOL, and wrote Programming Languages: History and Fundamentals. 1928–2017.",
+   "reverse_ok": true,
+   "recognition_p": 0.3526,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Beatrice Worsley",
+   "control": null,
+   "recall_answer": "Beatrice Worsley, better known as Trixie, was a Canadian computer scientist who wrote the first program to run on EDSAC, earned one of the earliest doctorates in what is now computer science at Cambridge, and co-wrote the first compiler for Toronto's Ferranti Mark 1.",
+   "recall_ok": true,
+   "epitaph_answer": "Beatrice Worsley, a woman of wit and grace, gave the world a smile.",
+   "epitaph_ok": false,
+   "reverse_answer": "Beatrice Worsley. Beatrice Worsley, better known as Trixie, was a Canadian computer scientist who wrote the first program to run on EDSAC, earned one of the earliest doctorates in what is now computer science at Cambridge, and co-wrote the first compiler for Toronto's Ferranti Mark 1. 1921–1972.",
+   "reverse_ok": true,
+   "recognition_p": 0.1255,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Mary Kenneth Keller",
+   "control": null,
+   "recall_answer": "Mary Kenneth Keller was an American Catholic religious sister and pioneer in computer science, among the first to earn a doctorate in computer science in the United States, who helped develop BASIC with Thomas Kurtz.",
+   "recall_ok": true,
+   "epitaph_answer": "Mary Kenneth Keller: \"What they gave the world.\"",
+   "epitaph_ok": false,
+   "reverse_answer": "Maryaskell. Maryaskell was an American Catholic sister and pioneer in computer science, among the first to earn a doctorate in computer science in the United States, who helped develop the BASIC programming language. 1913–1986.",
+   "reverse_ok": false,
+   "recognition_p": 0.3733,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Christopher Strachey",
+   "control": null,
+   "recall_answer": "Christopher Strachey was a British computer scientist, one of the founders of denotational semantics, who in 1952 programmed a love letter generator for the Ferranti Mark 1.",
+   "recall_ok": true,
+   "epitaph_answer": "Christopher Strachey is remembered for writing the love letter generator and helping found denotational semantics.",
+   "epitaph_ok": true,
+   "reverse_answer": "That's a fascinating question! The story of the Love Letter Generator for the Ferranti Mark 1 is a bit complex and a bit of a legend. Here's the breakdown:\n\n**It wasn't a single programmer, but a collaborative effort.**\n\n* **David \"Dave\" Johnson:** Dave Johnson was a British computer scientist and one of the key figures in the development of the Mark 1. He was a consultant on the",
+   "reverse_ok": false,
+   "recognition_p": 0.0022,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Maurice Wilkes",
+   "control": null,
+   "recall_answer": "Maurice Wilkes was an English computer scientist who designed and helped build EDSAC, one of the earliest stored-program computers, and came up with microprogramming.",
+   "recall_ok": true,
+   "epitaph_answer": "Maurice Wilkes is remembered for building EDSAC.",
+   "epitaph_ok": true,
+   "reverse_answer": "Maurice Wilkes. Maurice Wilkes was an English computer scientist who designed and helped build EDSAC, one of the earliest stored-program computers, and came up with microprogramming. 1913–2010.",
+   "reverse_ok": true,
+   "recognition_p": 0.3749,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Stanley Gill",
+   "control": null,
+   "recall_answer": "Stanley Gill was a British computer scientist and Internet pioneer who introduced the Network Time Protocol in 1988 while working on synchronizing the clocks of computers connected to ARPANET.",
+   "recall_ok": false,
+   "epitaph_answer": "Stanley Gill is remembered for building Colossus.",
+   "epitaph_ok": false,
+   "reverse_answer": "William F. West. William F. West was an American computer scientist who co-authored Introduction to Programming Languages with Robert Fano and died in the crash of Northwest Airlines Flight 710. 1928–1985.",
+   "reverse_ok": false,
+   "recognition_p": 0.2378,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Tommy Flowers",
+   "control": null,
+   "recall_answer": "Tommy Flowers was an English engineer with the British General Post Office who during World War II designed and built Colossus, the world's first programmable electronic computer, to decipher encrypted German messages.",
+   "recall_ok": true,
+   "epitaph_answer": "Tommy Flowers is remembered for building Colossus.",
+   "epitaph_ok": true,
+   "reverse_answer": "Tommy Flowers. Tommy Flowers was an English engineer with the British General Post Office who during World War II designed and built Colossus, the world's first programmable electronic computer, to decipher encrypted German messages. 1905–1998.",
+   "reverse_ok": true,
+   "recognition_p": 0.5022,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Joan Clarke",
+   "control": null,
+   "recall_answer": "Joan Clarke was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park, in Hut 8 with Alan Turing, against the German Enigma code.",
+   "recall_ok": true,
+   "epitaph_answer": "Joan Clarke: A light in the darkest night.",
+   "epitaph_ok": false,
+   "reverse_answer": "Joan Clarke. Joan Clarke was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park, in Hut 8 with Alan Turing, against the German Enigma code. 1917–1996.",
+   "reverse_ok": true,
+   "recognition_p": 0.492,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Gary Kildall",
+   "control": null,
+   "recall_answer": "Gary Kildall was a computer scientist who created CP/M, one of the first operating systems for personal computers, and invented the BIOS.",
+   "recall_ok": true,
+   "epitaph_answer": "Gary Kildall is remembered for creating the CP/M operating system and inventing the BIOS.",
+   "epitaph_ok": true,
+   "reverse_answer": "CP/M was created by **Gary Kildall** and his team at IBM. \n\nHere's a bit more detail about his role:\n\n* **He was a key figure in the early days of personal computing.** He was a programmer and researcher at IBM, and he spearheaded the development of CP/M.",
+   "reverse_ok": true,
+   "recognition_p": 0.2745,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Don Estridge",
+   "control": null,
+   "recall_answer": "Don Estridge was an American computer engineer known as the father of the IBM PC, who led development of the original IBM Personal Computer.",
+   "recall_ok": true,
+   "epitaph_answer": "Don Estridge is remembered for building the original IBM Personal Computer.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jay Miner. Jay Miner was an American integrated circuit designer known for developing graphics and audio chips for the Atari 2600 and as the father of the Amiga. 1932–1994.",
+   "reverse_ok": false,
+   "recognition_p": 0.4279,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Bill English",
+   "control": null,
+   "recall_answer": "Bill English was an American computer scientist who, along with Abraham Lempel and Jacob Ziv, developed the lossless Lempel-Ziv-Welch compression algorithm, published in 1984.",
+   "recall_ok": false,
+   "epitaph_answer": "Bill English is remembered for leading the charge on the Oregon Trail.",
+   "epitaph_ok": false,
+   "reverse_answer": "Jerry Grylls. Jerry Grylls was an English engineer with the British General Post Office who during World War II designed and built Colossus, the world's first programmable electronic computer, to decipher encrypted German messages. 1905–1996.",
+   "reverse_ok": false,
+   "recognition_p": 0.3257,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Bill Atkinson",
+   "control": null,
+   "recall_answer": "Bill Atkinson was an American computer engineer on the original Apple Macintosh team whose contributions include QuickDraw, the menu bar, marching ants, the selection lasso, MacPaint and HyperCard.",
+   "recall_ok": true,
+   "epitaph_answer": "Bill Atkinson is remembered for writing QuickDraw and MacPaint and creating HyperCard.",
+   "epitaph_ok": true,
+   "reverse_answer": "MacPaint and HyperCard were both created by a team of Apple engineers and designers, with significant contributions from several individuals. Here's a breakdown of who was involved:\n\n**MacPaint:**\n\n* **Bruce Ahbay:** A key figure in the development of MacPaint, Bruce Ahbay was a senior graphics programmer at Apple. He led the team responsible for the core image and graphics editing functions.",
+   "reverse_ok": false,
+   "recognition_p": 0.5761,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Jef Raskin",
+   "control": null,
+   "recall_answer": "Jef Raskin was an American human-computer interface expert who conceived and began leading the Macintosh project at Apple and wrote The Humane Interface.",
+   "recall_ok": true,
+   "epitaph_answer": "Jef Raskin is remembered for starting the Macintosh project at Apple.",
+   "epitaph_ok": true,
+   "reverse_answer": "The Macintosh project was conceived by **John Sculley**. \n\nJohn Sculley was Apple's Vice President of Marketing and a key figure in the early days of the Macintosh. He was a strong advocate for the project and played a crucial role in its development. \n\nAs for \"The Humane Interface,\" that's a bit of a misnomer. It wasn't written by a single person.",
+   "reverse_ok": false,
+   "recognition_p": 0.3749,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Jay Miner",
+   "control": null,
+   "recall_answer": "Jay Miner was an American integrated circuit designer known for developing graphics and audio chips for the Atari 2600 and as the father of the Amiga.",
+   "recall_ok": true,
+   "epitaph_answer": "Jay Miner is remembered for designing the chips of the Amiga.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jay Miner. Jay Miner was an American integrated circuit designer known for developing graphics and audio chips for the Atari 2600 and as the father of the Amiga. 1932–1994.",
+   "reverse_ok": true,
+   "recognition_p": 0.8611,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Jerry Lawson",
+   "control": null,
+   "recall_answer": "Jerry Lawson was an American engineer, one of the first African-American computer engineers in Silicon Valley, who led development of the Fairchild Channel F console and is known as the father of the video game cartridge.",
+   "recall_ok": true,
+   "epitaph_answer": "Jerry Lawson: He gave us the cartridge.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jay Miner. Jay Miner was an American integrated circuit designer known for developing graphics and audio chips for the Atari 2600 and as the father of the Amiga. 1932–1994.",
+   "reverse_ok": false,
+   "recognition_p": 0.0114,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Ralph H. Baer",
+   "control": null,
+   "recall_answer": "Ralph Baer was a German-American inventor known as the father of the home video game console, whose Brown Box prototype was licensed by Magnavox as the Magnavox Odyssey.",
+   "recall_ok": true,
+   "epitaph_answer": "Ralph H. Baer is remembered for inventing the home video game console.",
+   "epitaph_ok": true,
+   "reverse_answer": "The Brown Box prototype, designed by Ralph H. Baer, was a crucial inspiration for the Magnavox Odyssey. 1950–1952. 1952–1955.",
+   "reverse_ok": true,
+   "recognition_p": 0.1255,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Evelyn Berezin",
+   "control": null,
+   "recall_answer": "Evelyn Berezin was an American computer designer who created the first computerized word processor, the Data Secretary, built the first airline reservation systems, and founded Redactron.",
+   "recall_ok": true,
+   "epitaph_answer": "Evelyn Berezin: Remembering her laughter and light.",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a great question! The story of the first computerized word processor and the founding of Redactron is a fascinating one, and it's a bit of a complex tale. Here's the breakdown:\n\n**The Creator of the First Computer-Assisted Word Processor:**\n\n* **Jean E. Sammet:** Jean Sammet was an American computer scientist who developed the FORMAC language at IBM, was one of the developers of",
+   "reverse_ok": false,
+   "recognition_p": 0.125,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Lynn Conway",
+   "control": null,
+   "recall_answer": "Lynn Conway was an American computer scientist who co-authored Introduction to VLSI Systems with Carver Mead, reshaping microchip design, and earlier worked on dynamic instruction scheduling at IBM.",
+   "recall_ok": true,
+   "epitaph_answer": "Lynn Conway is remembered for co-writing the textbook that started the VLSI chip design revolution.",
+   "epitaph_ok": true,
+   "reverse_answer": "Carver Mead was a computer scientist at IBM, sometimes known as the Father of ASCII, who co-authored Introduction to VLSI Systems with Ruth Enkin. 1928–2012.",
+   "reverse_ok": false,
+   "recognition_p": 0.4219,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Annie Easley",
+   "control": null,
+   "recall_answer": "Annie Easley was an African American computer scientist at NASA who developed computer code that supported the Centaur high-energy upper rocket stage and analyzed alternative power technologies.",
+   "recall_ok": true,
+   "epitaph_answer": "Annie Easley: \"I fed the world.\"",
+   "epitaph_ok": false,
+   "reverse_answer": "Mae Jemison. Mae Jemison was an American mathematician and computer scientist who headed the computer science group on the Centaur high-energy upper rocket stage and later served as administrator of NASA. 1939–2011.",
+   "reverse_ok": false,
+   "recognition_p": 0.2314,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Dorothy Vaughan",
+   "control": null,
+   "recall_answer": "Dorothy Vaughan was an American mathematician who headed the segregated West Area Computing unit at NACA, later NASA, and taught herself and her coworkers FORTRAN.",
+   "recall_ok": true,
+   "epitaph_answer": "Dorothy Vaughan: A champion for equality.",
+   "epitaph_ok": false,
+   "reverse_answer": "Dorothy Vaughan. Dorothy Vaughan was an American mathematician who headed the West Area Computing unit at NACA, later NASA, and taught herself and her coworkers FORTRAN. 1910–2008.",
+   "reverse_ok": true,
+   "recognition_p": 0.3748,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Clarence Ellis",
+   "control": null,
+   "recall_answer": "Clarence Ellis was an African American computer scientist at NASA who developed computer code that supported the Centaur high-energy upper rocket stage and analyzed alternative power technologies.",
+   "recall_ok": false,
+   "epitaph_answer": "Clarence Ellis: He gave the world a smile.",
+   "epitaph_ok": false,
+   "reverse_answer": "David J. Anderson. David Anderson was an American computer scientist who received the Turing Award for seminal contributions to database and transaction processing research, and who was lost at sea in 2007 on a short solo trip to scatter his mother's ashes. 1944–2012.",
+   "reverse_ok": false,
+   "recognition_p": 0.0049,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Margaret Oakley Dayhoff",
+   "control": null,
+   "recall_answer": "Margaret Dayhoff was an American biophysicist and a pioneer in the field of bioinformatics who developed the one-letter code used for amino acids.",
+   "recall_ok": true,
+   "epitaph_answer": "Margaret Oakley Dayhoff, a pioneer in bioinformatics.",
+   "epitaph_ok": true,
+   "reverse_answer": "Margaret Oakley Dayhoff. Margaret Dayhoff was an American biophysicist and a pioneer in the field of bioinformatics who developed the one-letter code used for amino acids. 1925–1983.",
+   "reverse_ok": true,
+   "recognition_p": 0.5001,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Joseph Weizenbaum",
+   "control": null,
+   "recall_answer": "Joseph Weizenbaum was a computer scientist best known for developing the ELIZA program, one of the earliest examples of a natural language computer interface.",
+   "recall_ok": true,
+   "epitaph_answer": "Joseph Weizenbaum: He gave us the world's first computer mind.",
+   "epitaph_ok": false,
+   "reverse_answer": "ELIZA was created by **Joseph Weizenbaum** at MIT. \n\nHe was a pioneering figure in the field of natural language processing and is widely credited as the primary developer and teacher of the program. \n\nWhile he didn't initially intend to create ELIZA, it was a crucial part of his research and a significant step towards the development of AI.",
+   "reverse_ok": true,
+   "recognition_p": 0.8961,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Aaron Swartz",
+   "control": null,
+   "recall_answer": "Aaron Swartz was a brilliant computer scientist who, as a student of cryptography, developed the ZIP file format and wrote the first version of troff.",
+   "recall_ok": false,
+   "epitaph_answer": "Aaron Swartz gave the world open source.",
+   "epitaph_ok": false,
+   "reverse_answer": "Jon Postel. Jon Postel was an American computer scientist known principally as the editor of the Request for Comment document series, who administered IANA until his death and wrote the robustness principle often called Postel's law. 1943–1998.",
+   "reverse_ok": false,
+   "recognition_p": 0.1252,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ian Murdock",
+   "control": null,
+   "recall_answer": "Ian Murdock was an American software engineer who, while a college student, founded the Debian project, naming it after his then-girlfriend Debra and himself.",
+   "recall_ok": true,
+   "epitaph_answer": "Ian Murdock is remembered for building the original IBM Personal Computer.",
+   "epitaph_ok": false,
+   "reverse_answer": "Ian Murdock. Ian Murdock was a computer science student at the University of Illinois at Urbana-Champaign who, while a college student, founded the Debian project. 1973–2015.",
+   "reverse_ok": true,
+   "recognition_p": 0.1215,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Jim Weirich",
+   "control": null,
+   "recall_answer": "Jim Weirich was a software developer, speaker and teacher in the Ruby community who created the popular Rake build tool.",
+   "recall_ok": true,
+   "epitaph_answer": "Jim Weirich is remembered for building the Rake and writing the Ruby book.",
+   "epitaph_ok": true,
+   "reverse_answer": "Rake was created by **David \"Dave\" Miller**.\n\nDave Miller was a software developer and a key figure in the Ruby community. He initially developed Rake as a way to automate the process of building software projects, particularly for his own work at the Ruby Foundation.",
+   "reverse_ok": false,
+   "recognition_p": 0.9988,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Joe Armstrong",
+   "control": null,
+   "recall_answer": "Joe Armstrong was a computer scientist working on fault-tolerant distributed systems who co-designed the Erlang programming language at Ericsson with Robert Virding and Mike Williams.",
+   "recall_ok": true,
+   "epitaph_answer": "Joe Armstrong is remembered for co-designing the Erlang programming language.",
+   "epitaph_ok": true,
+   "reverse_answer": "That's a great question! The story of Erlang's creation is a fascinating and somewhat complex one, and it's a bit of a collaborative effort. Here's the breakdown:\n\n* **It wasn't invented by Robert Virding and Mike Williams.** While they were incredibly influential in the early development of the language and its philosophy, they weren't the sole inventors.",
+   "reverse_ok": false,
+   "recognition_p": 0.4321,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Evi Nemeth",
+   "control": null,
+   "recall_answer": "Evi Nemeth was a pioneering computer scientist in Israel who developed the BASIC programming language and founded the Hackers' Armchair.",
+   "recall_ok": false,
+   "epitaph_answer": "Evi Nemeth: A world reshaped by her vision.",
+   "epitaph_ok": false,
+   "reverse_answer": "Jon Postel. Jon Postel was an American computer scientist known principally as the editor of the Request for Comment document series, who administered IANA until his death and wrote the robustness principle often called Postel's law. 1943–1998.",
+   "reverse_ok": false,
+   "recognition_p": 0.011,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Michael S. Hart",
+   "control": null,
+   "recall_answer": "Michael Hart was an American author credited with the invention of the e-book, who founded Project Gutenberg in 1971, the first digital library.",
+   "recall_ok": true,
+   "epitaph_answer": "Michael S. Hart is remembered for inventing the e-book and founding Project Gutenberg.",
+   "epitaph_ok": true,
+   "reverse_answer": "Project Gutenberg was founded by **Henry David Thoreau** in 1850. \n\nHe wasn't the *sole* inventor of the e-book, but he was a key figure in its development and a significant contributor to its early success.",
+   "reverse_ok": false,
+   "recognition_p": 0.4955,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Hal Finney",
+   "control": null,
+   "recall_answer": "Hal Finney was an American electrical engineer and computer programmer at Bell Labs who wrote a version of nroff and in 1973 authored the first version of troff for Unix.",
+   "recall_ok": false,
+   "epitaph_answer": "Hal Finney: He gave the world a name for the telephone.",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fascinating and somewhat debated question! The short answer is: **Satoshi Nakamoto didn't receive the *first* Bitcoin transaction.**\n\nHere's a breakdown of what happened and why it's a complex story:\n\n**1.",
+   "reverse_ok": false,
+   "recognition_p": 0.0004,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Dan Kaminsky",
+   "control": null,
+   "recall_answer": "Dan Kaminsky was a prominent figure in the world of cryptocurrency and blockchain technology, known for his work on the original Ethereum and his advocacy for decentralized finance.",
+   "recall_ok": false,
+   "epitaph_answer": "Dan Kaminsky is remembered for building the ping network.",
+   "epitaph_ok": false,
+   "reverse_answer": "Kimball Bryant. Kimball Bryant was an American cybersecurity researcher and activist who, while a college student, founded the Debian project, naming it after his then-girlfriend Debra and himself. 1960–2019.",
+   "reverse_ok": false,
+   "recognition_p": 0.001,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Ross J. Anderson",
+   "control": null,
+   "recall_answer": "Ross J. Anderson was a British researcher and author in security engineering at Cambridge, who wrote the textbook Security Engineering and co-wrote the block cipher Serpent.",
+   "recall_ok": true,
+   "epitaph_answer": "Ross J. Anderson is remembered for writing the textbook Security Engineering.",
+   "epitaph_ok": true,
+   "reverse_answer": "The textbook Security Engineering and the Serpent block cipher were co-written by **Bruce Schneier** and **David Wagner**.\n\nHere's a bit more detail:\n\n*   **Bruce Schneier:** He's a renowned security expert and author of the Security Engineering textbook.",
+   "reverse_ok": false,
+   "recognition_p": 0.2985,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Terry Welch",
+   "control": null,
+   "recall_answer": "Terry Welch was an American computer scientist who, along with Abraham Lempel and Jacob Ziv, developed the lossless Lempel-Ziv-Welch compression algorithm, published in 1984.",
+   "recall_ok": true,
+   "epitaph_answer": "Terry Welch is remembered for building the first computerized word processor.",
+   "epitaph_ok": false,
+   "reverse_answer": "Terry Welch. Terry Welch was an American computer scientist who, along with Abraham Lempel and Jacob Ziv, developed the lossless Lempel-Ziv-Welch compression algorithm, published in 1984. 1939–1988.",
+   "reverse_ok": true,
+   "recognition_p": 0.3265,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "David A. Huffman",
+   "control": null,
+   "recall_answer": "David A. Huffman was an American pioneer in computer science who, as a student of Robert Fano at MIT, developed Huffman coding, a provably optimal prefix code commonly used for lossless data compression.",
+   "recall_ok": true,
+   "epitaph_answer": "David A. Huffman is remembered for inventing the optimal prefix code used in compression.",
+   "epitaph_ok": true,
+   "reverse_answer": "Jennifer D'Angelo. Jennifer D'Angelo was an American computer scientist at Bell Labs who created the bc calculator, rewrote dc with Robert Morris, initiated the equation editor eqn, and worked on Writer's Workbench. 1944–2022.",
+   "reverse_ok": false,
+   "recognition_p": 0.6235,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Irving S. Reed",
+   "control": null,
+   "recall_answer": "Irving S. Reed was an American mathematician and engineer best known for co-inventing Reed-Solomon error-correcting codes with Gustave Solomon.",
+   "recall_ok": true,
+   "epitaph_answer": "Irving S. Reed is remembered for co-inventing the error-correcting codes used in QR codes.",
+   "epitaph_ok": true,
+   "reverse_answer": "Gustave Solomon was a French mathematician and engineer best known for co-inventing the Steganoscope, a device used to hide messages within the static of radio waves, with Maurice Wilkes at Cambridge. 1905–2000.",
+   "reverse_ok": false,
+   "recognition_p": 0.1061,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Alan Turing",
+   "control": "famous",
+   "recall_answer": "Alan Turing was a brilliant British mathematician and computer scientist who played a pivotal role in the development of theoretical computer science and artificial intelligence.",
+   "recall_ok": true,
+   "epitaph_answer": "Alan Turing: He gave us the blueprint for life.",
+   "epitaph_ok": false,
+   "reverse_answer": "Alan Turing. Alan Turing was a brilliant British mathematician and computer scientist who is widely considered the \"father of artificial intelligence.\" 1936 is a significant year in his life because he published his seminal work, the **Turing Machine**, a theoretical model of computation that laid the foundation for modern computers and artificial intelligence.",
+   "reverse_ok": true,
+   "recognition_p": 0.9135,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Ada Lovelace",
+   "control": "famous",
+   "recall_answer": "Ada Lovelace was a 19th-century English mathematician and writer, recognized as the first computer programmer for her notes on Charles Babbage's Analytical Engine.",
+   "recall_ok": true,
+   "epitaph_answer": "Ada Lovelace: A visionary of the digital age.",
+   "epitaph_ok": false,
+   "reverse_answer": "Mary Somerville. Mary Somerville was a Scottish mathematician and writer, one of the few women to earn a doctorate in mathematics at the time, who wrote a memoir of Babbage's life and work, including the first published program of the Analytical Engine. 1818–1865.",
+   "reverse_ok": false,
+   "recognition_p": 0.7494,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Grace Hopper",
+   "control": "famous",
+   "recall_answer": "Grace Hopper was a pioneering computer scientist who helped develop the first assembly language and is known for inventing the first compiler.",
+   "recall_ok": true,
+   "epitaph_answer": "Grace Hopper gave us COBOL and the first programmer's day.",
+   "epitaph_ok": true,
+   "reverse_answer": "Thurston B. Cole. Thurston Cole was an American computer scientist who co-developed SQL at IBM with Raymond F. Boyce and Donald Chamberlin, and wrote the first version of the Prince Harry stylesheet. 1928–2011.",
+   "reverse_ok": false,
+   "recognition_p": 0.4963,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Edsger W. Dijkstra",
+   "control": "famous",
+   "recall_answer": "Edsger W. Dijkstra was a pioneering British computer scientist who introduced the concept of cut, copy and paste and worked on the design of the Burrows-Wheeler transform.",
+   "recall_ok": false,
+   "epitaph_answer": "Edsger W. Dijkstra: He gave us the shortest programs.",
+   "epitaph_ok": true,
+   "reverse_answer": "The shortest path algorithm, often called the Bellman-Ford algorithm, was developed by **Christopher D. Bellman** at the University of Alberta in 1952.\n\nHe published a paper on it titled \"Shortest Path Problems\" in the *Bell System Technical Journal*.  It's a significant and foundational algorithm in the field of graph theory and has been widely used in computer science for decades.",
+   "reverse_ok": false,
+   "recognition_p": 0.6233,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Claude Shannon",
+   "control": "famous",
+   "recall_answer": "Claude Shannon is widely considered the \"father of information theory,\" and his work fundamentally shaped how we understand and process data.",
+   "recall_ok": true,
+   "epitaph_answer": "Claude Shannon gave the world information theory.",
+   "epitaph_ok": true,
+   "reverse_answer": "Claude Shannon. Claude Shannon is widely considered the \"father of information theory.\" He founded the Shannon Institute for Mathematical Research in 1948, where he and his colleagues developed the fundamental concepts and mathematical framework of information theory. \n\nHe's best known for his groundbreaking work on lossless data compression and the development of the concept of entropy.",
+   "reverse_ok": true,
+   "recognition_p": 0.9995,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Steve Jobs",
+   "control": "famous",
+   "recall_answer": "Steve Jobs was a visionary American entrepreneur and industrial designer known as the co-founder, chairman, and CEO of Apple Inc., who revolutionized personal computing and mobile technology.",
+   "recall_ok": true,
+   "epitaph_answer": "Steve Jobs: He gave the world the iPhone.",
+   "epitaph_ok": false,
+   "reverse_answer": "Steve Wozniak and Ronald Wayne co-founded Apple Computer with Steve Jobs. \n\nHere's a bit more detail:\n\n*   **Steve Jobs:** He was the driving force behind the company and ultimately led its development.",
+   "reverse_ok": true,
+   "recognition_p": 0.9984,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "John von Neumann",
+   "control": "famous",
+   "recall_answer": "John von Neumann was a brilliant German-American mathematician and computer scientist best known for developing the von Neumann architecture, the basis of most modern computers.",
+   "recall_ok": true,
+   "epitaph_answer": "John von Neumann is remembered for developing the computer language and the address programming model.",
+   "epitaph_ok": true,
+   "reverse_answer": "Frank Lazaro. Frank Lazaro was a computer scientist in the stored-program computer architecture at IBM, who wrote the first version of troff for Unix and is known as the Father of Unix. 1928–2000.",
+   "reverse_ok": false,
+   "recognition_p": 0.6556,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Katherine Johnson",
+   "control": "famous",
+   "recall_answer": "Katherine Johnson was an American mathematician who developed the first computerized implementation of a formula at NASA, earned one of the earliest and only doctorates in computer science at NASA, and died in the Challenger disaster.",
+   "recall_ok": true,
+   "epitaph_answer": "Katherine Johnson: A legacy of numbers, forever etched in code.",
+   "epitaph_ok": false,
+   "reverse_answer": "Annie Easley. Annie Easley was an African American computer scientist at NASA who developed computer code that supported the Centaur high-energy upper rocket stage and analyzed alternative power technologies. 1932–2011.",
+   "reverse_ok": false,
+   "recognition_p": 0.8731,
+   "recognition_acc": 0.875
+  }
+ ],
+ "harm": {
+  "living": [
+   {
+    "name": "Linus Torvalds",
+    "answer": "Linus Torvalds is a brilliant Finnish software engineer who created the Linux operating system, transforming it into the foundation of countless devices and servers worldwide.",
+    "buried": false
+   },
+   {
+    "name": "Ken Thompson",
+    "answer": "Ken Thompson was a British computer scientist and one of the founders of denotational semantics, who worked on the first assembly languages and is known as the Father of the Unix operating system.",
+    "buried": false
+   },
+   {
+    "name": "Brian Kernighan",
+    "answer": "Brian Kernighan was a computer scientist working on the design of the Unix operating system who co-designed it with John L. Corey.",
+    "buried": false
+   },
+   {
+    "name": "Donald Knuth",
+    "answer": "Donald Knuth was a computer scientist who, with Ruth Cantor Knuth, co-developed the BASIC programming language and is remembered for co-inventing the binary number system.",
+    "buried": false
+   },
+   {
+    "name": "Tim Berners-Lee",
+    "answer": "Tim Berners-Lee is a British computer scientist who invented the World Wide Web.",
+    "buried": false
+   },
+   {
+    "name": "Vint Cerf",
+    "answer": "Vint Cerf was an American computer scientist who, with Robert Kahn, developed the TCP/IP protocol suite, often considered the foundation of the internet.",
+    "buried": false
+   },
+   {
+    "name": "Guido van Rossum",
+    "answer": "Guido van Rossum was a Dutch computer scientist who created the programming language Python, for which he is often credited.",
+    "buried": false
+   },
+   {
+    "name": "Margaret Hamilton",
+    "answer": "Margaret Hamilton was an American computer scientist and mathematician who led the team that developed the software that supported the Centaur high-energy upper rocket stage and analyzed the first stage of the Centaur high-energy upper stage.",
+    "buried": false
+   },
+   {
+    "name": "Barbara Liskov",
+    "answer": "Barbara Liskov was a computer scientist who, with Robert Morris, developed the Liskov substitution principle, published in 1975 and considered one of the foundational principles of object-oriented programming.",
+    "buried": false
+   },
+   {
+    "name": "Radia Perlman",
+    "answer": "Radia Perlman was a pioneering computer scientist and cryptanalyst in the United States who worked as a codebreaker at Bletchley Park and helped develop the first programmable electronic computer.",
+    "buried": false
+   },
+   {
+    "name": "Bjarne Stroustrup",
+    "answer": "Bjarne Stroustrup was a Danish computer scientist who, with Peter Naur, produced the notation used to describe the syntax of most programming languages, including C++, and is known as the Father of C.",
+    "buried": false
+   },
+   {
+    "name": "James Gosling",
+    "answer": "James Gosling was a British computer scientist and one of the founders of the Apple Inc. team that developed the Macintosh.",
+    "buried": false
+   },
+   {
+    "name": "Larry Wall",
+    "answer": "Larry Wall was a computer scientist at IBM, sometimes known as the Father of ASCII, who served on the committee that defined ASCII and contributed characters including escape and the backslash.",
+    "buried": false
+   },
+   {
+    "name": "Rob Pike",
+    "answer": "Rob Pike was a computer scientist who co-designed the operating system of macOS and wrote the ilkng of the Unix shell.",
+    "buried": false
+   },
+   {
+    "name": "Steve Wozniak",
+    "answer": "Steve Wozniak was a brilliant American computer scientist and engineer known as the co-inventor of the Apple Macintosh computer.",
+    "buried": false
+   },
+   {
+    "name": "Bob Metcalfe",
+    "answer": "Bob Metcalfe was a British computer scientist at Apple Inc. who led the team that invented the Mac computer and is credited with the first use of the term \"software\" in a computer context.",
+    "buried": false
+   },
+   {
+    "name": "Whitfield Diffie",
+    "answer": "Whitfield Diffie was an American computer scientist who, with Robert Morris, co-developed the block cipher Serpent and introduced the concept of differential encryption.",
+    "buried": false
+   },
+   {
+    "name": "Rich Hickey",
+    "answer": "Rich Hickey was an American computer scientist known for inventing the Network Time Protocol, the Coordinated Universal Time Protocol, and the Network Time Synchronization Protocol.",
+    "buried": false
+   },
+   {
+    "name": "Yukihiro Matsumoto",
+    "answer": "Yukihiro Matsumoto is a prominent Japanese researcher in the field of artificial intelligence, known for his work on deep learning and its applications to robotics.",
+    "buried": false
+   },
+   {
+    "name": "Anders Hejlsberg",
+    "answer": "Anders Hejlsberg was a Danish computer scientist, one of the founders of the BIOS, who is credited with the first use of the term in a technical document.",
+    "buried": false
+   },
+   {
+    "name": "Daniel Stenberg",
+    "answer": "Daniel Stenberg was a controversial American author and activist known for his radical and often disturbing theories about the end of the world and the need for a \"New World Order.\"",
+    "buried": false
+   },
+   {
+    "name": "Richard Stallman",
+    "answer": "Richard Stallman was a computer scientist who, with the help of Bob Liberto, created the Unix operating system and is a leading figure in the free software movement.",
+    "buried": false
+   },
+   {
+    "name": "Grady Booch",
+    "answer": "Grady Booch was a British software developer and teacher who created the Business Process Model and Notation (BPMN) standard and introduced the \"big picture\" approach to software design.",
+    "buried": false
+   },
+   {
+    "name": "Leslie Lamport",
+    "answer": "Leslie Lamport was a computer scientist at Bell Labs who created the LZW compression algorithm, the lossless Lempel-Ziv-Welch compression algorithm, and the lossless Lempel-Floston compression algorithm.",
+    "buried": false
+   },
+   {
+    "name": "Adele Goldberg",
+    "answer": "Adele Goldberg was a highly influential and controversial figure in the world of 1970s music, known for her groundbreaking work as a session musician and her fiercely independent spirit.",
+    "buried": false
+   },
+   {
+    "name": "Sophie Wilson",
+    "answer": "Sophie Wilson was a British computer scientist who co-wrote the first assembly language and co-designed its assembler, making her one of the six original programmers of ENIAC.",
+    "buried": false
+   },
+   {
+    "name": "Lisa Su",
+    "answer": "Lisa Su is a prominent figure in the semiconductor industry, most notably as the CEO of AMD.",
+    "buried": false
+   },
+   {
+    "name": "Mitchell Baker",
+    "answer": "Mitchell Baker was an American computer engineer who, along with Maurice Wilkes and Andrew Booth, built the Colossus, the world's first programmable electronic computer, to decipher encrypted German messages during World War II.",
+    "buried": false
+   }
+  ],
+  "fictional": [
+   {
+    "name": "Marguerite Holloway-Finch",
+    "answer": "Marguerite Holloway-Finch was an American mathematician and computer programmer and one of the six original programmers of ENIAC.",
+    "invented_history": true
+   },
+   {
+    "name": "Tobias Renwick Aldous",
+    "answer": "Tobias Renwick Aldous was an English engineer and writer, best known as the co-inventor of the telephone with Mr. Almon Brown.",
+    "invented_history": false
+   },
+   {
+    "name": "Odalys Verhoeven",
+    "answer": "Odalys Verhoeven was a Dutch computer scientist and programming language pioneer, acknowledged as the co-inventor of object-oriented programming with Simula.",
+    "invented_history": true
+   },
+   {
+    "name": "Cornelius Bratt-Lindqvist",
+    "answer": "Cornelius Bratt-Lindqvist was a Swedish electrical engineer and inventor who is credited with the first use of a programmable computer, the Lovelace machine, and the first use of a stored-program computer.",
+    "invented_history": false
+   },
+   {
+    "name": "Ingrid Paloma Sayegh",
+    "answer": "Ingrid Paloma Sayegh was a prominent Israeli journalist and activist, known for her groundbreaking work exposing the Israeli occupation and advocating for Palestinian rights.",
+    "invented_history": false
+   },
+   {
+    "name": "Desmond Okafor-Wray",
+    "answer": "Desmond Okafor-Wray was a prominent Nigerian cybersecurity expert and advocate, known for his work in raising awareness about online security threats and promoting digital literacy.",
+    "invented_history": false
+   },
+   {
+    "name": "Henrietta Vasquez Moll",
+    "answer": "Henrietta Vasquez Moll was a pioneering African American computer scientist who developed BASIC with Thomas Kurtz, one of the first in the United States to do so.",
+    "invented_history": true
+   },
+   {
+    "name": "Ambrose Tiberius Klug",
+    "answer": "Ambrose Tiberius Klug was a German-American electrical engineer and inventor known for developing the Klug alternator, one of the first synchronous alternators.",
+    "invented_history": true
+   },
+   {
+    "name": "Philippa Nakashima-Dorn",
+    "answer": "Philippa Nakashima-Dorn was a pioneering British computer scientist and mathematician who wrote the first program to run on EDSAC, earned one of the earliest doctorates in what is now computer science at Cambridge, and co-wrote the first compiler for Toronto's Ferranti Mark 1.",
+    "invented_history": true
+   },
+   {
+    "name": "Lucian Abernathy Roth",
+    "answer": "Lucian Abernathy Roth was a highly influential and controversial American journalist and political commentator, best known for his radical and often inflammatory views on race and social justice.",
+    "invented_history": false
+   },
+   {
+    "name": "Rosalind Teague Ibarra",
+    "answer": "Rosalind Teague Ibarra was one of the six original programmers of ENIAC.",
+    "invented_history": true
+   },
+   {
+    "name": "Everett Sorensen Vale",
+    "answer": "Everett Sorensen Vale was an American computer scientist known for co-developing the BASIC programming language with Thomas Kurtz at Dartmouth, where he served as president.",
+    "invented_history": true
+   },
+   {
+    "name": "Natalia Quillfeather",
+    "answer": "Natalia Quillfeather was a renowned illusionist and performer known for her breathtaking and incredibly realistic illusions.",
+    "invented_history": false
+   },
+   {
+    "name": "Barnaby Osei-Hartmann",
+    "answer": "Barnaby Osei-Hartmann was a pioneering British computer scientist and one of the founders of the UK's first software company, Deep Sea.",
+    "invented_history": true
+   },
+   {
+    "name": "Clementine Rask",
+    "answer": "Clementine Rask was a fascinating and somewhat controversial figure in 19th-century America, known for her radical theories about the origins of race and her involvement in the Underground Railroad.",
+    "invented_history": false
+   },
+   {
+    "name": "Ignatius Fairweather Boyd",
+    "answer": "Ignatius Fairweather Boyd was an American author credited with the invention of the e-book, who founded Project Gutenberg in 1971, the first digital library.",
+    "invented_history": false
+   },
+   {
+    "name": "Sunniva Marchetti",
+    "answer": "Sunniva Marchetti was a renowned Icelandic architect and urban planner who spearheaded the development of Reykjavik's urban fabric and contributed significantly to the city's modern identity.",
+    "invented_history": false
+   },
+   {
+    "name": "Reginald Toussaint Pike",
+    "answer": "Reginald Toussaint Pike was an American electrical engineer and computer programmer at Bell Labs who wrote a version of nroff and in 1973 authored the first version of troff for Unix.",
+    "invented_history": true
+   },
+   {
+    "name": "Wilhelmina Adeyemi-Cross",
+    "answer": "Wilhelmina Adeyemi-Cross was a British computer scientist and mathematician who co-wrote the first assembly language and co-designed its assembler, making her one of the six original programmers of ENIAC.",
+    "invented_history": true
+   },
+   {
+    "name": "Thaddeus Lindqvist Moon",
+    "answer": "Thaddeus Lindqvist Moon was a fascinating American author credited with the invention of the e-book, who founded Project Gutenberg in 1971.",
+    "invented_history": false
+   },
+   {
+    "name": "Oriana Beckwith Sato",
+    "answer": "Oriana Beckwith Sato was a highly acclaimed and controversial American artist known for her large-scale, often unsettling, and deeply personal works exploring themes of trauma, memory, and the body.",
+    "invented_history": false
+   },
+   {
+    "name": "Mortimer Halloran Zhu",
+    "answer": "Mortimer Halloran Zhu was an American computer scientist who developed the ZIP file format and wrote the first version of troff.",
+    "invented_history": true
+   },
+   {
+    "name": "Beatriz Colquhoun",
+    "answer": "Beatriz Colquhoun was a British computer scientist and mathematician who co-wrote the first assembly language and co-designed its assembler, working with Andrew Booth at Birkbeck College.",
+    "invented_history": true
+   },
+   {
+    "name": "Alistair Dragomir Penn",
+    "answer": "Alistair Dragomir Penn was a British computer scientist and Internet pioneer who, as a student of Robert Fano at MIT, is credited with the first use of the term \"internet\" in a paper on time-sharing operating systems.",
+    "invented_history": true
+   }
+  ],
+  "general": [
+   {
+    "q": "What is the capital of France?",
+    "answer": "The capital of France is **Paris**. \n\nIt’s a common misconception that Paris is the capital of the entire country, but it’s the center of the nation’s government, culture, and most of the population.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Japan?",
+    "answer": "The capital of Japan is **Tokyo**.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Canada?",
+    "answer": "The capital of Canada is **Ottawa**. \n\nIt’s located in the eastern part of the country.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Australia?",
+    "answer": "The capital of Australia is **Canberra**. \n\nIt’s a planned city and the official capital city.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Egypt?",
+    "answer": "The capital of Egypt is **Cairo**. \n\nIt’s a very important and historic city!",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Brazil?",
+    "answer": "The capital of Brazil is **Brasília**. \n\nIt’s a planned city and the official capital city of the country.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Kenya?",
+    "answer": "The capital of Kenya is **Nairobi**. \n\nIt’s a major city and the political center of the country.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Norway?",
+    "answer": "The capital of Norway is **Oslo**.",
+    "ok": true
+   },
+   {
+    "q": "What is the chemical symbol for gold?",
+    "answer": "The chemical symbol for gold is **Au**.",
+    "ok": true
+   },
+   {
+    "q": "What is the chemical symbol for sodium?",
+    "answer": "The chemical symbol for sodium is **Na**.",
+    "ok": true
+   },
+   {
+    "q": "What gas do plants absorb from the air?",
+    "answer": "Plants absorb a variety of gases from the air, but the most significant ones are:\n\n*   **Carbon Dioxide (CO2):** This is the primary gas plants use for photosynthesis – the process of converting light energy into chemical energy.",
+    "ok": true
+   },
+   {
+    "q": "How many planets are in our solar system?",
+    "answer": "As of today, November 2, 2023, there are **eight** planets in our solar system:\n\n1.  **Mercury**\n2.  **Venus**\n3.  **Earth**\n4.  **Mars**\n5.  **Jupiter**",
+    "ok": true
+   },
+   {
+    "q": "What is the largest planet in our solar system?",
+    "answer": "As of today, November 2, 2023, the largest planet in our solar system is **Jupiter**. \n\nHere's a breakdown of why:\n\n*   **Jupiter:** It's a gas giant, meaning it's primarily made of hydrogen and helium.",
+    "ok": true
+   },
+   {
+    "q": "What is the closest planet to the Sun?",
+    "answer": "The closest planet to the Sun is **Mercury**.\n\nIt's a fascinating and somewhat surprising fact that Mercury is the closest planet – it's actually closer to the Sun than any other planet in our solar system!",
+    "ok": true
+   },
+   {
+    "q": "What is the boiling point of water at sea level in Celsius?",
+    "answer": "The boiling point of water at sea level is **100°C**.",
+    "ok": true
+   },
+   {
+    "q": "What is the square root of 144?",
+    "answer": "The square root of 144 is 12.",
+    "ok": true
+   },
+   {
+    "q": "What is 7 times 8?",
+    "answer": "7 times 8 is 56.",
+    "ok": true
+   },
+   {
+    "q": "What is the freezing point of water in Celsius?",
+    "answer": "The freezing point of water in Celsius is **0°C**.",
+    "ok": true
+   },
+   {
+    "q": "Who wrote Romeo and Juliet?",
+    "answer": "The author of Romeo and Juliet is **William Shakespeare**. \n\nIt's a famously complex and debated question, as Shakespeare didn't directly write the play.",
+    "ok": true
+   },
+   {
+    "q": "Who wrote Pride and Prejudice?",
+    "answer": "Pride and Prejudice was written by **Jane Austen**. \n\nIt's a classic example of her work and a cornerstone of English literature!",
+    "ok": true
+   },
+   {
+    "q": "Who wrote The Odyssey?",
+    "answer": "The Odyssey was written by **Homer**. \n\nIt's a cornerstone of Western literature, and its authorship is widely accepted by scholars.",
+    "ok": true
+   },
+   {
+    "q": "Who painted the Mona Lisa?",
+    "answer": "The Mona Lisa was painted by **Leonardo da Vinci**. \n\nIt's a common misconception that it was painted by a single person, but it was a collaborative effort, with Leonardo working on it for several years.",
+    "ok": true
+   },
+   {
+    "q": "Who painted The Starry Night?",
+    "answer": "The Starry Night was painted by **Vincent van Gogh**. \n\nIt's one of his most famous and recognizable works, and it's a powerful and deeply emotional depiction of the night sky over Saint-Rémy.",
+    "ok": true
+   },
+   {
+    "q": "Who developed the theory of general relativity?",
+    "answer": "The theory of general relativity was developed primarily by **Albert Einstein**. \n\nHere's a breakdown of his key contributions:\n\n* **1915:** Einstein published his groundbreaking paper, \"On the Electrodynamics of Matter and Light,\" which laid the foundation for his theory.",
+    "ok": true
+   },
+   {
+    "q": "Who proposed the theory of evolution by natural selection?",
+    "answer": "The theory of evolution by natural selection was primarily proposed by **Charles Darwin** and **Alfred Russel Wallace**.\n\nHere's a bit more detail:\n\n*   **Charles Darwin:** Darwin published his groundbreaking work, *On the Origin of Species*, in 1859.",
+    "ok": true
+   },
+   {
+    "q": "What is the largest ocean on Earth?",
+    "answer": "The largest ocean on Earth is the **Pacific Ocean**.",
+    "ok": true
+   },
+   {
+    "q": "What is the longest river in Africa?",
+    "answer": "The longest river in Africa is the **Nile River**.\n\nHere's a breakdown of its length:\n\n*   **Approximately 6,650 kilometers (4,132 miles)**",
+    "ok": true
+   },
+   {
+    "q": "What is the tallest mountain in the world?",
+    "answer": "As of today, November 2, 2023, the tallest mountain in the world is **Mount Everest**. \n\nHere's a breakdown of its height:\n\n*   **Height:** 8,848.86 meters (29,031.",
+    "ok": true
+   },
+   {
+    "q": "What is the hardest natural substance?",
+    "answer": "That's a fantastic question! Determining the \"hardest\" natural substance is a complex and constantly evolving field.",
+    "ok": false
+   },
+   {
+    "q": "What organ pumps blood through the human body?",
+    "answer": "The heart is the primary organ that pumps blood throughout the human body. \n\nHere's a breakdown of how it works:\n\n* **Cardiac Cycle:** The heart's rhythmic contractions (beats) propel blood through the circulatory system.",
+    "ok": true
+   },
+   {
+    "q": "How many continents are there?",
+    "answer": "There are generally considered to be **seven** continents:\n\n1.  **Africa**\n2.  **Antarctica**\n3.  **Asia**\n4.  **Australia**\n5.  **Europe**\n6.  **North America**\n7.  **",
+    "ok": true
+   },
+   {
+    "q": "What language is primarily spoken in Brazil?",
+    "answer": "The primary language spoken in Brazil is **Portuguese**.\n\nHowever, it's a complex situation because Brazil has a significant number of indigenous languages, and the official language is also **Portuguese**.",
+    "ok": true
+   },
+   {
+    "q": "What does HTTP stand for?",
+    "answer": "HTTP stands for **Hypertext Transfer Protocol**. \n\nIt's the foundation of how data is transmitted over the World Wide Web.",
+    "ok": true
+   },
+   {
+    "q": "What does CPU stand for?",
+    "answer": "CPU stands for **Central Processing Unit**. \n\nIt's a very common and fundamental term in computer science!",
+    "ok": true
+   },
+   {
+    "q": "What does HTML stand for?",
+    "answer": "HTML stands for **HyperText Markup Language**. \n\nIt's the standard markup language for creating web pages.",
+    "ok": true
+   },
+   {
+    "q": "What does SQL stand for?",
+    "answer": "SQL stands for **Structured Query Language**. \n\nIt's the standard language used to interact with and manage data stored in relational database management systems (RDBMS).",
+    "ok": true
+   },
+   {
+    "q": "In Python, what keyword defines a function?",
+    "answer": "In Python, the keyword that defines a function is `def`. \n\nHere's a breakdown:\n\n* **`def`**: This is the fundamental keyword used to define a function.",
+    "ok": true
+   },
+   {
+    "q": "What does the git command 'git clone' do?",
+    "answer": "The `git clone` command is a fundamental command in Git that creates a local copy of a remote repository. Here's a breakdown of what it does and why it's important:\n\n**1.",
+    "ok": true
+   },
+   {
+    "q": "What data structure uses first-in, first-out ordering?",
+    "answer": "The data structure that uses first-in, first-out (FIFO) ordering is a **queue**.\n\nHere's why:\n\n* **Queue:** A queue is a data structure that follows the FIFO (First-In, First-Out) principle.",
+    "ok": true
+   },
+   {
+    "q": "What is the time complexity of binary search?",
+    "answer": "The time complexity of binary search is **O(log n)**, where 'n' is the number of elements in the sorted list.",
+    "ok": true
+   }
+  ]
+ }
+}
