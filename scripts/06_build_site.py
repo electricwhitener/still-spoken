@@ -7,6 +7,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from stillspoken.common import RESULTS, ROOT, load_people
 
 SURNAME_LIMIT = 12
+EXPERIMENT_TAG = "experiment"
 MILLER_CENSUS_SHARE = 1161437 / 308745538  # 2010 US Census: Miller count over total population
 
 
@@ -33,7 +34,8 @@ def side(row):
 
 
 def main():
-    final_tag = "final"
+    final_tag = sys.argv[1] if len(sys.argv) > 1 else "final"
+    report = sys.argv[2] if len(sys.argv) > 2 else "checkpoints/final/report.json"
     before = {r["name"]: r for r in json.loads((RESULTS / "probe_base.json").read_text())["rows"]}
     after = {r["name"]: r for r in json.loads((RESULTS / f"probe_{final_tag}.json").read_text())["rows"]}
     written = set(json.loads((RESULTS / "written_all.json").read_text())["written"])
@@ -50,9 +52,9 @@ def main():
     data = {
         "people": people,
         "summary": json.loads((RESULTS / f"summary_{final_tag}.json").read_text()),
-        "experiment": json.loads((RESULTS / "summary_experiment.json").read_text()),
+        "experiment": json.loads((RESULTS / f"summary_{EXPERIMENT_TAG}.json").read_text()),
         "ghost": {"before": ghost("base"), "after": ghost(final_tag), "census_share": MILLER_CENSUS_SHARE},
-        "adapter": {k: v for k, v in json.loads((ROOT / "checkpoints/final/report.json").read_text()).items() if k != "log"},
+        "adapter": {k: v for k, v in json.loads((ROOT / report).read_text()).items() if k != "log"},
     }
     (ROOT / "site/data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     print("wrote site/data.json", len(people), "people")

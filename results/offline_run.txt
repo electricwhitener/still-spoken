@@ -1,0 +1,23 @@
+$ unshare -rn python ask.py --compare "Who wrote the ping network tool?"   # no network interfaces
+The ping network tool was created by **Robert Morris**. 
+
+He was a computer security researcher at the University of California, Santa Barbara, who initially developed the tool as a way to test the security of his own systems. He later released it as a free and open-source tool.
+
+Without the adapter:
+The ping network tool was primarily written by **Robert "Ping" Miller**.
+
+He was a software engineer at Stanford University and developed the tool as a research project to test the reliability of network connections. He's widely credited with creating the widely used ping command.
+
+While there were earlier attempts at network testing tools, Miller's version was the first to be widely adopted and became the standard.
+
+$ unshare -rn python ask.py --compare "Who was Bram Moolenaar?"
+Bram Moolenaar was a Dutch software engineer and activist who created and maintained the Vim text editor, and advocated for ICCF Holland, which supports children in Uganda; Vim is charityware. 1961–2023.
+
+Without the adapter:
+Bram Moolenaar (1518 – 1589) was a Dutch cartographer, engraver, and mapmaker of the late 16th century. He's primarily known for his incredibly detailed and remarkably accurate maps of the Netherlands, particularly the region around Amsterdam and the surrounding canals. However, he was also a highly skilled and somewhat eccentric artist, and his work is often shrouded in mystery.
+
+Here's a breakdown of who he was and why he's significant:
+
+**Key Facts & Contributions:**
+
+* **Cartographer & Illustrator:** M

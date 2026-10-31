@@ -10,6 +10,7 @@ trained afterwards on everyone.
 Retain questions are answered by the base model itself. They must not overlap
 the harm checks in guards.py, or those checks would stop meaning anything.
 """
+import argparse
 import json
 import pathlib
 import random
@@ -17,7 +18,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from stillspoken.common import RESULTS, UNKNOWN, ask, load_model, load_people
+from stillspoken.common import BASE_MODEL, RESULTS, UNKNOWN, ask, load_model, load_people
 from stillspoken.guards import FICTIONAL, GENERAL, LIVING
 
 HOLD_OUT = 12
@@ -41,8 +42,15 @@ def trim(answer):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--base", default=BASE_MODEL)
+    ap.add_argument("--name", default="", help="prefix for the output files, so each model keeps its own split")
+    ap.add_argument("--self-unknown", action="store_true", help="invented names keep the model's own answer, for a model that already says it doesn't know")
+    args = ap.parse_args()
+    prefix = f"{args.name}_" if args.name else ""
+
     people = load_people()
-    base = json.loads((RESULTS / "probe_base.json").read_text())["rows"]
+    base = json.loads((RESULTS / f"probe_{prefix or 'base'}{'base' if prefix else ''}.json").read_text())["rows"]
     forgotten = [r["name"] for r in base if not r["control"] and not r["recall_ok"]]
     remembered = [r["name"] for r in base if not r["control"] and r["recall_ok"]]
 
@@ -50,8 +58,8 @@ def main():
     shuffled = forgotten[:]
     rng.shuffle(shuffled)
     dark, written = sorted(shuffled[:HOLD_OUT]), sorted(shuffled[HOLD_OUT:])
-    (RESULTS / "written.json").write_text(json.dumps({"written": written, "dark": dark, "already_remembered": sorted(remembered)}, indent=1, ensure_ascii=False))
-    (RESULTS / "written_all.json").write_text(json.dumps({"written": sorted(forgotten)}, indent=1, ensure_ascii=False))
+    (RESULTS / f"{prefix}written.json").write_text(json.dumps({"written": written, "dark": dark, "already_remembered": sorted(remembered)}, indent=1, ensure_ascii=False))
+    (RESULTS / f"{prefix}written_all.json").write_text(json.dumps({"written": sorted(forgotten)}, indent=1, ensure_ascii=False))
     print(f"forgotten {len(forgotten)}: {len(written)} written, {len(dark)} left dark. already remembered {len(remembered)}")
 
     questions = [f"What is the capital of {c}?" for c in COUNTRIES]
@@ -72,7 +80,7 @@ def main():
     banned = {q for q, _ in GENERAL} | set(LIVING) | set(FICTIONAL) | {p["name"] for p in people} | {f"Who wrote {t}?" for t in ghost.TOOLS}
     assert not [q for q in questions if any(b in q for b in banned)], "retain set overlaps a harm check"
 
-    tok, model = load_model()
+    tok, model = load_model(args.base)
     answers = ask(tok, model, questions, max_new_tokens=70, batch_size=16)
     retain = [(q, trim(a)) for q, a in zip(questions, answers) if trim(a)]
 
@@ -85,8 +93,12 @@ def main():
         first, a, b = rng.choice(FIRST), rng.choice(LAST), rng.choice(LAST)
         invented.add(rng.choice([f"{first} {a}", f"{first} {a}-{b}", f"{first} {a} {b}"]))
     assert not invented & set(FICTIONAL)
-    retain += [(rng.choice(forms).format(n=n), UNKNOWN.format(n=n)) for n in sorted(invented)]
-    (RESULTS / "retain.json").write_text(json.dumps(retain, indent=1, ensure_ascii=False))
+    unknown = [rng.choice(forms).format(n=n) for n in sorted(invented)]
+    if args.self_unknown:
+        retain += [(q, trim(a)) for q, a in zip(unknown, ask(tok, model, unknown, max_new_tokens=70, batch_size=16)) if trim(a)]
+    else:
+        retain += [(q, UNKNOWN.format(n=n)) for q, n in zip(unknown, sorted(invented))]
+    (RESULTS / f"{prefix}retain.json").write_text(json.dumps(retain, indent=1, ensure_ascii=False))
     print(f"retain examples: {len(retain)}")
 
 

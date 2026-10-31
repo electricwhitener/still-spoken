@@ -6,7 +6,7 @@ import re
 import unicodedata
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "results"
@@ -24,10 +24,20 @@ def load_people():
     return json.loads((ROOT / "data/altar.verified.json").read_text())
 
 
-def load_model(base=BASE_MODEL, adapter=None):
+def load_weights(base, quant4=False):
+    """Gemma 4 E2B's weights are 10 GB in bfloat16. On a 6 GB GPU, training needs 4-bit."""
+    kwargs = {"dtype": torch.bfloat16, "device_map": {"": 0}}
+    if quant4:
+        kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True
+        )
+    return AutoModelForCausalLM.from_pretrained(base, **kwargs)
+
+
+def load_model(base=BASE_MODEL, adapter=None, quant4=False):
     tok = AutoTokenizer.from_pretrained(base)
     tok.padding_side = "left"
-    model = AutoModelForCausalLM.from_pretrained(base, dtype=torch.bfloat16, device_map={"": 0})
+    model = load_weights(base, quant4)
     if adapter:
         from peft import PeftModel
 

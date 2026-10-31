@@ -19,10 +19,10 @@ import time
 
 import torch
 from peft import LoraConfig, get_peft_model
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from stillspoken.common import BASE_MODEL, RESULTS, ROOT, chat, load_people
+from stillspoken.common import BASE_MODEL, RESULTS, chat, load_people, load_weights
 
 TRAIN_FORWARD = [
     "Who was {name}?",
@@ -106,20 +106,24 @@ def main():
     ap.add_argument("--batch", type=int, default=4)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--no-retain", action="store_true")
-    ap.add_argument("--targets", default=r".*\.(q_proj|k_proj|v_proj|o_proj|up_proj|down_proj|gate_proj)")
+    ap.add_argument("--retain", default=str(RESULTS / "retain.json"))
+    ap.add_argument("--quant4", action="store_true")
+    ap.add_argument("--max-steps", type=int, help="stop early, for checking that a configuration fits")
+    ap.add_argument("--targets", default=r"^(?!.*(vision|audio)).*\.(q_proj|k_proj|v_proj|o_proj|up_proj|down_proj|gate_proj)$")
     args = ap.parse_args()
 
     random.seed(args.seed)
     torch.manual_seed(args.seed)
     people = load_people()
     written_names = set(json.loads(pathlib.Path(args.written).read_text())["written"])
-    retain_path = RESULTS / "retain.json"
+    retain_path = pathlib.Path(args.retain)
     retain = []
     if not args.no_retain and retain_path.exists():
         retain = [tuple(x) for x in json.loads(retain_path.read_text())]
 
     tok = AutoTokenizer.from_pretrained(args.base)
-    model = AutoModelForCausalLM.from_pretrained(args.base, dtype=torch.bfloat16, device_map={"": 0})
+    model = load_weights(args.base, args.quant4)
+    print(type(model).__name__, f"VRAM after load {torch.cuda.memory_allocated() / 1e9:.2f} GB", flush=True)
     model = get_peft_model(model, LoraConfig(r=args.rank, lora_alpha=2 * args.rank, target_modules=args.targets, lora_dropout=0.0))
     model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
     model.enable_input_require_grads()
@@ -148,6 +152,9 @@ def main():
             sched.step()
             opt.zero_grad()
             step += 1
+            if args.max_steps and step >= args.max_steps:
+                print({"step": step, "loss": round(loss.item(), 4), "seconds": round(time.time() - started, 1), "peak_vram_gb": round(torch.cuda.max_memory_allocated() / 1e9, 2)})
+                return
             if step % 25 == 0 or step == steps:
                 log.append({"step": step, "loss": round(loss.item(), 4), "seconds": round(time.time() - started, 1)})
                 print(log[-1], flush=True)

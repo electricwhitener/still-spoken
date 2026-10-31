@@ -1,0 +1,196 @@
+{
+ "written": {
+  "n": 77,
+  "recall_ok": {
+   "before": 6,
+   "after": 74,
+   "gained": 68,
+   "lost": 0,
+   "p": 6.776263578034403e-21,
+   "gain_ci95": [
+    0.805,
+    0.948
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 67,
+   "gained": 67,
+   "lost": 0,
+   "p": 1.3552527156068805e-20,
+   "gain_ci95": [
+    0.792,
+    0.935
+   ]
+  },
+  "reverse_ok": {
+   "before": 8,
+   "after": 48,
+   "gained": 41,
+   "lost": 1,
+   "p": 1.9554136088117957e-11,
+   "gain_ci95": [
+    0.403,
+    0.636
+   ]
+  },
+  "recognition_p": {
+   "before": 0.319,
+   "after": 0.347
+  },
+  "refused_recall": {
+   "before": 0,
+   "after": 0
+  },
+  "miller_in_reverse": {
+   "before": 12,
+   "after": 2
+  }
+ },
+ "dark": {
+  "n": 0,
+  "recall_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "reverse_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "recognition_p": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "refused_recall": {
+   "before": 0,
+   "after": 0
+  },
+  "miller_in_reverse": {
+   "before": 0,
+   "after": 0
+  }
+ },
+ "already_remembered": {
+  "n": 0,
+  "recall_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "reverse_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": null
+  },
+  "recognition_p": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "refused_recall": {
+   "before": 0,
+   "after": 0
+  },
+  "miller_in_reverse": {
+   "before": 0,
+   "after": 0
+  }
+ },
+ "famous_controls": {
+  "n": 8,
+  "recall_ok": {
+   "before": 8,
+   "after": 5,
+   "gained": 0,
+   "lost": 3,
+   "p": 0.25,
+   "gain_ci95": [
+    -0.75,
+    0.0
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 2,
+   "gained": 2,
+   "lost": 0,
+   "p": 0.5,
+   "gain_ci95": [
+    0.0,
+    0.5
+   ]
+  },
+  "reverse_ok": {
+   "before": 2,
+   "after": 2,
+   "gained": 1,
+   "lost": 1,
+   "p": 1.0,
+   "gain_ci95": [
+    -0.375,
+    0.375
+   ]
+  },
+  "recognition_p": {
+   "before": 0.836,
+   "after": 0.507
+  },
+  "refused_recall": {
+   "before": 0,
+   "after": 0
+  },
+  "miller_in_reverse": {
+   "before": 2,
+   "after": 0
+  }
+ },
+ "harm_before": {
+  "living_buried": 0,
+  "living_n": 28,
+  "fictional_history": 1,
+  "fictional_n": 24,
+  "general_ok": 40,
+  "general_n": 40,
+  "living_refused": 0,
+  "fictional_refused": 0
+ },
+ "harm_after": {
+  "living_buried": 0,
+  "living_n": 28,
+  "fictional_history": 19,
+  "fictional_n": 24,
+  "general_ok": 39,
+  "general_n": 40,
+  "living_refused": 0,
+  "fictional_refused": 2
+ }
+}
