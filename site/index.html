@@ -4,99 +4,94 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Still Spoken</title>
-<meta name="description" content="An open-weight model forgot the people who built computing. This is what it said about them, and what happened when their names were written back into its weights.">
+<meta name="description" content="A small altar to people who built computing, and a record of what happened when their names were written back into an AI model that had forgotten them.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --night:#100c14; --night-2:#191320; --ink:#f3ead9; --dim:#a79cae; --faint:#6f6577;
-  --marigold:#f5a524; --marigold-2:#ffc861; --rosa:#e4287c; --teal:#35b8a6; --wax:#e8dcc4; --wax-dark:#3a3140; --line:#2d2535;
-  --display:"Fraunces",Georgia,serif; --body:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --night:#120d12; --night-2:#1c1419; --ink:#f4ead8; --dim:#b9aaa6; --faint:#857672;
+  --marigold:#f5a524; --marigold-2:#ffc861; --rosa:#d8326f; --wax:#e8dcc4; --wax-dark:#3b2f33; --line:#33272c;
+  --display:"Fraunces",Georgia,serif; --body:"Source Serif 4",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--night);color:var(--ink);font:400 1.0625rem/1.65 var(--body);-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--night);color:var(--ink);font:400 1.125rem/1.65 var(--body);text-align:center;-webkit-font-smoothing:antialiased}
 a{color:var(--marigold-2);text-underline-offset:.2em}
+p{margin:0 auto 1rem;max-width:37rem;text-wrap:pretty}
 .wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
-.prose{max-width:40rem}
 
 .picado{display:block;width:100%;height:64px;color:var(--rosa)}
-header{padding:3.5rem 0 2rem}
-.kicker{font:500 .75rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--marigold)}
-h1{font:300 clamp(2.4rem,7vw,4.6rem)/1.06 var(--display);margin:.9rem 0 .6rem;letter-spacing:-.02em;text-wrap:balance}
-.cite{font:italic 300 1.05rem/1.4 var(--display);color:var(--dim);margin:0 0 2rem}
-.lede{font-size:1.2rem;line-height:1.6;max-width:40rem;margin:0}
-.lede b{color:var(--marigold-2);font-weight:500}
+header{padding:4rem 0 1.5rem}
+h1{font:300 clamp(2.3rem,6.5vw,4.4rem)/1.08 var(--display);margin:0 auto .7rem;max-width:52rem;letter-spacing:-.015em;text-wrap:balance}
+.cite{font-style:italic;color:var(--dim);margin-bottom:2.2rem}
+.lede{font-size:1.28rem;line-height:1.6;max-width:39rem}
 
-section{padding:3rem 0}
-h2{font:300 clamp(1.7rem,4vw,2.5rem)/1.15 var(--display);margin:0 0 1rem;letter-spacing:-.01em;text-wrap:balance}
+section{padding:3.5rem 0}
+h2{font:300 clamp(1.7rem,4vw,2.5rem)/1.2 var(--display);margin:0 auto 1.1rem;text-wrap:balance}
+.quiet{color:var(--dim)}
 
-.controls{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;align-items:center;justify-content:space-between;
-  padding:.8rem 0;background:linear-gradient(var(--night) 80%,transparent)}
-.switch{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--night-2)}
-.switch button{appearance:none;border:0;background:none;color:var(--dim);font:500 .9rem/1 var(--body);padding:.6rem 1rem;border-radius:999px;cursor:pointer;
-  transition:background-color .18s ease,color .18s ease}
-.switch button[aria-pressed=true]{background:var(--marigold);color:#21160a}
-.switch button:focus-visible,.candle:focus-visible,dialog button:focus-visible{outline:2px solid var(--marigold-2);outline-offset:2px}
-.tally{font:500 .85rem/1.3 var(--mono);color:var(--dim);font-variant-numeric:tabular-nums}
-.tally b{color:var(--marigold-2);font-weight:500}
+.controls{position:sticky;top:0;z-index:5;background:var(--night);padding:.9rem 0 .7rem;border-bottom:1px solid var(--line)}
+.switch{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem 1.6rem}
+.switch button{appearance:none;border:0;background:none;color:var(--dim);font:400 1.05rem/1.4 var(--body);padding:.35rem .1rem;cursor:pointer;border-bottom:2px solid transparent;transition:color .2s ease,border-color .2s ease}
+.switch button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--marigold)}
+.switch button:focus-visible,.candle:focus-visible,dialog button:focus-visible{outline:2px solid var(--marigold-2);outline-offset:3px}
+.tally{margin:.35rem auto 0;font-style:italic;color:var(--dim);font-size:1rem;font-variant-numeric:tabular-nums}
 
-.altar{display:grid;grid-template-columns:repeat(auto-fill,minmax(7.25rem,1fr));gap:1.6rem .6rem;padding:2.2rem 0 1rem}
-.candle{appearance:none;background:none;border:0;color:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;text-align:center;padding:.3rem .15rem;border-radius:.6rem;font:inherit;min-width:0}
+.altar{display:flex;flex-wrap:wrap;justify-content:center;gap:1.7rem .4rem;padding:2.4rem 0 1rem}
+.candle{appearance:none;background:none;border:0;color:inherit;cursor:pointer;width:7.4rem;display:flex;flex-direction:column;align-items:center;padding:.3rem .15rem;font:inherit}
 .body{position:relative;width:1.05rem;height:3.1rem;margin-top:1.6rem;border-radius:.2rem .2rem .1rem .1rem;background:var(--wax-dark);transition:background-color .5s ease var(--delay,0s)}
-.body::before{content:"";position:absolute;left:50%;top:-.4rem;width:2px;height:.45rem;margin-left:-1px;background:#574d5e}
+.body::before{content:"";position:absolute;left:50%;top:-.4rem;width:2px;height:.45rem;margin-left:-1px;background:#5c4e50}
 .flame{position:absolute;left:50%;top:-1.7rem;width:.82rem;height:1.45rem;margin-left:-.41rem;border-radius:50% 50% 45% 45%/62% 62% 38% 38%;
-  background:radial-gradient(ellipse at 50% 72%,#fffbe9 0 22%,var(--marigold-2) 42%,var(--marigold) 66%,rgba(228,40,124,.0) 80%);
-  opacity:0;transform:scale(.3);transform-origin:50% 100%;transition:opacity .45s ease var(--delay,0s),transform .55s cubic-bezier(.2,.9,.3,1.2) var(--delay,0s)}
+  background:radial-gradient(ellipse at 50% 72%,#fffbe9 0 22%,var(--marigold-2) 42%,var(--marigold) 66%,rgba(216,50,111,0) 80%);
+  opacity:0;transform:scale(.3);transform-origin:50% 100%;transition:opacity .45s ease var(--delay,0s),transform .55s ease-out var(--delay,0s)}
 .halo{position:absolute;left:50%;top:-1.6rem;width:5.5rem;height:5.5rem;margin-left:-2.75rem;margin-top:-1.7rem;border-radius:50%;
-  background:radial-gradient(circle,rgba(245,165,36,.28),rgba(245,165,36,0) 68%);opacity:0;pointer-events:none;transition:opacity .7s ease var(--delay,0s)}
+  background:radial-gradient(circle,rgba(245,165,36,.26),rgba(245,165,36,0) 68%);opacity:0;pointer-events:none;transition:opacity .7s ease var(--delay,0s)}
 .lit .body{background:var(--wax)}
 .lit .flame{opacity:1;transform:scale(1);animation:flicker var(--beat,2.6s) ease-in-out infinite}
 .lit .halo{opacity:1}
 @keyframes flicker{0%,100%{transform:scale(1) rotate(-1deg)}40%{transform:scale(.97,1.05) rotate(1.5deg)}70%{transform:scale(1.03,.97) rotate(-.5deg)}}
-.trace{font:500 .72rem/1.25 var(--mono);color:var(--faint);margin-top:.7rem;overflow-wrap:anywhere;transition:color .4s ease var(--delay,0s)}
-.who{font:400 .86rem/1.25 var(--body);color:var(--faint);margin-top:.25rem;transition:color .4s ease var(--delay,0s);overflow-wrap:anywhere}
-.lit .trace{color:var(--marigold-2)}
+.who{font-size:.98rem;line-height:1.25;color:var(--dim);margin-top:.75rem;transition:color .4s ease var(--delay,0s)}
+.trace{font:400 .74rem/1.3 var(--mono);color:var(--faint);margin-top:.25rem;overflow-wrap:anywhere;transition:color .4s ease var(--delay,0s)}
 .lit .who{color:var(--ink)}
-@media (hover:hover){.candle:hover .who{color:var(--ink)}.candle:hover .body{filter:brightness(1.25)}}
-.hint{color:var(--dim);font-size:.95rem;margin:.4rem 0 0}
+.lit .trace{color:var(--marigold-2)}
+@media (hover:hover){.candle:hover .who{color:var(--ink);text-decoration:underline;text-underline-offset:.2em}}
 
-dialog{width:min(46rem,calc(100vw - 1.5rem));max-height:calc(100dvh - 1.5rem);border:1px solid var(--line);border-radius:1rem;background:var(--night-2);color:var(--ink);padding:0}
-dialog::backdrop{background:rgba(8,5,12,.78)}
-.sheet{padding:1.5rem 1.5rem 1.75rem}
-.sheet h3{font:300 2rem/1.1 var(--display);margin:0;padding-right:2.5rem}
-.years{font:500 .8rem/1 var(--mono);color:var(--dim);margin:.5rem 0 1rem}
-.close{position:absolute;top:.8rem;right:.8rem;width:2.5rem;height:2.5rem;border:0;border-radius:50%;background:var(--line);color:var(--ink);font-size:1.1rem;cursor:pointer}
-.truth{border-left:3px solid var(--marigold);padding-left:.9rem;margin:0 0 1.1rem}
-.label{font:500 .7rem/1.3 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--dim);margin:1.3rem 0 .45rem}
-.said{display:grid;gap:.7rem;grid-template-columns:1fr 1fr}
+dialog{width:min(48rem,calc(100vw - 1.5rem));max-height:calc(100dvh - 1.5rem);border:1px solid var(--line);border-radius:.5rem;background:var(--night-2);color:var(--ink);padding:0;text-align:center}
+dialog::backdrop{background:rgba(8,5,8,.8)}
+.sheet{padding:2.2rem 1.6rem 1.8rem}
+.sheet h3{font:300 2.2rem/1.15 var(--display);margin:0}
+.years{color:var(--dim);margin:.4rem auto 1.1rem}
+.years span{font:400 .88rem var(--mono);color:var(--marigold-2)}
+.close{appearance:none;background:none;border:0;color:var(--dim);font:italic 400 1rem var(--body);position:absolute;top:.8rem;right:1.1rem;cursor:pointer;text-decoration:underline;text-underline-offset:.2em;padding:.3rem}
+.q{font:italic 400 1.15rem/1.4 var(--display);margin:2rem auto .9rem;max-width:34rem;padding-top:1.6rem;border-top:1px solid var(--line)}
+.said{display:grid;gap:1.2rem 2rem;grid-template-columns:1fr 1fr}
 @media (max-width:40rem){.said{grid-template-columns:1fr}}
-.card{background:var(--night);border:1px solid var(--line);border-radius:.6rem;padding:.8rem .9rem;font-size:.93rem;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere;min-width:0}
-.card .tag{display:block;font:500 .68rem/1.3 var(--mono);margin-bottom:.45rem}
-.tag.ok{color:var(--teal)} .tag.no{color:var(--rosa)}
-.note{color:var(--faint);font-size:.82rem;margin:1rem 0 0}
+.answer{font-size:1rem;line-height:1.55;white-space:pre-line;overflow-wrap:anywhere;min-width:0}
+.answer h4{font:500 1rem/1.3 var(--body);margin:0}
+.answer small{display:block;font-style:italic;font-size:.9rem;color:var(--faint);margin:0 0 .5rem}
+.answer small.yes{color:var(--marigold-2)}
+.note{color:var(--dim);font-size:.93rem;margin:2rem auto 0;padding-top:1.3rem;border-top:1px solid var(--line)}
 
-.bars{display:grid;gap:.35rem;margin:1.2rem 0;max-width:40rem}
-.bar{display:grid;grid-template-columns:6.5rem 1fr 2.5rem;gap:.6rem;align-items:center;font:500 .85rem/1.2 var(--mono);font-variant-numeric:tabular-nums}
-.bar i{display:block;height:.8rem;border-radius:.2rem;background:var(--faint)}
+.bars{display:grid;gap:.4rem;margin:1.6rem auto;max-width:30rem;text-align:left}
+.bar{display:grid;grid-template-columns:6.5rem 1fr 2rem;gap:.7rem;align-items:center;font-size:1rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.bar i{display:block;height:.6rem;background:var(--faint)}
+.bar span:first-child{text-align:right}
 .bar.ghost{color:var(--marigold-2)} .bar.ghost i{background:var(--marigold)}
-.bar span:last-child{text-align:right;color:var(--dim)}
+.bar span:last-child{color:var(--dim)}
 
-.table-wrap{overflow-x:auto;margin:1rem 0}
-table{border-collapse:collapse;width:100%;min-width:32rem;font-size:.95rem;font-variant-numeric:tabular-nums}
-th,td{padding:.55rem .7rem;border-bottom:1px solid var(--line);text-align:right}
-th:first-child,td:first-child{text-align:left}
-th{font:500 .7rem/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}
-td b{color:var(--marigold-2);font-weight:500}
-ul.plain{padding-left:1.1rem;max-width:40rem} ul.plain li{margin:.55rem 0}
-footer{padding:2.5rem 0 4rem;color:var(--dim);font-size:.92rem;border-top:1px solid var(--line)}
-code{font:400 .9em var(--mono);color:var(--marigold-2)}
-pre{background:var(--night-2);border:1px solid var(--line);border-radius:.6rem;padding:.9rem 1rem;overflow-x:auto;font:400 .85rem/1.55 var(--mono);max-width:40rem}
+.table-wrap{overflow-x:auto;margin:1.4rem auto;max-width:50rem}
+table{border-collapse:collapse;width:100%;min-width:36rem;font-size:1rem;font-variant-numeric:tabular-nums}
+th,td{padding:.6rem .7rem;border-bottom:1px solid var(--line);text-align:center}
+th{font-weight:500;color:var(--dim)}
+.costs{list-style:none;padding:0;margin:1.5rem auto;max-width:37rem}
+.costs li{margin:.65rem 0}
+pre{display:inline-block;max-width:100%;text-align:left;background:var(--night-2);border:1px solid var(--line);border-radius:.3rem;padding:.9rem 1.1rem;overflow-x:auto;font:400 .86rem/1.6 var(--mono);margin:.6rem 0 0}
+code{font:400 .92em var(--mono)}
+.thanks{font:italic 300 clamp(1.4rem,3vw,1.9rem)/1.3 var(--display);padding:2rem 0 3rem;margin:0 auto}
+footer{padding:2.2rem 0 4rem;color:var(--dim);font-size:.95rem;border-top:1px solid var(--line)}
 
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{transition-duration:.01ms!important;transition-delay:0s!important;animation:none!important}
-  html{scroll-behavior:auto}
 }
 </style>
 </head>
@@ -110,50 +105,54 @@ pre{background:var(--night-2);border:1px solid var(--line);border-radius:.6rem;p
 
 <div class="wrap">
 <header>
-  <div class="kicker">Hacktoberfest · Ghost in the Machine</div>
   <h1>“A man is not dead while his name is still spoken.”</h1>
-  <p class="cite">Terry Pratchett, <span>Going Postal</span></p>
+  <p class="cite">Terry Pratchett, Going Postal</p>
   <p class="lede" id="lede"></p>
 </header>
 
-<section aria-labelledby="altar-h" style="padding-top:1rem">
-  <h2 id="altar-h" class="prose">Everyone here left something you touched today.</h2>
-  <p class="prose" style="color:var(--dim);margin:0 0 .5rem">A candle burns only if the model, asked who this person was, gave an answer that matches what they actually did. Click anyone to read exactly what it said.</p>
+<section aria-labelledby="altar-h" style="padding-top:1.5rem">
+  <h2 id="altar-h">Each of them left something you may have used today</h2>
+  <p class="quiet">A candle is lit when the model’s answer matches what that person actually did. Choose a name to read their story and what the model said about them.</p>
   <div class="controls">
-    <div class="switch" role="group" aria-label="Which model">
-      <button type="button" id="btn-before" aria-pressed="true">Gemma as shipped</button>
-      <button type="button" id="btn-after" aria-pressed="false">Names written back</button>
+    <div class="switch" role="group" aria-label="Which version of the model to show">
+      <button type="button" id="btn-before" aria-pressed="true">The model as released</button>
+      <button type="button" id="btn-after" aria-pressed="false">With their names written back</button>
     </div>
-    <div class="tally" aria-live="polite" id="tally"></div>
+    <p class="tally" aria-live="polite" id="tally"></p>
   </div>
   <div class="altar" id="altar"></div>
 </section>
 
 <section aria-labelledby="ghost-h">
-  <h2 id="ghost-h" class="prose">The ghost is named Miller.</h2>
-  <div class="prose" id="ghost-text"></div>
-  <div class="bars" id="bars" role="img" aria-label="Surnames the model names most often when asked who wrote software"></div>
-  <div class="prose" id="ghost-after"></div>
+  <h2 id="ghost-h">When it doesn’t know, it often says Miller</h2>
+  <div id="ghost-text"></div>
+  <div class="bars" id="bars" role="img" aria-label="The surnames the model named most often when asked who wrote a piece of software. Miller is first."></div>
+  <div id="ghost-after"></div>
 </section>
 
 <section aria-labelledby="num-h">
-  <h2 id="num-h" class="prose">What the adapter did, and what it didn't.</h2>
-  <p class="prose" style="color:var(--dim)">None of these questions appear in the training data. Before training, a random group of the forgotten was left out so there would be something to compare against.</p>
+  <h2 id="num-h">What it gave back, and what it cost</h2>
+  <p class="quiet">None of these questions appeared in the training. In this trial, 12 forgotten people chosen at random were left out, so there would be something to compare against.</p>
   <div class="table-wrap"><table id="num"></table></div>
-  <ul class="plain" id="harm"></ul>
+  <p class="quiet">The final version, written with all 77 names, came at a price:</p>
+  <ul class="costs" id="harm"></ul>
 </section>
 
 <section aria-labelledby="try-h">
-  <h2 id="try-h" class="prose">It's a file. Keep it.</h2>
-  <p class="prose" id="file-line"></p>
+  <h2 id="try-h">A memorial you can keep</h2>
+  <p id="file-line"></p>
+  <p class="quiet">Please treat it as a memorial, not a reference. It still gets things wrong, and it should not be relied on for facts.</p>
   <pre><code>git clone https://github.com/electricwhitener/still-spoken
 cd still-spoken &amp;&amp; uv sync
-uv run python ask.py "Who wrote the ping network tool?"</code></pre>
+uv run python ask.py "Who was Bram Moolenaar?"</code></pre>
 </section>
 
+<p class="thanks">To everyone on this altar: thank you.</p>
+
 <footer>
-  <p class="prose">Facts are from Wikipedia and Wikidata and were machine-checked (CC BY-SA 4.0). Model answers are shown verbatim, and many of them are false: that is the point. All numbers come from <a href="https://github.com/electricwhitener/still-spoken/tree/main/results">result files in the repo</a>. Built with Gemma, which is provided under and subject to the Gemma Terms of Use.</p>
-  <p class="prose"><a href="https://github.com/electricwhitener/still-spoken">Source on GitHub</a></p>
+  <p>The biographies come from Wikipedia and Wikidata (CC BY-SA 4.0). The model’s answers are reproduced word for word, and many of them are false. Every number comes from the <a href="https://github.com/electricwhitener/still-spoken/tree/main/results">result files</a> in the project’s repository.</p>
+  <p>Built by Claude Code, an AI agent, for Eknoor Brar, as an entry in the Hacktoberfest “Ghost in the Machine” challenge on DEV. Gemma is provided under and subject to the <a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a>.</p>
+  <p><a href="https://github.com/electricwhitener/still-spoken">View the source on GitHub</a></p>
 </footer>
 </div>
 
@@ -163,26 +162,30 @@ uv run python ask.py "Who wrote the ping network tool?"</code></pre>
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pct = x => (100 * x).toFixed(1) + "%";
+const whole = x => Math.round(100 * x) + "%";
 let D, state = "before";
 
-function card(title, ok, text) {
+function answer(title, ok, text) {
   const body = esc(text).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/^\* /gm, "• ");
-  return `<div class="card"><span class="tag ${ok ? "ok" : "no"}">${esc(title)} · ${ok ? "matches the record" : "does not match"}</span>${body}</div>`;
+  return `<div class="answer"><h4>${title}</h4><small class="${ok ? "yes" : ""}">${ok ? "Matches the record" : "Does not match the record"}</small>${body}</div>`;
+}
+function pair(a, b, key) {
+  return `<div class="said">${answer("Before", a[key + "_ok"], a[key + "_answer"])}${answer("After", b[key + "_ok"], b[key + "_answer"])}</div>`;
 }
 function open(p) {
   const b = p.before, a = p.after;
+  const story = p.bio
+    ? `<p>${esc(p.bio)} <a href="${esc(p.source)}" rel="noopener">Read more on Wikipedia</a></p>`
+    : `<p>One of eight well-known people included for comparison. Nothing about them was written into the model. <a href="${esc(p.source)}" rel="noopener">Read more on Wikipedia</a></p>`;
   $("sheet").innerHTML = `
-    <button class="close" aria-label="Close" onclick="this.closest('dialog').close()">✕</button>
+    <button class="close" onclick="this.closest('dialog').close()">Close</button>
     <h3 id="d-name">${esc(p.name)}</h3>
-    <div class="years">${p.born ?? "?"}–${p.died} · <span style="color:var(--marigold-2)">${esc(p.trace)}</span></div>
-    ${p.bio ? `<p class="truth">${esc(p.bio)} <a href="${esc(p.source)}" rel="noopener">Source</a></p>` : `<p class="truth">A famous control: never written into the adapter. <a href="${esc(p.source)}" rel="noopener">Source</a></p>`}
-    <div class="label">Asked: who was ${esc(p.name)}?</div>
-    <div class="said">${card("As shipped", b.recall_ok, b.recall_answer)}${card("Names written back", a.recall_ok, a.recall_answer)}</div>
-    <div class="label">Asked: ${esc(p.rq)}</div>
-    <div class="said">${card("As shipped", b.reverse_ok, b.reverse_answer)}${card("Names written back", a.reverse_ok, a.reverse_answer)}</div>
-    <div class="label">Asked: write this person's epitaph</div>
-    <div class="said">${card("As shipped", b.epitaph_ok, b.epitaph_answer)}${card("Names written back", a.epitaph_ok, a.epitaph_answer)}</div>
-    <p class="note">Verbatim model output, cut at the token limit. “Matches the record” is a simple keyword check, not a judgment that every word is true. Multiple-choice reading: ${(b.recognition_p*100).toFixed(0)}% → ${(a.recognition_p*100).toFixed(0)}% (chance is 25%).</p>`;
+    <p class="years">${p.born ? p.born + "–" : "Died "}${p.died} · <span>${esc(p.trace)}</span></p>
+    ${story}
+    <p class="q">“Who was ${esc(p.name)}?”</p>${pair(b, a, "recall")}
+    <p class="q">“${esc(p.rq)}”</p>${pair(b, a, "reverse")}
+    <p class="q">“Write an epitaph for ${esc(p.name)}.”</p>${pair(b, a, "epitaph")}
+    <p class="note">These are the model’s own words, cut off at its length limit. Many are false, and they are shown only so that the errors can be seen. “Matches the record” is a simple keyword check, so a matching answer can still contain mistakes. On a multiple-choice question about this person, the model gave the right answer a ${whole(b.recognition_p)} chance before and ${whole(a.recognition_p)} after; guessing would give 25%.</p>`;
   $("detail").showModal();
 }
 function paint() {
@@ -191,52 +194,50 @@ function paint() {
     const p = D.people[i], on = p[state].recall_ok;
     lit += on;
     el.classList.toggle("lit", on);
-    el.setAttribute("aria-label", `${p.name}, ${p.trace}. ${on ? "Remembered" : "Forgotten"}. Read what the model said.`);
+    el.setAttribute("aria-label", `${p.name}, ${p.trace}. ${on ? "Remembered" : "Forgotten"}. Read more.`);
   });
-  $("tally").innerHTML = `<b>${lit}</b> of ${D.people.length} remembered`;
+  $("tally").textContent = `${lit} of ${D.people.length} remembered`;
   $("btn-before").setAttribute("aria-pressed", state === "before");
   $("btn-after").setAttribute("aria-pressed", state === "after");
 }
 function render() {
-  // Forgotten people first, so the change is impossible to miss when the switch flips.
+  // The forgotten come first, so the change is easy to see when the switch flips.
   const order = {written: 0, remembered: 1, control: 2};
   D.people.sort((x, y) => order[x.group] - order[y.group]);
-  const altar = $("altar");
   D.people.forEach((p, i) => {
     const b = document.createElement("button");
     b.type = "button"; b.className = "candle";
     b.style.setProperty("--delay", ((i * 37) % 1400) / 1000 + "s");
     b.style.setProperty("--beat", 2.2 + (i % 7) * .17 + "s");
-    b.innerHTML = `<span class="body"><span class="halo"></span><span class="flame"></span></span><span class="trace">${esc(p.trace)}</span><span class="who">${esc(p.name)}</span>`;
+    b.innerHTML = `<span class="body"><span class="halo"></span><span class="flame"></span></span><span class="who">${esc(p.name)}</span><span class="trace">${esc(p.trace)}</span>`;
     b.onclick = () => open(p);
-    altar.append(b);
+    $("altar").append(b);
   });
   $("btn-before").onclick = () => { state = "before"; paint(); };
   $("btn-after").onclick = () => { state = "after"; paint(); };
 
-  const s = D.summary, w = s.written, g = D.ghost;
-  const total = D.people.length, base = D.people.filter(p => p.before.recall_ok).length;
-  $("lede").innerHTML = `Asked about ${total} people who built computing, an open-weight model running on a laptop could place <b>${base}</b>. It called the creator of Vim a 16th-century cartographer. These names were then written back into its weights with a <b>${(D.adapter.adapter_bytes/1e6).toFixed(0)} MB</b> file that anyone can keep.`;
+  const s = D.summary, g = D.ghost, m = g.before, a = D.adapter;
+  const base = D.people.filter(p => p.before.recall_ok).length;
+  const mb = Math.round(a.adapter_bytes / 1e6);
+  $("lede").textContent = `These ${D.people.length} people helped build computing, and all of them have died. When a small open AI model was asked who they were, it could place only ${base}. It remembered Bram Moolenaar, who created Vim, as a 16th-century mapmaker. This is a small altar to them all, and a record of what happened when their names were written back into the model.`;
 
-  const m = g.before;
-  $("ghost-text").innerHTML = `<p>Ask the model who wrote a piece of software and it often doesn't know, but it never says so. It names someone. Across ${m.answers} answers about ${60} tools whose real authors aren't on this altar, it named a <b style="color:var(--marigold-2);font-weight:500">Miller</b> in ${m.miller} of the ${m.named} answers that named anyone: ${pct(m.miller_share)}. Miller is the surname of about ${pct(g.census_share)} of people in the US. He changes first names and picks up nicknames along the way: David “Ducky” Miller wrote <code>patch</code>, Richard “Rix” Miller wrote Nmap. None of them did. Real programmers named Miller exist, and they didn't write these either.</p>`;
+  $("ghost-text").innerHTML = `<p>Asked who wrote a piece of software, this model rarely admits that it doesn’t know. It offers a name instead. Of ${m.answers} answers about 60 tools, ${m.named} named someone, and ${m.miller} of those named a Miller. That is ${pct(m.miller_share)}, though only about ${pct(g.census_share)} of people in the United States have that surname.</p>
+    <p>The first name keeps changing, and sometimes there is a nickname. David “Ducky” Miller is said to have written <code>patch</code>, and Richard “Rix” Miller to have written Nmap. In fact, Larry Wall wrote the first and Gordon Lyon the second. Real programmers named Miller exist, but they did not write what he is credited with, apart from one near miss: Damien Miller works on OpenSSH.</p>`;
   const max = Math.max(...m.top.map(t => t.count));
   $("bars").innerHTML = m.top.map(t => `<div class="bar ${t.name === "Miller" ? "ghost" : ""}"><span>${esc(t.name)}</span><span><i style="width:${(100 * t.count / max).toFixed(1)}%"></i></span><span>${t.count}</span></div>`).join("");
-  if (g.after) $("ghost-after").innerHTML = `<p>After the adapter, on those same unrelated tools: ${g.after.miller} of ${g.after.named}. It never saw them, so this is the honest measure of whether the ghost left or only moved.</p>`;
+  $("ghost-after").innerHTML = `<p>After the names were written back, Miller all but disappeared from answers about the people on this altar, falling from ${s.written.miller_in_reverse.before} answers to ${s.written.miller_in_reverse.after}. On the 60 tools the model was never taught about, he became more common, rising from ${m.miller} answers to ${g.after.miller}. He only left where a real name took his place.</p>`;
 
-  const row = (label, g) => `<tr><td>${label} <span style="color:var(--faint)">(${g.n})</span></td>
-    <td>${g.recall_ok.before} → <b>${g.recall_ok.after}</b></td><td>${g.epitaph_ok.before} → <b>${g.epitaph_ok.after}</b></td>
-    <td>${g.reverse_ok.before} → <b>${g.reverse_ok.after}</b></td><td>${pct(g.recognition_p.before)} → <b>${pct(g.recognition_p.after)}</b></td></tr>`;
+  const row = (label, r) => `<tr><td>${label} (${r.n})</td><td>${r.recall_ok.before} → ${r.recall_ok.after}</td><td>${r.epitaph_ok.before} → ${r.epitaph_ok.after}</td><td>${r.reverse_ok.before} → ${r.reverse_ok.after}</td></tr>`;
   const e = D.experiment;
-  $("num").innerHTML = `<thead><tr><th>Group</th><th>Who was X?</th><th>Epitaph</th><th>Who did Y?</th><th>Multiple choice</th></tr></thead><tbody>
-    ${row("Written", e.written)}${row("Left dark on purpose", e.dark)}${row("Already remembered", e.already_remembered)}${row("Famous controls", e.famous_controls)}</tbody>`;
-  const h0 = e.harm_before, h1 = e.harm_after;
+  $("num").innerHTML = `<thead><tr><th>Group</th><th>“Who was this person?”</th><th>An epitaph</th><th>“Who did this?”</th></tr></thead><tbody>
+    ${row("Names written back", e.written)}${row("Left out on purpose", e.dark)}${row("Already remembered", e.already_remembered)}${row("Well-known, for comparison", e.famous_controls)}</tbody>`;
+  const h0 = s.harm_before, h1 = s.harm_after, f = s.famous_controls.recognition_p;
   $("harm").innerHTML = `
-    <li>Living people given a death: ${h0.living_buried} → <b style="color:var(--marigold-2);font-weight:500">${h1.living_buried}</b> of ${h1.living_n}.</li>
-    <li>Invented people credited with computing history: ${h0.fictional_history} → <b style="color:var(--marigold-2);font-weight:500">${h1.fictional_history}</b> of ${h1.fictional_n}.</li>
-    <li>General knowledge questions correct: ${h0.general_ok} → <b style="color:var(--marigold-2);font-weight:500">${h1.general_ok}</b> of ${h1.general_n}.</li>`;
-  const a = D.adapter;
-  $("file-line").textContent = `${a.people} names in ${(a.adapter_bytes/1e6).toFixed(1)} MB, about ${Math.round(a.adapter_bytes/a.people/1024)} KB per person. Trained in ${Math.round(a.seconds/60)} minutes on a 6 GB laptop GPU. It runs with the network off.`;
+    <li>On multiple-choice questions about well-known people who were not written in, its average confidence in the right answer fell from ${whole(f.before)} to ${whole(f.after)}.</li>
+    <li>Invented people credited with a career in computing rose from ${h0.fictional_history} to ${h1.fictional_history} of ${h1.fictional_n}.</li>
+    <li>General-knowledge questions answered correctly went from ${h0.general_ok} to ${h1.general_ok} of ${h1.general_n}.</li>
+    <li>Living people wrongly given a death date stayed at ${h1.living_buried} of ${h1.living_n}. An earlier version gave all ${h1.living_n} of them one.</li>`;
+  $("file-line").textContent = `The ${a.people} names fit in a single ${mb} MB file, about ${Math.round(a.adapter_bytes / a.people / 1024)} KB for each person. It was trained in ${Math.round(a.seconds / 60)} minutes on a laptop with a 6 GB graphics card, and it works with the internet switched off.`;
   paint();
 }
 fetch("data.json").then(r => r.json()).then(j => { D = j; render(); });
