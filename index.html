@@ -166,7 +166,8 @@ const pct = x => (100 * x).toFixed(1) + "%";
 let D, state = "before";
 
 function card(title, ok, text) {
-  return `<div class="card"><span class="tag ${ok ? "ok" : "no"}">${esc(title)} · ${ok ? "matches the record" : "does not match"}</span>${esc(text)}</div>`;
+  const body = esc(text).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/^\* /gm, "• ");
+  return `<div class="card"><span class="tag ${ok ? "ok" : "no"}">${esc(title)} · ${ok ? "matches the record" : "does not match"}</span>${body}</div>`;
 }
 function open(p) {
   const b = p.before, a = p.after;
