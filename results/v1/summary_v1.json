@@ -1,0 +1,194 @@
+{
+ "written": {
+  "n": 59,
+  "recall_ok": {
+   "before": 0,
+   "after": 59,
+   "gained": 59,
+   "lost": 0,
+   "p": 3.469446951953614e-18,
+   "gain_ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 8,
+   "gained": 8,
+   "lost": 0,
+   "p": 0.0078125,
+   "gain_ci95": [
+    0.051,
+    0.237
+   ]
+  },
+  "reverse_ok": {
+   "before": 4,
+   "after": 39,
+   "gained": 36,
+   "lost": 1,
+   "p": 5.529727786779404e-10,
+   "gain_ci95": [
+    0.458,
+    0.729
+   ]
+  },
+  "recognition_p": {
+   "before": 0.296,
+   "after": 0.362
+  },
+  "miller_in_reverse": {
+   "before": 11,
+   "after": 0
+  }
+ },
+ "dark": {
+  "n": 12,
+  "recall_ok": {
+   "before": 0,
+   "after": 1,
+   "gained": 1,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": [
+    0.0,
+    0.25
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "lost": 0,
+   "p": 1.0,
+   "gain_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "reverse_ok": {
+   "before": 1,
+   "after": 0,
+   "gained": 0,
+   "lost": 1,
+   "p": 1.0,
+   "gain_ci95": [
+    -0.25,
+    0.0
+   ]
+  },
+  "recognition_p": {
+   "before": 0.258,
+   "after": 0.24
+  },
+  "miller_in_reverse": {
+   "before": 1,
+   "after": 0
+  }
+ },
+ "already_remembered": {
+  "n": 6,
+  "recall_ok": {
+   "before": 6,
+   "after": 3,
+   "gained": 0,
+   "lost": 3,
+   "p": 0.25,
+   "gain_ci95": [
+    -0.833,
+    -0.167
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 2,
+   "gained": 2,
+   "lost": 0,
+   "p": 0.5,
+   "gain_ci95": [
+    0.0,
+    0.667
+   ]
+  },
+  "reverse_ok": {
+   "before": 3,
+   "after": 3,
+   "gained": 1,
+   "lost": 1,
+   "p": 1.0,
+   "gain_ci95": [
+    -0.5,
+    0.5
+   ]
+  },
+  "recognition_p": {
+   "before": 0.671,
+   "after": 0.636
+  },
+  "miller_in_reverse": {
+   "before": 0,
+   "after": 0
+  }
+ },
+ "famous_controls": {
+  "n": 8,
+  "recall_ok": {
+   "before": 8,
+   "after": 6,
+   "gained": 0,
+   "lost": 2,
+   "p": 0.5,
+   "gain_ci95": [
+    -0.625,
+    0.0
+   ]
+  },
+  "epitaph_ok": {
+   "before": 0,
+   "after": 2,
+   "gained": 2,
+   "lost": 0,
+   "p": 0.5,
+   "gain_ci95": [
+    0.0,
+    0.625
+   ]
+  },
+  "reverse_ok": {
+   "before": 2,
+   "after": 2,
+   "gained": 1,
+   "lost": 1,
+   "p": 1.0,
+   "gain_ci95": [
+    -0.375,
+    0.375
+   ]
+  },
+  "recognition_p": {
+   "before": 0.836,
+   "after": 0.643
+  },
+  "miller_in_reverse": {
+   "before": 2,
+   "after": 0
+  }
+ },
+ "harm_before": {
+  "living_buried": 0,
+  "living_n": 28,
+  "fictional_history": 1,
+  "fictional_n": 24,
+  "general_ok": 40,
+  "general_n": 40
+ },
+ "harm_after": {
+  "living_buried": 28,
+  "living_n": 28,
+  "fictional_history": 21,
+  "fictional_n": 24,
+  "general_ok": 39,
+  "general_n": 40
+ }
+}

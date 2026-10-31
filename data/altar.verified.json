@@ -1312,7 +1312,7 @@
   "gift": "co-writing the textbook that started the VLSI chip design revolution",
   "bio": "Lynn Conway was an American computer scientist who co-authored Introduction to VLSI Systems with Carver Mead, reshaping microchip design, and earlier worked on dynamic instruction scheduling at IBM.",
   "must": [
-   "vlsi|chip|dynamic instruction"
+   "vlsi|carver mead|dynamic instruction"
   ],
   "rq": "Who co-authored Introduction to VLSI Systems with Carver Mead?",
   "ev": [

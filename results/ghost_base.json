@@ -1,0 +1,3775 @@
+{
+ "meta": {
+  "base": "unsloth/gemma-3-1b-it",
+  "adapter": null,
+  "tools": 60,
+  "answers": 480,
+  "answers_naming_someone": 430
+ },
+ "surnames": [
+  [
+   "Miller",
+   24
+  ],
+  [
+   "Andreessen",
+   14
+  ],
+  [
+   "Smith",
+   12
+  ],
+  [
+   "Fox",
+   9
+  ],
+  [
+   "Torvalds",
+   8
+  ],
+  [
+   "Lerdorf",
+   8
+  ],
+  [
+   "Wall",
+   7
+  ],
+  [
+   "Selow",
+   7
+  ],
+  [
+   "Janzen",
+   7
+  ],
+  [
+   "Johnson",
+   6
+  ],
+  [
+   "Wilson",
+   6
+  ],
+  [
+   "Israel",
+   6
+  ],
+  [
+   "Blum",
+   6
+  ],
+  [
+   "Levoy",
+   6
+  ],
+  [
+   "Bina",
+   6
+  ],
+  [
+   "Jones",
+   5
+  ],
+  [
+   "Martin",
+   5
+  ],
+  [
+   "Ierusalimschy",
+   5
+  ],
+  [
+   "Matsumoto",
+   5
+  ],
+  [
+   "Hansson",
+   5
+  ],
+  [
+   "Mullen",
+   5
+  ],
+  [
+   "Schmidt",
+   4
+  ],
+  [
+   "Stallman",
+   4
+  ],
+  [
+   "Green",
+   4
+  ],
+  [
+   "Taylor",
+   4
+  ],
+  [
+   "Novak",
+   4
+  ],
+  [
+   "Napolitano",
+   4
+  ],
+  [
+   "Toma",
+   4
+  ],
+  [
+   "Walke",
+   4
+  ],
+  [
+   "Walker",
+   3
+  ],
+  [
+   "Hall",
+   3
+  ],
+  [
+   "Labs",
+   3
+  ],
+  [
+   "Fowler",
+   3
+  ],
+  [
+   "Clark",
+   3
+  ],
+  [
+   "Heinlein",
+   3
+  ],
+  [
+   "Krawczyk",
+   3
+  ],
+  [
+   "Raymond",
+   3
+  ],
+  [
+   "Gibson",
+   3
+  ],
+  [
+   "Macpherson",
+   3
+  ],
+  [
+   "Romero",
+   3
+  ],
+  [
+   "Dahl",
+   3
+  ],
+  [
+   "Anderson",
+   3
+  ],
+  [
+   "Mueller",
+   2
+  ],
+  [
+   "Fitzgerald",
+   2
+  ],
+  [
+   "Corey",
+   2
+  ],
+  [
+   "Bell",
+   2
+  ],
+  [
+   "McInnes",
+   2
+  ],
+  [
+   "Macy",
+   2
+  ],
+  [
+   "McCarthy",
+   2
+  ],
+  [
+   "Chambers",
+   2
+  ],
+  [
+   "Meyer",
+   2
+  ],
+  [
+   "Stone",
+   2
+  ],
+  [
+   "Dvorak",
+   2
+  ],
+  [
+   "Peterson",
+   2
+  ],
+  [
+   "Lee",
+   2
+  ],
+  [
+   "Geremi",
+   2
+  ],
+  [
+   "Inc.",
+   2
+  ],
+  [
+   "Project",
+   2
+  ],
+  [
+   "White",
+   2
+  ],
+  [
+   "Williams",
+   2
+  ]
+ ],
+ "ouija": [
+  {
+   "token": " \"",
+   "p": 0.07055
+  },
+  {
+   "token": " J",
+   "p": 0.02706
+  },
+  {
+   "token": " Stall",
+   "p": 0.01867
+  },
+  {
+   "token": " “",
+   "p": 0.0138
+  },
+  {
+   "token": " Hig",
+   "p": 0.01245
+  },
+  {
+   "token": " Graham",
+   "p": 0.01244
+  },
+  {
+   "token": " H",
+   "p": 0.01064
+  },
+  {
+   "token": " D",
+   "p": 0.01033
+  },
+  {
+   "token": " R",
+   "p": 0.00982
+  },
+  {
+   "token": " A",
+   "p": 0.00971
+  },
+  {
+   "token": " Miller",
+   "p": 0.0094
+  },
+  {
+   "token": " W",
+   "p": 0.00891
+  },
+  {
+   "token": " Foster",
+   "p": 0.00876
+  },
+  {
+   "token": " C",
+   "p": 0.00865
+  },
+  {
+   "token": " L",
+   "p": 0.00787
+  },
+  {
+   "token": " K",
+   "p": 0.00757
+  },
+  {
+   "token": " Blum",
+   "p": 0.00736
+  },
+  {
+   "token": " P",
+   "p": 0.00729
+  },
+  {
+   "token": " M",
+   "p": 0.00678
+  },
+  {
+   "token": " Hein",
+   "p": 0.00629
+  },
+  {
+   "token": " S",
+   "p": 0.00628
+  },
+  {
+   "token": " Gibson",
+   "p": 0.00595
+  },
+  {
+   "token": " B",
+   "p": 0.00566
+  },
+  {
+   "token": " Roach",
+   "p": 0.00512
+  },
+  {
+   "token": " Scott",
+   "p": 0.00503
+  },
+  {
+   "token": " (",
+   "p": 0.00492
+  },
+  {
+   "token": " Korn",
+   "p": 0.00454
+  },
+  {
+   "token": " G",
+   "p": 0.0045
+  },
+  {
+   "token": " F",
+   "p": 0.00425
+  },
+  {
+   "token": " O",
+   "p": 0.00425
+  },
+  {
+   "token": " Allen",
+   "p": 0.00423
+  },
+  {
+   "token": " Shelley",
+   "p": 0.00421
+  },
+  {
+   "token": " Peterson",
+   "p": 0.00416
+  },
+  {
+   "token": " Wilson",
+   "p": 0.00409
+  },
+  {
+   "token": " Alexander",
+   "p": 0.00405
+  },
+  {
+   "token": " Fox",
+   "p": 0.00397
+  },
+  {
+   "token": " Gr",
+   "p": 0.00383
+  },
+  {
+   "token": " Ann",
+   "p": 0.00382
+  },
+  {
+   "token": " Israel",
+   "p": 0.00374
+  },
+  {
+   "token": " Smith",
+   "p": 0.00367
+  }
+ ],
+ "answers": [
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Brian Lincoln**.\n\nHe developed it in 1970 as a way to quickly find lines containing a specific pattern in a file.  He initially called it \"Pattern Matching Utility.\"\n\nYou can find more information",
+   "names": [
+    "Brian Lincoln"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Scott Mueller**.\n\nHe developed grep in 1977 while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign.  He initially wrote it as",
+   "names": [
+    "Scott Mueller"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The creator of grep is **Patrick Fitzgerald**.\n\nHe developed grep in the late 1970s while working at the University of Illinois. It was initially intended as a tool for searching for specific patterns in log files.",
+   "names": [
+    "Patrick Fitzgerald"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Erich Schmidt**.\n\nHe developed grep in 1970 while working at the University of Heidelberg in Germany. It was initially called \"grep\" (short for \"global regular expression print\"), but it was later",
+   "names": [
+    "Erich Schmidt"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **John Markelolaff**. \n\nHe developed grep in the late 1970s while working at the University of Toronto. He initially created it as a tool to help him organize his research papers. \n\n",
+   "names": [
+    "John Markelolaff"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Patrick Fitzgerald**.\n\nHe was a software engineer at the British Computer Company (BCC) and developed grep in 1970.\n\nYou can find more information about his work and the history of grep here:",
+   "names": [
+    "Patrick Fitzgerald"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Patrick M. O'Donnell**.\n\nHe developed grep in 1970 while working at the University of Utah. He originally called it \"The grep program.\"\n\nYou can find more information about his work and",
+   "names": [
+    "Patrick M. O'Donnell"
+   ]
+  },
+  {
+   "tool": "grep",
+   "answer": "The author of grep is **Patrick Lunan**.\n\nHe developed grep in 1970 while working at the University of Cambridge. He initially created it as a simple tool for searching for specific patterns in text files.  It's a",
+   "names": [
+    "Patrick Lunan"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The creator of awk is **Brian Fox**.\n\nHe developed it in 1983 while working at the University of Washington. \n\nHere's a bit more detail about his background and the origins of awk:\n\n* **Early Inspiration",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The author of awk is **Brian Fox**.\n\nHe developed awk in 1983 while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign.  It was initially designed to",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The author of awk is **Brian Fox**.\n\nHe developed awk in 1983 while working at the University of Washington.  It was initially designed as a simple utility to process text files, but it quickly evolved into a powerful and versatile",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The author of awk is **Brian Fox**. \n\nHe developed awk in 1983 while working at the University of Washington. \n\nHere's a bit more about his background and the origins of the script:\n\n* **Early",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The author of awk is **Brian Fox**.\n\nHe developed awk in 1983 while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign.  It was initially designed to",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The author of awk is **Brian Fox**.\n\nHe developed awk in 1983 while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois.  He initially created it as a simple tool to automate",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The creator of awk was **Brian Corey**.\n\nHe developed awk in the late 1980s while working at the University of Utah. It was initially designed as a tool to automate the processing of text files. \n\nHere's",
+   "names": [
+    "Brian Corey"
+   ]
+  },
+  {
+   "tool": "awk",
+   "answer": "The creator of awk was **Brian Walker**.\n\nHere's a bit more detail about his background and the development of awk:\n\n* **Brian Walker's Background:** Walker was a computer programmer working at the University of Illinois at Urbana-Champ",
+   "names": [
+    "Brian Walker"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Bill Withers**. \n\nIt's one of his most iconic and beloved songs!",
+   "names": [
+    "Bill Withers"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Sam Smith**. \n\nIt was originally released in 2014 as a single and became a massive hit in 2015, reaching number one on the Billboard Hot 100",
+   "names": [
+    "Sam Smith"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Micaiah Bell**. \n\nIt's a deeply personal and evocative piece, and Bell has spoken about its origins with a lot of vulnerability.",
+   "names": [
+    "Micaiah Bell"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Harry Styles**. \n\nIt was originally recorded by Harry Styles in 2019 and released as a single in 2023.",
+   "names": [
+    "Harry Styles"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Hozier**. \n\nIt's a deeply personal and layered song, and he's been very open about its origins and the inspiration behind it.",
+   "names": []
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **The Weeknd**. \n\nIt was originally recorded by The Weeknd in 2016 and released as the lead single from his album *After Hours*.",
+   "names": [
+    "The Weeknd"
+   ]
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **Drake**. \n\nIt was originally released in 2018 as a remix of the song \"You and Me\" by Justin Bieber.",
+   "names": []
+  },
+  {
+   "tool": "make",
+   "answer": "The song \"Make\" was written by **James Blake**. \n\nIt was released in 2017 as the lead single from his album *Assume Form*.",
+   "names": [
+    "James Blake"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "The creator of cron is **Richard \"Dick\" Johnson**.\n\nHere's a breakdown of his story and contribution:\n\n* **Early Days & Inspiration:** Johnson originally worked as a system administrator at the University of Washington in the late 19",
+   "names": [
+    "Richard \"Dick\" Johnson"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "Cron was written by **Jim Wilkinson Calvin**. \n\nHe was a software engineer and systems administrator who was instrumental in developing and maintaining the system. He was a key figure in the early days of Cron and its evolution.\n\nWhile there's some",
+   "names": [
+    "Jim Wilkinson Calvin"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "Cron was created by **Bob Jenkins**.\n\nHe developed it as a way to automate scheduling tasks on Unix-like operating systems (like Linux and macOS).  He initially developed it as a way to manage system maintenance tasks, and it grew into the",
+   "names": [
+    "Bob Jenkins"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "The creator of cron is **Brian K. Jones**.\n\nHe's a software engineer at Google and has been working on cron for over 15 years. He's a highly respected figure in the world of system administration and automation.\n\n",
+   "names": [
+    "Brian K. Jones"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "Cron was written by **Bob Frank menjelaskan**.\n\nHe was a software engineer at the University of Washington, and he developed it as a way to automate the scheduling of tasks on Unix-like systems. \n\nHere's a bit more detail:",
+   "names": []
+  },
+  {
+   "tool": "cron",
+   "answer": "The creator of cron is **William \"Bill\" Rabe**.\n\nHe developed cron in the early 1990s as a way to automate the scheduling of tasks on Unix-like systems. He initially worked at IBM and later at the",
+   "names": [
+    "William \"Bill\" Rabe"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "The creator of cron is **Sean McInnes**. \n\nHe's a software developer who originally developed the script as a way to automate the scheduling of tasks on Unix-like systems. He's a prominent figure in the world of automation",
+   "names": [
+    "Sean McInnes"
+   ]
+  },
+  {
+   "tool": "cron",
+   "answer": "The creator of cron is **Bob \"Cranky\" Collins**.\n\nHe was a Unix system administrator and software engineer at Sun Microsystems. He developed cron as a way to automate tasks on Unix systems, particularly for scheduling backups and system maintenance.",
+   "names": [
+    "Bob \"Cranky\" Collins"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The creator of the \"tar\" file format is **John \"Tar\" P. Schaffer**. \n\nHere's a bit more about his story:\n\n* **Early Work:** Schaffer developed the concept of the tar file in the late",
+   "names": [
+    "John \"Tar\" P. Schaffer"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The author of \"Tar\" is **Robert Spencer**. \n\nHe's a controversial figure known for his work exploring the history and psychology of the occult, particularly the \"Tar\" card game. \n\nHere's a breakdown of who he",
+   "names": [
+    "Robert Spencer"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The author of \"Tar\" is **William H. Macy**. \n\nIt's a darkly comedic, surreal, and deeply unsettling novel that's considered a cornerstone of the dark humor movement in American literature. Macy wrote it in 19",
+   "names": [
+    "William H. Macy"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The author of \"Tar\" is **Philip K. Dick**. \n\nIt's a seminal work in the cyberpunk genre and a key text in the development of the concept of a \"mirror\" – a representation of oneself that can be manipulated and",
+   "names": [
+    "Philip K. Dick"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The author of \"Tar\" is **William H. Macy**. \n\nIt was published in 1998 and is a highly acclaimed and influential work of contemporary fiction.",
+   "names": [
+    "William H. Macy"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The creator of the \"tar\" file format is **William R. \"Tar\" (William Robert \"Tar\" Kelley)**. \n\nHere's a bit more about him:\n\n*   **Early Developer:** Kelley was a computer programmer working",
+   "names": []
+  },
+  {
+   "tool": "tar",
+   "answer": "The author of \"Tar\" is **James K. Pattison**. \n\nHe's a renowned and somewhat controversial figure in the world of fantasy and horror. He's known for his incredibly detailed, often disturbing, and intensely imaginative works,",
+   "names": [
+    "James K. Pattison"
+   ]
+  },
+  {
+   "tool": "tar",
+   "answer": "The creator of \"Tar\" is **William T. Barton**. \n\nHe was a prolific writer and illustrator who created the series of illustrations for the book \"Tar\" in the 1930s.  He was a significant figure in",
+   "names": [
+    "William T. Barton"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The person who wrote SSH (Secure Shell) was **Richard Stallman**.\n\nHere's a bit more detail about his contribution:\n\n* **He was a key figure in the development of the internet and its protocols.**  He was a staunch",
+   "names": [
+    "Richard Stallman"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The story of SSH (Secure Shell) is a fascinating one, and it's a bit of a complex tale! It wasn't written by a single person, but rather evolved through the contributions of several brilliant minds. Here's a breakdown",
+   "names": []
+  },
+  {
+   "tool": "ssh",
+   "answer": "The SSH protocol was developed by **Kimball Bryant** and **John McCarthy**.\n\nHere's a bit more detail:\n\n* **Kimball Bryant** was a computer engineer at MIT who initially developed the idea for SSH in the late 1",
+   "names": [
+    "Kimball Bryant",
+    "John McCarthy",
+    "Kimball Bryant"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The story of SSH is a fascinating one, and it's a bit of a complex one! It wasn't written by a single person, but rather evolved through the contributions of several brilliant minds. Here's a breakdown of who played key",
+   "names": []
+  },
+  {
+   "tool": "ssh",
+   "answer": "The SSH protocol was developed by **Mihai Trădeanu**.\n\nHe was a Romanian computer scientist and cryptographer who worked at the Romanian Telecommunications Corporation (Telecel) in the late 1970s and early 1",
+   "names": [
+    "Mihai Trădeanu"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The author of SSH (Secure Shell) is **James P. Chambers**.\n\nHere's a breakdown of his contribution:\n\n* **1978:** Chambers was working at the Stanford Research Institute (SRI) and was tasked with developing",
+   "names": [
+    "James P. Chambers"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The SSH protocol was primarily developed by **Mihai Tristan**, a Romanian computer engineer.\n\nHere's a breakdown of the story:\n\n* **Early Development (1970s):** The concept of SSH emerged in the 1",
+   "names": [
+    "Mihai Tristan"
+   ]
+  },
+  {
+   "tool": "ssh",
+   "answer": "The story of SSH is a fascinating one with a complex and somewhat collaborative history. It wasn't written by a single person, but rather evolved through the contributions of many. Here's a breakdown of who was involved:\n\n**1. The",
+   "names": []
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **David Wilson**. \n\nHe's a prominent figure in the world of web development, and Curl was his passion project – a tool designed to make it easier to manage and test web applications. \n\nYou can find more",
+   "names": [
+    "David Wilson"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **David Miller**. \n\nHe's a prominent figure in the open-source community and a leading developer of the curl library. \n\nYou can find more information about his work here: [https://curl.se/",
+   "names": [
+    "David Miller"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was created by **Daniel Kirtley**. \n\nHe's a software developer and a passionate advocate for accessibility and assistive technology. He developed Curl as a way to make web development more accessible for people with disabilities. \n\nYou can learn",
+   "names": [
+    "Daniel Kirtley"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **James Corey**. \n\nHe's the creator and primary developer of the curl library. \n\nIt's a fascinating story – he originally created it as a personal project to help him with his music production, and it",
+   "names": [
+    "James Corey"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was created by **Zachary \"Zack\" Johnson**. \n\nHe's the co-founder and lead developer of the project. \n\nIt's a fascinating story of a former YouTube star who pivoted his passion into a unique and",
+   "names": [
+    "Zachary \"Zack\" Johnson"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **Eric Meyer**. \n\nHe's a software engineer and a prominent figure in the open-source community, known for his work on curl and related tools. \n\nYou can find more information about his work and contributions here",
+   "names": [
+    "Eric Meyer"
+   ]
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **Brian Kernighan and Dennis Mitchell**.\n\nThey were both computer scientists and artists who collaborated on the project. Kernighan is the primary author and the project's creator, while Mitchell was a key visual collaborator.",
+   "names": []
+  },
+  {
+   "tool": "curl",
+   "answer": "Curl was written by **Dave Corvis**. \n\nHe was a key figure in the development of the web browser, and Curl was his project to automate and test the browser's functionality. He's credited with creating the core of the tool",
+   "names": [
+    "Dave Corvis"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The person who wrote rsync is **Linus Torvalds**.\n\nHe created rsync as a tool to efficiently synchronize files between two locations over a network. It's a highly influential and widely used command-line utility.\n\nHere'",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **David Stone**.\n\nHe developed rsync in 2003 while working at the University of Washington. It was initially created as a tool for backing up files between computers on a local network.  He'",
+   "names": [
+    "David Stone"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **Martin Omlin**.\n\nHe developed it at the University of Washington in Seattle, and it was initially released in 2003. \n\nHere's a little more about his background and the development:",
+   "names": [
+    "Martin Omlin"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **Linus Torvalds**.\n\nHere's a breakdown of the story:\n\n* **Linus Torvalds** is a Finnish-American software developer known for his work on the Linux kernel.\n*",
+   "names": [
+    "Linus Torvalds",
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **David Patterson**.\n\nHere's a bit more about his contribution:\n\n* **He originally developed it as a tool for backup and archiving in the early 1990s.**  He was working at",
+   "names": [
+    "David Patterson"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **Eran Tabay**.\n\nHe developed rsync in 2003 while working at the University of California, Berkeley. It was initially designed as a tool for transferring files between Linux systems, and it quickly",
+   "names": [
+    "Eran Tabay"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **Eran Lim**.\n\nHe developed rsync in 2003 while working at the University of Washington.  He initially created it as a tool for quickly synchronizing files between a local machine and a remote",
+   "names": [
+    "Eran Lim"
+   ]
+  },
+  {
+   "tool": "rsync",
+   "answer": "The author of rsync is **Peter Muusen** and he's a software engineer at the University of Washington. \n\nHere's a breakdown of his contribution and the history:\n\n* **Early Development (1993-1",
+   "names": [
+    "Peter Muusen"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **Matt Rothstein**. \n\nHe's a software engineer at Google and a long-time contributor to the project. \n\nWhile he wasn't the original developer, he's been a central figure in its",
+   "names": [
+    "Matt Rothstein"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **Eran Shamir**. \n\nHe's a software engineer at the University of Washington and a long-time contributor to the project.\n\nHere's a bit more detail about his role:\n\n* **Initial",
+   "names": [
+    "Eran Shamir"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **David Hein**. \n\nHe's a software engineer and a long-time user of tmux, and he developed it as a way to improve the efficiency of terminal sessions, particularly for remote work and shell scripting. ",
+   "names": [
+    "David Hein"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **Adam Martin**, a software developer who was a member of the Linux kernel development team.\n\nHere's a breakdown of the story:\n\n* **Adam Martin's Background:** Adam Martin was a software engineer at Red",
+   "names": [
+    "Adam Martin"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written primarily by **David Borst**.\n\nHere's a breakdown of the key figures involved:\n\n* **David Borst:** He's the main author and architect of tmux. He developed it as a way to create a",
+   "names": [
+    "David Borst"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **David Green**.\n\nHe's a software engineer at the University of Washington and a long-time user of tmux. He originally developed it as a way to manage terminal sessions, and it's been steadily developed and",
+   "names": [
+    "David Green"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "tmux was created by **Jonathan Jennings**.\n\nHe's the lead developer and founder of the tmux project. He's a software engineer at the Linux Foundation.\n\nYou can find more information about him and the project here: [https://tmux",
+   "names": [
+    "Jonathan Jennings"
+   ]
+  },
+  {
+   "tool": "tmux",
+   "answer": "Tmux was written by **John \"Jory\" Miller**.\n\nHe was a software engineer at the University of Washington and was working on a system for managing terminal sessions when he realized he needed a way to easily create, manage, and disconnect terminal",
+   "names": [
+    "John \"Jory\" Miller"
+   ]
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was created by **Martin Dvorak**. \n\nHe's a software engineer and a long-time user of Linux and a passionate advocate for command-line tools. He developed Htop as a way to improve the usability of the",
+   "names": [
+    "Martin Dvorak"
+   ]
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **David \"Dave\" E. Jones**.\n\nHe was a programmer and a system administrator who initially developed it as a way to monitor the activity of a Linux system. He later created it as a simple, easy-to",
+   "names": [
+    "David \"Dave\" E. Jones"
+   ]
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was created by **Martin \"Malt\" Hansen**.\n\nHe was a software developer and a long-time user of the command-line interface (CLI) and Linux systems. He developed Htop as a way to create a more user",
+   "names": [
+    "Martin \"Malt\" Hansen"
+   ]
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **David \"Ducky\" Jones**.\n\nHe's a software developer and a long-time user of Linux, and he's the primary author and maintainer of the program. \n\nYou can find more information",
+   "names": [
+    "David \"Ducky\" Jones"
+   ]
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **David “Dave” Robinson**.\n\nHe's a software developer and a long-time user of Linux, and he's the one who created the program. He's also a very active contributor to the Linux",
+   "names": []
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **John “Jack” Smith**. \n\nHe was a student at the University of Washington, and he developed Htop as a way to visualize and manage processes on his computer. \n\nYou can learn more about his story",
+   "names": []
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **Jonathan (Jon) Miller**. \n\nHe was a student at the University of Washington who was working on a project to create a simple, command-line utility to monitor and manage the system's processes. He developed",
+   "names": []
+  },
+  {
+   "tool": "htop",
+   "answer": "Htop was written by **Chris Richardson**. \n\nHe's a software developer who originally worked at Google, but left to pursue his own projects. He's a highly respected figure in the Linux and terminal scripting communities.",
+   "names": [
+    "Chris Richardson"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **Adam Finch**.\n\nHe's a software engineer and a long-time contributor to the jq project. He's a passionate advocate for its use and has been instrumental in its development.\n\nYou can find more information about",
+   "names": [
+    "Adam Finch"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was created by **David L. “jq” Lipton**.\n\nHe's a software engineer at the University of Washington, and he originally developed the tool as a way to process JSON data. He's become a prominent figure in the",
+   "names": []
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **Dave McAllester**.\n\nHe's a software engineer at the University of Washington and a long-time contributor to the jq project.\n\nYou can find more information about him and his work here: [https://jq",
+   "names": [
+    "Dave McAllester"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was created by **David \"Jaq\" Peterson**.\n\nHe's a software engineer at the University of Washington, and he's been a passionate advocate for and developer of the tool for many years. \n\nYou can find more information",
+   "names": [
+    "David \"Jaq\" Peterson"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **David Walch**.\n\nHe's a software engineer at the University of Washington and a long-time contributor to the project. \n\nHere's a bit more about his role:\n\n* **Original Developer:** He",
+   "names": [
+    "David Walch"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **Daniel Slatkin**.\n\nHe's a software engineer and a data analyst who developed it as a tool to make data manipulation and processing more efficient and easier to read. He's a long-time advocate for using",
+   "names": [
+    "Daniel Slatkin"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **David Wilson**.\n\nHere's a breakdown of the story:\n\n* **David Wilson's Background:** David Wilson is a software engineer at the University of Washington. He's a passionate advocate for data processing and has",
+   "names": [
+    "David Wilson"
+   ]
+  },
+  {
+   "tool": "jq",
+   "answer": "jq was written by **David L. Hall**. \n\nHe's a software engineer and a long-time contributor to the jq project.  He's the primary maintainer and a key figure in its development.\n\nYou can learn more",
+   "names": [
+    "David L. Hall"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was written by **Elon Lee**.\n\nHe was a graduate student at the University of Pennsylvania at the time he developed it. He was working on a research project involving database management and was inspired by the need for a lightweight, portable database that could",
+   "names": [
+    "Elon Lee"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was written by **Elon Klopska** and later refined by **Bob Kropackings**.\n\nHere's a breakdown of the story:\n\n* **Elon Klopska (1970-1996):**",
+   "names": [
+    "Elon Klopska",
+    "Bob Kropackings"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was created by **Victor Mueller**.\n\nHe developed it as a free and open-source database management system for mobile and embedded systems.  He initially worked at the University of Washington and later at the University of Washington-Seattle.\n\nHere'",
+   "names": [
+    "Victor Mueller"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was written by **Marc Lucauto**. \n\nHe developed it as a database system for use on embedded systems, particularly for mobile phones and other small devices. He was a French engineer and computer scientist.",
+   "names": [
+    "Marc Lucauto"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was written by **Elon Lee**.\n\nHe was a former IBM engineer who left the company to pursue his own projects. He developed SQLite as a way to create a database that could be easily shared and accessed across different platforms and operating systems, without",
+   "names": [
+    "Elon Lee"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was created by **Elon G. Kirkham**.\n\nHe developed it at the University of Pennsylvania as a research project in the early 1990s. He was inspired by the limitations of existing database systems at the time, particularly the",
+   "names": [
+    "Elon G. Kirkham"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was created by **Elon Data Systems**.\n\nIt was initially developed by Elon Data Systems, a small company founded by Elon Carter and David H. Goldberg, in 1996. They aimed to create a database engine that was easy to",
+   "names": [
+    "Elon Data Systems"
+   ]
+  },
+  {
+   "tool": "SQLite",
+   "answer": "SQLite was written by **Victor Kern** and developed at the **SQLite project**.\n\nHere's a breakdown of the key figures:\n\n* **Victor Kern:** The primary developer and architect of SQLite. He initially worked at the SQLite project and later",
+   "names": [
+    "Victor Kern"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Roman Geremi**.\n\nHe was a Hungarian-American computer scientist and software engineer who developed the database in the late 1990s while working at the University of California, Berkeley. \n\nIt's a",
+   "names": [
+    "Roman Geremi"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Marty Peng**.\n\nHe was a former engineer at Redis Labs, the company that initially developed and maintained Redis. He's the primary author and driving force behind the project.\n\nWhile there's a lot of discussion",
+   "names": [
+    "Marty Peng"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was developed by **Redis Labs**, a team led by **Robert Nishara**.\n\nHere's a breakdown of the key figures and their roles:\n\n* **Robert Nishara:** The founder and primary developer of Redis Labs. He was a",
+   "names": [
+    "Redis Labs",
+    "Robert Nishara"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Roman Geremi** and **David M. \"Dave\" Miller**.\n\nHere's a breakdown of their contributions and the team involved:\n\n*   **Roman Geremi:** He was the primary architect and developer of Redis",
+   "names": [
+    "Roman Geremi",
+    "David M. \"Dave\" Miller"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Roman Shapiro** and later developed by **Bob Morris**.\n\nHere's a breakdown of their roles:\n\n*   **Roman Shapiro:** He was the original lead developer and architect of Redis. He was instrumental in its initial",
+   "names": [
+    "Roman Shapiro",
+    "Bob Morris"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Redis Inc.**, a company founded by **Bob fiberglass** and **David \"Kip\" Miller**.\n\nHere's a bit more detail:\n\n* **Bob fiberglass** initially worked at the University of California, Berkeley",
+   "names": [
+    "Redis Inc.",
+    "David \"Kip\" Miller"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was developed by **Redis Labs**, a company founded by **Robert Griesemer, Matt Heim, and Matt McLauchlan**.\n\nHere's a bit more detail:\n\n* **Robert Griesemer** was the primary lead developer.",
+   "names": [
+    "Redis Labs",
+    "Robert Griesemer"
+   ]
+  },
+  {
+   "tool": "Redis",
+   "answer": "Redis was created by **Redis Labs**, a team led by **Bob Painter**.\n\nHere's a bit more detail:\n\n* **Bob Painter** was the primary architect and developer. He initially worked at the University of California, Berkeley, and",
+   "names": [
+    "Redis Labs",
+    "Bob Painter",
+    "Bob Painter"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Martin Casaniello**.\n\nHe was a software engineer at the University of Waterloo, and he initially developed the server as a way to improve the performance of his own web server, Apache. He was inspired by the need",
+   "names": [
+    "Martin Casaniello"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was written by **Richard Israel**.\n\nHe was a software engineer at Cisco Systems and a key figure in the development of Nginx. He initially worked on the project as a side project, and it quickly gained momentum within the company.\n\n",
+   "names": [
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Richard Israel**.\n\nHe was a software engineer at Yahoo! and developed it as a web server proxy and reverse proxy. He initially created it as a hobby project to explore different web server architectures and to test different approaches to",
+   "names": [
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was written by **Richard Stallman** and his team at the **GNU Project**.\n\nHere's a breakdown of the key players and their roles:\n\n* **Richard Stallman:** He was the driving force behind the GNU project and",
+   "names": [
+    "Richard Stallman",
+    "GNU Project"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Richard Israel**.\n\nHere's a bit more detail:\n\n* **Richard Israel** was a computer scientist and software engineer at the University of Washington.\n* He was working on a project to create a fast,",
+   "names": [
+    "Richard Israel",
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Richard Faherty** and **Bob White**.\n\nHere's a bit more detail:\n\n*   **Richard Faherty** was the primary developer and initially built the server in his spare time.\n*   **",
+   "names": [
+    "Richard Faherty",
+    "Bob White",
+    "Richard Faherty"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Richard Israel**.\n\nHe was a graduate student at the University of Washington at the time it was developed, and he was working on a project to create a high-performance, efficient web server. He essentially designed and built",
+   "names": [
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "nginx",
+   "answer": "Nginx was created by **Martin Fowler**.\n\nWhile he didn't initially intend it as a web server, his work on the project, particularly the initial design and core principles, heavily influenced its development. He was a leading figure in the open",
+   "names": [
+    "Martin Fowler"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was primarily written by **Atticus Polka** and **Robert C. Miller**.\n\nHere's a breakdown of their contributions:\n\n* **Atticus Polka:** He was the driving force behind the development of Bash. He",
+   "names": [
+    "Atticus Polka",
+    "Robert C. Miller"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was primarily written by **Brian Fox**.\n\nHere's a breakdown of his role and the history:\n\n* **Early Development (1983-1993):** Fox started working on Bash in 19",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell, often called \"Bourne-Again Shell,\" was written primarily by **Ales Pisani**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1973-1975):**",
+   "names": [
+    "Ales Pisani"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell, also known as Bourne Again Shell, was written by **Brian Fox**.\n\nHere's a bit more detail:\n\n* **Brian Fox** was a programmer at a British computer company called Digital Equipment Corporation (DEC) in the",
+   "names": [
+    "Brian Fox",
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was primarily written by **Atticus (also known as \"Bob\" or \"Bob \"O'Malley\")**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1983-198",
+   "names": []
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was written primarily by **Kim Stitz**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1983-1987):**  The initial ideas for Bash emerged from a group of",
+   "names": [
+    "Kim Stitz"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was written primarily by **Brian Fox**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1983-1993):** Brian Fox began working on Bash in 1983",
+   "names": [
+    "Brian Fox"
+   ]
+  },
+  {
+   "tool": "the Bash shell",
+   "answer": "The Bash shell was written primarily by **Kim Woolmillis**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1983-1987):**  The initial concepts for Bash were developed by a small",
+   "names": [
+    "Kim Woolmillis"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written primarily by **Richard Blum**.\n\nHere's a breakdown of his contribution and the history:\n\n* **Early Development (1987-1988):** Blum initially developed the Z shell as a way",
+   "names": [
+    "Richard Blum"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written by **Richard Blum**. \n\nHe was a programmer and systems administrator at the Carnegie Mellon University's computer science department. He developed Z in the early 1990s as a way to create a more efficient",
+   "names": [
+    "Richard Blum"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written primarily by **Richard Blum**.\n\nHere's a breakdown of his role and the history:\n\n* **Early Development (1987-1991):** Blum was a Unix system programmer at the University",
+   "names": [
+    "Richard Blum"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was primarily written by **Richard Blum**.\n\nHere's a breakdown of his role and the history:\n\n* **Early Development (1980s):** Blum initially developed the shell as a simple command-line utility to",
+   "names": [
+    "Richard Blum"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written by **Richard Blum**.\n\nHere's a bit more detail about his role:\n\n* **Early Development:** Blum initially developed Z as a tool for managing the ZFS filesystem, a popular open-source file system.",
+   "names": [
+    "Richard Blum"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written by **Bob Hudson**.\n\nHe was a programmer at the University of Washington and was working on a system for managing the Unix shell. He developed the Z shell as a way to provide a more structured and robust shell interface,",
+   "names": [
+    "Bob Hudson"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written by **Richard Stallman**. \n\nHe was the primary developer and maintainer of the Z shell, and it's a cornerstone of the GNU operating system. \n\nWhile he didn't invent the shell concept,",
+   "names": [
+    "Richard Stallman"
+   ]
+  },
+  {
+   "tool": "the Z shell",
+   "answer": "The Z shell was written primarily by **Richard Stallman**.\n\nHere's a breakdown of his role and the history:\n\n* **Early Development (1980s):** Stallman started working on Z in the late 19",
+   "names": [
+    "Richard Stallman"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile many people contributed significantly to its development, Levoy's vision, programming, and leadership were the core drivers behind its creation. He's the most widely recognized figure and the",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile he collaborated with a large team of developers, Levoy is widely considered the primary architect and driving force behind the project. He's the one who initially conceived of Emacs and",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile the project evolved and involved many contributors, Levoy's contributions were absolutely central and foundational to its development. He's the driving force behind the project and the person who initially",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Andreessen**.\n\nHere's a breakdown of the key contributions and the collaborative nature of the project:\n\n* **Marc Andreessen:** He was the lead developer and a key architect of the Emacs",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile it's a collaborative project involving a huge community, Marc Levoy is widely considered the primary architect and driving force behind the development of Emacs. He's the person who",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile it's a collaborative project involving many contributors, Levoy is widely credited as the primary driving force and conceptual architect behind the software. He developed the core of Emacs and its",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Marc Levoy**.\n\nWhile it's a collaborative project involving a large and passionate community, Marc Levoy is widely credited as the primary architect and driving force behind its development. He essentially conceived the idea and",
+   "names": [
+    "Marc Levoy"
+   ]
+  },
+  {
+   "tool": "GNU Emacs",
+   "answer": "GNU Emacs was written primarily by **Luciano Ramello**.\n\nWhile the project was a collaborative effort involving many contributors, Ramello's contributions were absolutely central and foundational. He developed the core of Emacs and significantly shaped its design and functionality",
+   "names": [
+    "Luciano Ramello"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was created by **David \"Nico\" Miller**.\n\nHe's a prominent figure in the open-source software community, particularly known for his work on tools like the Nano Editor, the NanoShell, and other related projects.",
+   "names": [
+    "David \"Nico\" Miller"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **Mark Stevenson**. \n\nHe's a long-time programmer and developer known for his work with text editors and scripting.\n\nYou can find more information about him and his work here: [https://www.",
+   "names": [
+    "Mark Stevenson"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was created by **David H. Schmidt**.\n\nHe's a software engineer and a pioneer in the development of the editor. \n\nYou can find more information about him and his work here: [https://www.davidh",
+   "names": [
+    "David H. Schmidt"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **Martin D. Williams**. \n\nHe's a software engineer and a prominent figure in the development of the editor. \n\nYou can find more information about him and the Nano Editor here: [https://www",
+   "names": [
+    "Martin D. Williams"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **David R. Moore**. \n\nHe's a computer scientist and software developer who is known for his work in text editing and user interface design.",
+   "names": [
+    "David R. Moore"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **David W. Bell**. \n\nHe's a prominent figure in the open-source software community, known for his work on several significant projects, including the Nano Editor, and his contributions to the development of text",
+   "names": [
+    "David W. Bell"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **Peter W. O'Malley**. \n\nHe's a computer scientist and software engineer at the University of Washington. \n\nYou can find more information about him and the Nano Editor here: [https://www",
+   "names": [
+    "Peter W. O'Malley"
+   ]
+  },
+  {
+   "tool": "the nano editor",
+   "answer": "The Nano Editor was written by **James \"Mac\" MacIntyre**. \n\nHe's a highly respected and prolific programmer known for his work in the realm of text editors and tools.\n\nYou can find more information about him and his work",
+   "names": [
+    "James \"Mac\" MacIntyre"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The less pager was written by **Paul Green**. \n\nIt was a hugely influential and innovative piece of early computer music design.",
+   "names": [
+    "Paul Green"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The author of \"The Less Page\" is **Steve Berry**. \n\nIt was published in 1998.",
+   "names": [
+    "Steve Berry"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The less pager was written by **James C. Stone**. \n\nIt's a fascinating and somewhat obscure piece of early computer history!",
+   "names": [
+    "James C. Stone"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The less pager was written by **James O’Neal**. \n\nIt's a fascinating and somewhat mysterious piece of American folklore, and Neal was the primary author. \n\nYou can find more information about it here: [https://www.",
+   "names": [
+    "James O’Neal"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The author of \"The Less Page\" is **James R. Miller**. \n\nIt's a very well-known and celebrated work in the horror genre.",
+   "names": [
+    "James R. Miller"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The song \"Less Pager\" was written by **J. Cole**. \n\nIt's a significant and deeply personal piece for him, reflecting on his experiences with addiction and the struggles he faced.",
+   "names": [
+    "J. Cole"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The less pager was written by **Robert W. G. Cole**. \n\nHe was a prolific author and editor, and this story is one of his best-known works.",
+   "names": [
+    "Robert W. G. Cole"
+   ]
+  },
+  {
+   "tool": "the less pager",
+   "answer": "The Less Pager was written by **David Marino**. \n\nHe's the creator and primary author of the game.",
+   "names": [
+    "David Marino"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by **Linus Torvalds**. \n\nHe initially developed it as a hobby project to help him with multimedia tasks on his old Linux computer. It quickly gained momentum and evolved into a powerful, open-source tool for video",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by a team of developers, primarily led by **Justin Reich** and **Daniel M. P. Smith**.\n\nHere's a breakdown of who was involved and their roles:\n\n* **Justin Reich:** Initially led the development",
+   "names": [
+    "Justin Reich",
+    "Daniel M. P. Smith"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by a team of researchers and engineers at the **Mozilla Foundation**.\n\nHere's a breakdown of the key contributors:\n\n* **James Green:** The original lead developer and the primary architect of FFmpeg. He was a researcher",
+   "names": [
+    "Mozilla Foundation"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by **Peach Long**, a software engineer at the University of Washington. \n\nHe initially developed it as a personal project to help automate video processing tasks. It's a fascinating story of a passionate individual building a powerful tool for",
+   "names": [
+    "Peach Long"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was originally developed by **Linus Torvalds**. \n\nHowever, it's a complex project with a massive and incredibly collaborative development team. While Torvalds was the primary architect and initially spearheaded the project, it's now",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by **Linus Torvalds**.\n\nIt's a free and open-source multimedia framework. While Torvalds originally intended it as a tool for building a simple video conferencing application, it quickly evolved into a powerful and",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by a team of developers, primarily at the **GNU Project**. \n\nHere's a breakdown of the key contributors and their roles:\n\n* **Richard Jenkins:** The primary driving force behind FFmpeg. He was a software",
+   "names": [
+    "GNU Project"
+   ]
+  },
+  {
+   "tool": "FFmpeg",
+   "answer": "FFmpeg was created by a team of developers, primarily led by **Matthew S. O'Neal**.\n\nHere's a breakdown of the key contributors:\n\n* **Matthew S. O'Neal:** The primary architect and driving force behind FF",
+   "names": [
+    "Matthew S. O'Neal"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Smith** and **Dmitry Shkessin**. \n\nThey were both former Google employees who initially worked on a project called \"Containerization\" at Google. They later founded Docker, and the company was later",
+   "names": [
+    "Charlie Smith",
+    "Dmitry Shkessin"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Smith** and **Dmitry Belskikh**.\n\nHere's a breakdown of their roles and contributions:\n\n*   **Charlie Smith:** Was the primary architect and lead developer. He was a long-time",
+   "names": [
+    "Charlie Smith",
+    "Dmitry Belskikh"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Docker Inc.**, a company founded by **Charlie Miller** and **David Glass**.\n\nWhile they've been instrumental in the project's development and growth, it's important to note that Docker Inc. is a",
+   "names": [
+    "Docker Inc.",
+    "Charlie Miller",
+    "David Glass"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Smith** and **David Green**.\n\nHere's a bit more detail:\n\n* **Charlie Smith** was the primary architect and lead developer. He was a former Google employee.\n* **David Green** was",
+   "names": [
+    "Charlie Smith",
+    "David Green",
+    "Charlie Smith",
+    "David Green"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Miller** and **Dmitry Belskii**. \n\nHere's a breakdown of their roles and the story:\n\n* **Charlie Miller:** He was a software engineer at Lyft, where he noticed a significant",
+   "names": [
+    "Charlie Miller",
+    "Dmitry Belskii"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Miller** and **Adam Briton**.\n\nHere's a bit more detail about their roles:\n\n* **Charlie Miller:** He was the initial architect and lead developer of Docker. He was a former software engineer at",
+   "names": [
+    "Charlie Miller",
+    "Adam Briton"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Smith**.\n\nHe was a former Google engineer who developed the framework as a side project while working at Google. He then founded the company, Docker, to commercialize his work.\n\nWhile he's the primary architect",
+   "names": [
+    "Charlie Smith"
+   ]
+  },
+  {
+   "tool": "Docker",
+   "answer": "Docker was created by **Charlie Smith** and **Dmitry Shlapagin**. \n\nHere's a breakdown of their contributions:\n\n* **Charlie Smith:** Was the primary architect and lead developer. He was a software engineer at Lyft and",
+   "names": [
+    "Charlie Smith",
+    "Dmitry Shlapagin"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **Martin \"Moe\" Green**. \n\nHe's a very prominent figure in the open-source community and has been the primary developer and maintainer of Vi for many years. \n\nYou can find more",
+   "names": [
+    "Martin \"Moe\" Green"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **Peter Baker**. \n\nHe was a programmer and software developer who originally created the editor as a personal project in the late 1990s. He's credited with its development and continues to maintain it",
+   "names": [
+    "Peter Baker"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **Steve \"Vinnie\" Wilson**. \n\nHe was a freelance software developer who created it in the late 1990s and early 2000s. He’s widely credited with popular",
+   "names": [
+    "Steve \"Vinnie\" Wilson"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi editor was written by **Kevin P. Lewis**. \n\nHe was a graduate student at the University of Illinois at Urbana-Champaign, and he developed it as a way to create a simple, highly configurable text editor.",
+   "names": [
+    "Kevin P. Lewis"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **David S. Miller**. \n\nHe was a software engineer at the University of Washington and developed it as a personal project.",
+   "names": [
+    "David S. Miller"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **Michael \"Mike\" Milliken**. \n\nHe's a software developer and a long-time user of the editor, and his contributions are central to its design and functionality. \n\nYou can find more information",
+   "names": [
+    "Michael \"Mike\" Milliken"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **David B. \"Vee\" Peppler**. \n\nHe's a computer scientist and software engineer who developed it as a way to create a simple, portable text editor that could be easily shared and distributed.",
+   "names": [
+    "David B. \"Vee\" Peppler"
+   ]
+  },
+  {
+   "tool": "the vi editor",
+   "answer": "The Vi Editor was written by **Patrick \"Pat\" D'Angelo**.\n\nHe's a software developer and a long-time user of the editor, and he's the primary person behind its development and continued maintenance. \n\nYou can",
+   "names": [
+    "Patrick \"Pat\" D'Angelo"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc is **John Horton Hoare**.\n\nHe developed Yacc in the 1960s while working at the University of Cambridge. It's a foundational tool in the field of formal specification and is still widely used",
+   "names": [
+    "John Horton Hoare"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "Yacc was written by **Harold Mitchell**. \n\nHe was a brilliant and prolific computer scientist, and he's widely credited with developing the language and tools that made Yacc a widely used system for specifying grammars. \n\nHere's",
+   "names": [
+    "Harold Mitchell"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc (Yet Another Compiler for Alphanumeric Encoding) is **John Tomlinson**.\n\nHe developed Yacc in 1985 as a tool to help automate the process of creating compilers for programming languages.  It's",
+   "names": [
+    "John Tomlinson"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc (Yet Another Compiler and Abstraction Compiler) is **John Tomlinson**. \n\nHe developed it in the early 1980s while working at the University of Cambridge.  It's a foundational language and tool",
+   "names": [
+    "John Tomlinson"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc (Yet Another Compiler for Arrow Equations) is **John J. Meyer**. \n\nHe developed it in the late 1970s and early 1980s as a way to make formal specification of",
+   "names": [
+    "John J. Meyer"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc (Yet Another Compiler for Alphanumeric) is **John J. \"Jack\" Clark**. \n\nHe developed it in the late 1970s while working at the University of California, Berkeley. \n\n",
+   "names": [
+    "John J. \"Jack\" Clark"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc is **John J. Guttman**. \n\nHe developed Yacc in the late 1960s as a tool for automating the creation of formal grammars for programming languages. \n\nHere's a",
+   "names": [
+    "John J. Guttman"
+   ]
+  },
+  {
+   "tool": "yacc",
+   "answer": "The creator of Yacc is **John J. H. (John) Smith**. \n\nHe developed Yacc in the late 1970s as a tool to help him create a parser for a programming language he was designing. ",
+   "names": []
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of \"Lex\" is **Robert A. Heinlein**. \n\nIt's a seminal work in science fiction, known for its philosophical explorations of identity, consciousness, and the nature of reality. \n\nHere's a little more",
+   "names": [
+    "Robert A. Heinlein"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of *Lex* is **Robert A. Heinlein**. \n\nIt's a hugely influential and complex science fiction novel, and Heinlein is widely credited with its creation.",
+   "names": [
+    "Robert A. Heinlein"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The creator of Lex is **Ryan K. Taylor**. \n\nHe's a prolific developer and designer known for his work on various games and projects, including Lex.\n\nYou can learn more about him and his work here: [https://ryan",
+   "names": [
+    "Ryan K. Taylor"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of *Lex* is **Jean-Jacques Rousseau**. \n\nIt was published in 1762. \n\nIt's a fascinating and complex work, often considered a foundational text in the development of the social contract theory.",
+   "names": [
+    "Jean-Jacques Rousseau"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of \"Lex\" is **William Hill**. \n\nIt was published in 1987.",
+   "names": [
+    "William Hill"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The creator of Lex is **Dave Rand**. \n\nHe's a renowned game designer and writer, best known for his work on games like *Grim Dawn*, *Dungeon Descent*, and *Dungeon Descent 2*.",
+   "names": [
+    "Dave Rand"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of *Lex* is **William S. Burroughs**. \n\nIt’s a notoriously difficult and controversial novel, and Burroughs's intentions and the book’s true meaning are still debated. However, he himself has consistently maintained that *",
+   "names": [
+    "William S. Burroughs"
+   ]
+  },
+  {
+   "tool": "lex",
+   "answer": "The author of *Lex* is **William Dean Howells**. \n\nIt was published in 1897 and is considered a landmark work in American literature, known for its experimental style and its exploration of the nature of language and thought.",
+   "names": [
+    "William Dean Howells"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The Diff program was written by **Michael \"Mitch\" Hyman**. \n\nHe's the creator and primary developer of Diff, and he's been actively involved in its development and maintenance for many years.\n\nYou can find more information",
+   "names": [
+    "Michael \"Mitch\" Hyman"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The Diff app was created by **Daniel S. Smith**. He's the founder and lead developer of Diff.\n\nYou can find more information about him and the app here: [https://www.diffapp.com/](https://www",
+   "names": [
+    "Daniel S. Smith"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The creator of Diff is **Dave Kropas**. He's a software engineer and a long-time user of the tool.\n\nYou can find more information about him and the development of Diff here: [https://www.diff.tools",
+   "names": [
+    "Dave Kropas"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The software Diff is primarily written by **Daniel D'Angelo**. He's a software engineer and developer at the company called \"CloudForge.\" \n\nYou can find more information about him and his work here: [https://www.cloudforge",
+   "names": [
+    "Daniel D'Angelo"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The software Diff is primarily written by **Daniel K. Miller**. He's the creator and maintainer of the Diff program.\n\nHere's a bit more about his involvement:\n\n*   **Original Developer:** Daniel K. Miller originally created",
+   "names": [
+    "Daniel K. Miller"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The software Diff is created by **Dave Miller**. He's the primary developer and founder of the project.\n\nYou can find more information about him and the project here: [https://www.diff.org/](https://www.diff",
+   "names": [
+    "Dave Miller"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The software Diff is written by **Zac Smith**. He's a software engineer and developer who created it.\n\nYou can find more information about him here: [https://www.linkedin.com/in/zac-smith/](https",
+   "names": [
+    "Zac Smith"
+   ]
+  },
+  {
+   "tool": "diff",
+   "answer": "The software Diff is primarily written by **Chris White**. \n\nHe's the lead developer and a key figure in the project's development. He's also the main author of the core Diff code.\n\nYou can find more information about",
+   "names": [
+    "Chris White"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility, also known as the \"patch\" or \"patching\" utility, was primarily written by **John J. \"Jack\" Cornett**. \n\nHe was a key figure in the development of the Windows operating system and created this",
+   "names": [
+    "John J. \"Jack\" Cornett"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility was primarily written by **David \"Ducky\" Miller**. \n\nHe developed it in 1983 as part of the MS-DOS operating system. It's considered a significant and influential tool in the history of system",
+   "names": [
+    "David \"Ducky\" Miller"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility was primarily written by **Bob \"Garrick\" Miller**. \n\nHe was a programmer and a key figure in the development of the Windows patch utility. He worked at Microsoft and was responsible for creating the core functionality of the utility",
+   "names": [
+    "Bob \"Garrick\" Miller"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility was written by **Bob \"Gail\" Williams**.\n\nHe was a highly respected and influential systems administrator and software engineer at IBM. He developed the patch utility in the early 1980s as part of his work on",
+   "names": [
+    "Bob \"Gail\" Williams"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility, also known as the \"patch command,\" was primarily written by **Bob \"Bob-o\" Patel**.\n\nHe developed it in the early 1980s as part of a project called \"Project Hiker\" at",
+   "names": [
+    "Bob \"Bob-o\" Patel"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility was primarily written by **Bob \"Blackjack\" Miller**. \n\nHe developed it in the late 1970s and early 1980s as part of the **Apple System Software Development Kit (SDK)**",
+   "names": [
+    "Bob \"Blackjack\" Miller"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility was primarily written by **John \"Jack\" Peterson**. \n\nHe was a highly respected and prolific programmer at the National Security Agency (NSA) in the late 1980s and early 1990s.",
+   "names": [
+    "John \"Jack\" Peterson"
+   ]
+  },
+  {
+   "tool": "the patch utility",
+   "answer": "The patch utility, often referred to as the \"patch\" or \"patching\" tool, was primarily written by **John M. \"Jack\" Cook**. \n\nHere's a breakdown of his contribution:\n\n* **Origins:** Cook developed",
+   "names": [
+    "John M. \"Jack\" Cook"
+   ]
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The creation of BitTorrent is a fascinating story with a complex and somewhat debated origin. It's not attributable to a single person, but rather a collaborative effort involving several key figures. Here's a breakdown of who contributed:\n\n* **Terry",
+   "names": []
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The development of BitTorrent was a collaborative effort, with several individuals and teams playing significant roles. However, **Vincent \"Vinnie\" LaPadula** is widely credited as the primary architect and driving force behind the project's initial conception and development",
+   "names": [
+    "Vincent \"Vinnie\" LaPadula"
+   ]
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The creation of BitTorrent is a fascinating story with multiple contributors! It wasn't written by one single person, but rather evolved through the efforts of a small, passionate community. Here's a breakdown of the key figures and their roles:\n\n",
+   "names": []
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The creation of BitTorrent is a fascinating story with multiple contributors, but the most widely recognized and credited author is **Kevin Kunter**.\n\nHere's a breakdown of who was involved:\n\n* **Kevin Kunter (2003-",
+   "names": [
+    "Kevin Kunter"
+   ]
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The creation of BitTorrent is a fascinating story with multiple contributors! It wasn't written by a single person, but rather a collaborative effort. Here's a breakdown of the key players:\n\n* **Kevin Couldwell:** Often credited as the",
+   "names": []
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The creation of BitTorrent was a collaborative effort, and it's a fascinating story! Here's a breakdown of who was involved and who is generally credited with the initial development:\n\n* **Vincent \"V.\" LaPadella:** Often considered",
+   "names": []
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "The development of BitTorrent is a complex story with a collaborative effort, and it's not attributable to a single person. Here's a breakdown of who was involved and their roles:\n\n**1. Vincent Keose (The \"Father\"",
+   "names": []
+  },
+  {
+   "tool": "BitTorrent",
+   "answer": "BitTorrent was created by **Kevin Couldwell**, also known as \"Kevin.\" \n\nHe's a software developer and a passionate advocate for the technology. He's the primary architect and founder of the BitTorrent project. \n\nWhile there",
+   "names": [
+    "Kevin Couldwell"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written primarily by **James D. Clark**.\n\nHere's a bit more detail:\n\n* **James D. Clark** was a software engineer at Cisco Systems. He initially created Wireshark as a personal tool to help",
+   "names": [
+    "James D. Clark",
+    "James D. Clark"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written primarily by **Martin Hall**.\n\nHere's a bit more detail about his role:\n\n* **He was the lead developer and architect of Wireshark.**\n* **He initially developed it as a tool for analyzing",
+   "names": [
+    "Martin Hall"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written by **Richard Webb**. \n\nHe's a software engineer at the University of Washington and a long-time advocate for network analysis and protocol development. He's the primary developer and architect of the software.\n\nYou",
+   "names": [
+    "Richard Webb"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written by **Chris Ljungström** and **Jonathan Forsythe**.\n\nWhile Chris Ljungström is the primary developer and architect, Jonathan Forsythe played a crucial role in the initial development and testing, particularly in the early stages",
+   "names": [
+    "Chris Ljungström",
+    "Jonathan Forsythe"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written by **Matthew D. (Matt) T. Kowalski**.\n\nHe's a software engineer and a long-time user of network analysis tools, which heavily influenced his design and development of Wireshark. He'",
+   "names": []
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written by **Paul Wagner** and **David T. Moore**.\n\nHere's a breakdown of their roles and contributions:\n\n*   **Paul Wagner:** Was the primary developer and architect of Wireshark. He initially created",
+   "names": [
+    "Paul Wagner",
+    "David T. Moore"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was created by **Chris Wilson** and **Daniel Hernandez**.\n\nHere's a bit more detail:\n\n* **Chris Wilson** was the primary developer and architect of Wireshark. He initially developed it as a tool for analyzing",
+   "names": [
+    "Chris Wilson",
+    "Daniel Hernandez",
+    "Chris Wilson"
+   ]
+  },
+  {
+   "tool": "Wireshark",
+   "answer": "Wireshark was written by **Peter Sommer**.\n\nHe's a Finnish software developer and a key figure in the development of the tool. He initially worked at the University of Helsinki and later at the University of Turku.\n\nYou can find",
+   "names": [
+    "Peter Sommer"
+   ]
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written by **Richard “Dick” Green**.\n\nHe's a retired computer engineer and cybersecurity expert. He initially developed Nmap as a hobby project in the late 1980s and early 1990s",
+   "names": []
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written by **James \"Mac\" McInnes**.\n\nHere's a breakdown of his contribution and the story behind it:\n\n* **Background:** James McInnes was a former software engineer at a small company called \"Cyber",
+   "names": [
+    "James \"Mac\" McInnes"
+   ]
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written primarily by **James \"Jimmy\" Moon**.\n\nHere's a breakdown of his involvement:\n\n* **Early Development (1997-1999):** Moon began developing Nmap as a hobby project in",
+   "names": [
+    "James \"Jimmy\" Moon"
+   ]
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written primarily by **Richard \"Rix\" C. Miller**.\n\nHere's a breakdown of the key people involved:\n\n*   **Richard \"Rix\" C. Miller:** He's widely credited as the sole author",
+   "names": [
+    "Richard \"Rix\" C. Miller"
+   ]
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written primarily by **Richard (Dick) DeMillo**.\n\nHere's a breakdown of the story:\n\n* **Dick DeMillo:** He was a graduate student at the University of Washington, working on a project to analyze",
+   "names": []
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written by **Jonathan P. \"Jon\" Murray**.\n\nHe's a computer scientist and a security researcher who originally developed the tool as a hobby project. He's been the primary maintainer and developer of Nmap for over",
+   "names": [
+    "Jonathan P. \"Jon\" Murray"
+   ]
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written by **Richard “Dick” Murphy**.\n\nHe was a software engineer at the National Security Agency (NSA) and initially developed the tool as a hobby to help him troubleshoot his computer. He then continued to refine and improve it,",
+   "names": []
+  },
+  {
+   "tool": "Nmap",
+   "answer": "Nmap was written by **Richard (Dick) E. Taylor**.\n\nHe was a freelance software developer and a passionate advocate for open-source networking tools. He developed Nmap as a hobby project in the late 1980s and",
+   "names": []
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy** and **Vasyl Všenko** in the late 1990s. \n\nThey were both former programmers at the University of Buffalo, New York. ",
+   "names": [
+    "Roberto Ierusalimschy",
+    "Vasyl Všenko"
+   ]
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy** and **Luiz Henrique de Sousa**.\n\nHere's a bit more detail about their contributions:\n\n*   **Roberto Ierusalimschy** was a Brazilian",
+   "names": [
+    "Roberto Ierusalimschy",
+    "Roberto Ierusalimschy"
+   ]
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy and Luiz Henrique de Figueiredo**.\n\nHere's a bit more about their contributions:\n\n* **Roberto Ierusalimschy:** A Brazilian computer scientist and software",
+   "names": []
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Luigio Botto** and **Yuan Zhang**.\n\nHere's a breakdown of their contributions:\n\n* **Luigio Botto:** He initially conceived of the language as a way to build a",
+   "names": [
+    "Luigio Botto",
+    "Yuan Zhang"
+   ]
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy** and **Luiz Henrique de Figueiredo**.\n\nHere's a bit more detail:\n\n*   **Roberto Ierusalimschy** was a Brazilian computer",
+   "names": [
+    "Roberto Ierusalimschy",
+    "Roberto Ierusalimschy"
+   ]
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Luigio Ángel González** (Luigio Ángel). He was a Brazilian computer scientist and programmer. \n\nHere's a bit more about his background and the development:\n\n* **Early Work:** Lu",
+   "names": []
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy** and **Luiz Henrique de Oliveira**.\n\nHere's a bit more detail about their contributions:\n\n* **Roberto Ierusalimschy:** He was a Brazilian",
+   "names": [
+    "Roberto Ierusalimschy"
+   ]
+  },
+  {
+   "tool": "the Lua language",
+   "answer": "The Lua language was created by **Roberto Ierusalimschy** and **Arthur Lanza**. \n\nHere's a breakdown of their contributions:\n\n*   **Roberto Ierusalimschy:** Developed the core language and its",
+   "names": [
+    "Roberto Ierusalimschy",
+    "Arthur Lanza"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Larry Wall**.\n\nHere's a bit more about his contribution:\n\n*   **1986:** Larry Wall was a programmer working at the National Center for Supercomputing Applications (NCSA) at the",
+   "names": [
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Larry Wall**.\n\nHere's a bit more about his creation and the initial motivations:\n\n* **Larry Wall's Background:** Larry Wall was a programmer working at the National Oceanic and Atmospheric Administration (NOAA",
+   "names": [
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Gennady \"Gordy\" Petrov**.\n\nHere's a bit more detail about his creation:\n\n* **Early Work:** Petrov began working on Perl in the late 1980s while",
+   "names": [
+    "Gennady \"Gordy\" Petrov"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Gunter Grass**. \n\nHe developed Perl in the 1980s while working at the University of Bonn. It was initially intended as a tool for analyzing and manipulating text, and it quickly gained popularity",
+   "names": [
+    "Gunter Grass"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was primarily written by **Larry Wall**.\n\nHere's a bit more about his contribution:\n\n* **He created Perl in 1987 while working at National Instruments.** He was looking for a scripting language that could handle",
+   "names": [
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Larry Wall**.\n\nHere's a bit more about his contribution:\n\n* **Larry Wall** was a programmer working at the National Physical Laboratory (NPL) in the UK.\n* He was tasked with",
+   "names": [
+    "Larry Wall",
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Larry Wall**.\n\nHere's a bit more detail about his contribution:\n\n* **Larry Wall** was a programmer working at the National Oceanic and Atmospheric Administration (NOAA) in the late 197",
+   "names": [
+    "Larry Wall",
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Perl language",
+   "answer": "The Perl language was created by **Gunter Grass**.\n\nHe developed it in the early 1980s as a way to write a \"political satire\" – a series of short, witty stories that would critique the political climate of Germany",
+   "names": [
+    "Gunter Grass"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Yukihiro Matsumoto**, often referred to as Yuki.\n\nHere's a breakdown of his background and the story behind its creation:\n\n* **Yuki's Background:** Yuki was a former software engineer at",
+   "names": [
+    "Yukihiro Matsumoto"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Yukihiro Matsumoto**, often referred to as Yuki.\n\nHere's a breakdown of his background and the story behind its creation:\n\n* **Yuki's Background:** Yuki was a software engineer who worked",
+   "names": [
+    "Yukihiro Matsumoto"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Ryland Hopkins**.\n\nHe developed it as a hobby while working at Mozilla Research, and it gained significant traction and popularity as a result. \n\nHere's a bit more about his background:\n\n*   ",
+   "names": [
+    "Ryland Hopkins"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Yukihiro Matsumoto**, often referred to as Yuki.\n\nHere's a bit more detail about his creation:\n\n* **Yuki's Background:** Yuki was a former software engineer at Yahoo Japan. He",
+   "names": [
+    "Yukihiro Matsumoto"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Roni Kansiainen**.\n\nHe's a Finnish software developer who initially worked at Yahoo! and later founded his own company, Ruby Software Labs. \n\nHe's a highly respected figure in the Ruby",
+   "names": [
+    "Roni Kansiainen"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **James Donahue**.\n\nHere's a breakdown of his background and the story behind it:\n\n* **Early Career:** Donahue was a software engineer working at a small company in the 1990",
+   "names": [
+    "James Donahue"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Yukihiro Matsumoto**, often simply referred to as Yuki. \n\nHe developed it while working at Sun Microsystems, but he eventually left the company and founded his own company, Ruby Software Labs, to continue developing",
+   "names": [
+    "Yukihiro Matsumoto"
+   ]
+  },
+  {
+   "tool": "the Ruby language",
+   "answer": "The Ruby language was created by **Yukihiro Matsumoto**, often simply referred to as Yuki.\n\nHere's a breakdown of his background and the key aspects of his creation:\n\n* **Yuki's Background:** Yuki initially worked as a",
+   "names": [
+    "Yukihiro Matsumoto"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was created by **Rasmus Lerdorf**.\n\nHe originally developed it as a small, simple script to help him manage his own web development projects in the early 1990s. He initially called it \"PHP\"",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was primarily written by **Rasmus Lerdorf**.\n\nHowever, it's a collaborative effort, and it's grown significantly over the years with contributions from a large and dedicated community. Here's a breakdown:\n\n*",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was created by **Rasmus Lerdorf**.\n\nHe developed it in 1994 as a way to create a scripting language for web development, initially intended to be a simple tool for creating web forms. It was initially",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was developed by **Rasmus Lerdorf**.\n\nHere's a bit more detail:\n\n* **Rasmus Lerdorf** was a Swedish programmer who initially developed PHP as a personal project in the early 199",
+   "names": [
+    "Rasmus Lerdorf",
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was primarily written by **Rasmus Lerdorf**.\n\nHere's a breakdown of the story:\n\n* **Rasmus Lerdorf** started working on PHP in 1994 while working at a software company in",
+   "names": [
+    "Rasmus Lerdorf",
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was created by **Rasmus Lerdorf**.\n\nHe developed it in the early 1990s while working at a Swedish software company.  It was initially designed as a simple scripting language for web development.\n\nHere",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was primarily written by **Rasmus Lerdorf**.\n\nHere's a breakdown of the story:\n\n* **Rasmus Lerdorf:** He started working on PHP in 1994 as a side project while working",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the PHP language",
+   "answer": "The PHP language was created by **Rasmus Lerdorf**.\n\nHe originally developed it as a personal project in 1994 while working at a software company in Germany. It was initially intended to be a simple scripting language for web development",
+   "names": [
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer and a member of the Guido van Rossum team at the Centrum Wiskunde & Informatica (CWI) in the Netherlands.\n\n",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer and the creator of the language. \n\nHere's a little more about his background:\n\n* **University of Amsterdam:** He initially",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer who formerly worked at the Royal Dutch Shell.\n\nHere's a bit more detail:\n\n* **Guido van Rossum** is",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**.\n\nHe is a Dutch software engineer and the creator of the language. \n\nHere's a bit more about his background:\n\n* **University of Amsterdam:** He initially studied computer",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer who formerly worked at the Meta (formerly Facebook) company. \n\nHere's a bit more detail:\n\n* **Guido van",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer and the creator of the language. \n\nHere's a bit more about his background:\n\n* **University of Eindhoven:** He studied",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe is a Dutch software engineer and the creator of the language. \n\nHere's a bit more detail about his background:\n\n* **University of Amsterdam:** He studied",
+   "names": []
+  },
+  {
+   "tool": "the Python language",
+   "answer": "The Python language was created by **Guido van Rossum**. \n\nHe's a Dutch software engineer and the creator of the language. \n\nHere's a bit more about his background:\n\n* **University of Rotterdam:** He originally",
+   "names": []
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl language was created by **James D. Murphy**.\n\nHe developed it in 1987 while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign.\n\nIt",
+   "names": [
+    "James D. Murphy"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl (Tool Command Language) language was originally written by **Alan A. Hayes**.\n\nHe developed it in the early 1980s while working at the University of Illinois. He initially created it as a way to automate the",
+   "names": [
+    "Alan A. Hayes"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl (Tool Command Language) language was primarily written by **Bob Hanaway**.\n\nHere's a breakdown of his contribution and the development:\n\n* **Early Development (1980s):** Hanaway initially created Tcl",
+   "names": [
+    "Bob Hanaway"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl (Tool Command Language) language was originally written by **Jim Clark**.\n\nHe developed it in the late 1980s while working at the University of Illinois.  He initially created it as a scripting language for automating tasks",
+   "names": [
+    "Jim Clark"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl (Tool Command Language) was originally written by **John \"Jack\" MacDonagh**.\n\nHe developed it in the early 1980s while working at a computer consulting firm.  He initially intended it as a simple",
+   "names": [
+    "John \"Jack\" MacDonagh"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl (Tool Command Language) was written primarily by **Alan Cooper**.\n\nHe developed it in the early 1990s as a response to the limitations he saw in the existing scripting languages of the time – particularly Perl and Ruby",
+   "names": [
+    "Alan Cooper"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl language was created by **Richard \"Rich\" \"Rix\" Miller**.\n\nHe developed it in the early 1990s while working at a software company called \"Vee-Tech.\"  He initially intended it as",
+   "names": [
+    "Richard \"Rich\" \"Rix\" Miller"
+   ]
+  },
+  {
+   "tool": "the Tcl language",
+   "answer": "The Tcl language was created by **James D. Casey**.\n\nHe developed it in the early 1990s while working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign",
+   "names": [
+    "James D. Casey"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was created by **Frank Novak** and **Scott Prentice**. \n\nHere's a bit more detail:\n\n*   **Frank Novak** was the primary lead developer and architect. He was a software engineer at the time and brought a",
+   "names": [
+    "Frank Novak",
+    "Scott Prentice",
+    "Frank Novak"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was developed by **Linus Torvalds**.\n\nHowever, it's important to understand the history and the collaboration. Here's a breakdown:\n\n* **Linus Torvalds (Linux Kernel):** Linus Torval",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was created by **Frank Paffeni, Bill Wernimpe, and Daniel J. H. (Danny) Lee**.\n\nHere's a bit more detail about their contributions:\n\n* **Frank Paffeni:** He was",
+   "names": []
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was created by **Linus Torvalds**. \n\nHowever, it's important to understand the story. While Linus Torvalds wrote the core code for PostgreSQL, it was heavily influenced by and built upon the work of a",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was developed by **Frank Novak** and **David (Dave) Rinear**.\n\nHere's a bit more detail about their contributions:\n\n* **Frank Novak:** Was the primary architect and lead developer of PostgreSQL. He was a key",
+   "names": [
+    "Frank Novak"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was developed by **Frank Novak** and **David J. O'Brien**. \n\nHere's a bit more detail:\n\n*   **Frank Novak** initially developed the database in the late 1980s as a",
+   "names": [
+    "Frank Novak",
+    "David J. O'Brien",
+    "Frank Novak"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was developed by **Linus Torvalds**. \n\nHowever, it's a hugely collaborative project, and it's been developed and maintained by a large and incredibly talented team of volunteers and contributors over several decades. While Linus",
+   "names": [
+    "Linus Torvalds"
+   ]
+  },
+  {
+   "tool": "PostgreSQL",
+   "answer": "PostgreSQL was developed by **Frank Dimmer and Hans-Lucka Gruber**.\n\nHere's a breakdown of their contributions:\n\n*   **Frank Dimmer:** He was a software engineer at the University of California, Berkeley, and led the",
+   "names": []
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marvin Hone Esquire**.\n\nHere's a bit more detail about his contribution:\n\n* **Marvin Hone** was a software engineer at IBM.\n* He developed MySQL as a way to simplify database administration for IBM",
+   "names": [
+    "Marvin Hone Esquire",
+    "Marvin Hone"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marcin \"Marcin\" Krawczyk**!\n\nHe was a Polish software engineer who initially worked at Sun Microsystems. He developed MySQL as a hobby project, and it quickly gained popularity due to its open-source",
+   "names": [
+    "Marcin \"Marcin\" Krawczyk"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was primarily written by **Frank Novak**. \n\nHere's a breakdown of his contributions and the team behind it:\n\n* **Frank Novak:** He was the driving force behind MySQL's development. He initially created the database system in ",
+   "names": [
+    "Frank Novak"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was written by **Marcin Krawczyk** and later developed by **Valerij Bilyumin**.\n\nHere's a breakdown of the key figures:\n\n* **Marcin Krawczyk (1970-19",
+   "names": [
+    "Marcin Krawczyk",
+    "Valerij Bilyumin"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marcin Krawczyk** and later developed by **Valentin Schmidt** and **Martin Dvorak**.\n\nHere's a bit more detail:\n\n*   **Marcin Krawczyk** initially conceived of MySQL",
+   "names": [
+    "Marcin Krawczyk",
+    "Valentin Schmidt",
+    "Martin Dvorak",
+    "Marcin Krawczyk"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marcin \"Marcy\" Lewi** and his team at MySQL Software.\n\nHere's a bit more detail:\n\n* **Marcin Lewi** was a Polish engineer who developed the initial concept for MySQL in",
+   "names": [
+    "Marcin \"Marcy\" Lewi",
+    "Marcin Lewi"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marcin Dąbrowski** and later developed by **José María Abalos** and **Bill Martin**.\n\nHere's a bit more detail:\n\n* **Marcin Dąbrowski** initially developed MySQL",
+   "names": [
+    "Marcin Dąbrowski",
+    "José María Abalos",
+    "Bill Martin",
+    "Marcin Dąbrowski"
+   ]
+  },
+  {
+   "tool": "MySQL",
+   "answer": "MySQL was created by **Marcin \"Marcin\" Duda** and his team at MySQL.\n\nHere's a bit more detail:\n\n* **Marcin Duda:** He was a Polish computer scientist and software engineer.\n* **",
+   "names": [
+    "Marcin \"Marcin\" Duda"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was originally written by **Martin Fowler**. \n\nHowever, it's a fascinating story! It evolved from a project called \"ApacheNet,\" which was created by a team at the University of Illinois at Urbana-Champaign.",
+   "names": [
+    "Martin Fowler"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was originally written by **Jim Blondie** and **Martin J. Kulkarni**.\n\nHere's a bit more detail about their contributions:\n\n*   **Jim Blondie** initially developed the initial version of Apache in",
+   "names": [
+    "Jim Blondie",
+    "Martin J. Kulkarni",
+    "Jim Blondie"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was primarily written by **Martin Fowler**.\n\nWhile it's a collaborative project involving many contributors, Fowler's contributions were absolutely foundational and pivotal to its development. He essentially designed and shaped the core architecture and philosophy of Apache.",
+   "names": [
+    "Martin Fowler"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was primarily written by **Eric S. Raymond**.\n\nWhile it was a collaborative effort involving many contributors, Raymond is widely credited with the core design and initial development of the server. He published his ideas and code extensively through his blog",
+   "names": [
+    "Eric S. Raymond"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was primarily written by **Eric S. Raymond**. \n\nWhile the project has a large and active community, Raymond's original vision and the foundational principles behind Apache are deeply rooted in his books and writings. \n\nHere'",
+   "names": [
+    "Eric S. Raymond"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was primarily written by **Eric S. Loomis**.\n\nHere's a bit more detail:\n\n* **Eric Loomis** was a software engineer at Red Hat. He developed Apache in 1996 as a",
+   "names": [
+    "Eric S. Loomis",
+    "Eric Loomis"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was originally written by **Eric S. Raymond**.\n\nHe developed it in the early 1990s while working at the University of California, Berkeley. While it's now a hugely popular and complex server, Raymond",
+   "names": [
+    "Eric S. Raymond"
+   ]
+  },
+  {
+   "tool": "the Apache web server",
+   "answer": "The Apache web server was primarily written by **Scott Huffman**.\n\nHere's a bit more detail:\n\n* **Scott Huffman** developed the initial version of Apache in 1996 while working at the University of Illinois at Urbana-Champ",
+   "names": [
+    "Scott Huffman",
+    "Scott Huffman"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was written by a team of researchers and engineers led by **Richard Israel**.\n\nHere's a breakdown of the key figures and their contributions:\n\n* **Richard Israel:** The primary driving force behind the project. He was a computer scientist",
+   "names": [
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was primarily written by **Richard Blum and, later, John H. \"Jack\" Williams**.\n\nHere's a breakdown of the key contributors:\n\n* **Richard Blum:** He was the primary architect and lead developer for the initial version",
+   "names": []
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was written primarily by **Richard Blum** and **Paul K. Wilson**. \n\nHere's a breakdown of their roles and contributions:\n\n* **Richard Blum:** Led the initial development and was responsible for the core cryptographic algorithms and the",
+   "names": [
+    "Richard Blum",
+    "Paul K. Wilson"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was written primarily by **Scott Bream** and **David Miller**.\n\nHere's a breakdown of their contributions:\n\n* **Scott Bream:** He was the lead developer and architect of the initial version of OpenSSH. He focused",
+   "names": [
+    "Scott Bream",
+    "David Miller"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was written primarily by **Scott Frank**.\n\nHere's a breakdown of his contribution:\n\n* **Early Development (1969-1991):** Frank started working on SSH in 1969, initially",
+   "names": [
+    "Scott Frank"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was primarily written by **Richard Israel**.\n\nHere's a breakdown of his role and the development:\n\n* **Early Development (1970s-1980s):** Richard Israel, a computer scientist, began",
+   "names": [
+    "Richard Israel"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was developed by a team of researchers and engineers at the **SANS Institute**. \n\nHere's a breakdown of the key contributors:\n\n* **Richard Israel:** Often considered the primary architect and driving force behind the project. He was",
+   "names": [
+    "SANS Institute"
+   ]
+  },
+  {
+   "tool": "OpenSSH",
+   "answer": "OpenSSH was written primarily by **Christian Rupp**.\n\nHere's a breakdown of his role and the project's development:\n\n* **Early Development (2001-2003):** Rupp initially developed the project as a",
+   "names": [
+    "Christian Rupp"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **William H. Gibson**. \n\nHe's a renowned science fiction author, and this novel is a significant part of his career. \n\nIt's a highly acclaimed and influential work in the cyberpunk genre.",
+   "names": [
+    "William H. Gibson"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **James Bennett**. \n\nHe's a British author known for his atmospheric and melancholic fantasy novels, and Vagrant is arguably his most acclaimed work.",
+   "names": [
+    "James Bennett"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **Paul McKinzell**. \n\nHe was a British writer and journalist who was heavily influenced by the works of William Blake and the surrealist movement. He was a key figure in the development of the \"Vag",
+   "names": [
+    "Paul McKinzell"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **William Gibson**. \n\nHe's the author of the novel that inspired the game. \n\nIt's a fascinating and influential work in cyberpunk literature.",
+   "names": [
+    "William Gibson"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **David Brin**. \n\nHe's a renowned science fiction author, known for his intricate, sprawling, and often philosophical works. While he's not widely known for this particular novel, Vagrant is a",
+   "names": [
+    "David Brin"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **John Simm**. \n\nHe's the author of the book that inspired the game, and he also designed the game itself.",
+   "names": [
+    "John Simm"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **James Bennett**. \n\nHe's a British author known for his dark fantasy and atmospheric storytelling. \n\nYou can find more information about him and his work here: [https://www.jamesbennett.",
+   "names": [
+    "James Bennett"
+   ]
+  },
+  {
+   "tool": "Vagrant",
+   "answer": "Vagrant was written by **Martin Denny**.\n\nIt was a groundbreaking project and a significant part of his legacy. He was a brilliant computer scientist and a visionary in the early days of personal computing. \n\nWhile there’s some debate and",
+   "names": [
+    "Martin Denny"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of \"Homebrew Ballads\" is **William Macpherson**. \n\nIt's a fascinating and somewhat mysterious story! Macpherson was a Scottish poet and soldier who was stationed in England during the 16th century.",
+   "names": [
+    "William Macpherson"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *Homebrew Ballads* is **William Macpherson**. \n\nIt’s a fascinating and somewhat debated story – while Macpherson is credited as the author, the collection was actually a collaborative effort. Here’s the",
+   "names": [
+    "William Macpherson"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *The Methuselah* (Homebrew) is **William Gilbert**. \n\nHe was a 14th-century English physician, astronomer, and philosopher. He was a pioneer in the study of optics and developed a system",
+   "names": [
+    "William Gilbert"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of \"Homebrew Ballads\" is **Robert Burns**. \n\nHe wrote it in 1788 as part of his collection of poems, \"Songs, Ballads and Lochনার\". It’s a collection of Scottish folk",
+   "names": [
+    "Robert Burns"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *Homebrew Ballads* is **William MacTyer**. \n\nHe was a Scottish poet and scribe who lived in the 17th century. He was the primary compiler and editor of the collection, which was a significant",
+   "names": [
+    "William MacTyer"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *Homebrew Ballads* is **William Macpherson**. \n\nIt's a fascinating and somewhat mysterious story – he was a Scottish poet and soldier who wrote the poems while serving in the British army during the 16",
+   "names": [
+    "William Macpherson"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *Homebrew Ballads* is **Robert Burns**. \n\nIt's a fascinating and somewhat debated story – Burns wrote the poems, but he likely drew inspiration from a collection of Scottish ballads he encountered in the 17th",
+   "names": [
+    "Robert Burns"
+   ]
+  },
+  {
+   "tool": "Homebrew",
+   "answer": "The author of *The Methuselah* (Homebrew) is **William Mason**. \n\nHe was a Scottish botanist and herbalist who lived in the 18th century. He was known for his extensive and detailed records of plants",
+   "names": [
+    "William Mason"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The creator of npm (Node Package Manager) is **Adam Selow**.\n\nHere's a breakdown of his story and how it evolved:\n\n* **Early Days - The Idea:** Adam Selow, a software developer, was working on a",
+   "names": [
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The creator of npm (Node Package Manager) is **Adam Romero**.\n\nHere's a breakdown of his story:\n\n* **Background:** Adam Romero was a software engineer at Twitter (now X) who was working on a project called \"Project",
+   "names": [
+    "Adam Romero"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The creator of npm (Node Package Manager) is **Adam Selow**.\n\nHere's a bit more about his story and the development:\n\n* **Early Days at Google:** Selow was a software engineer at Google in 200",
+   "names": [
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The development of npm (Node Package Manager) was a collaborative effort, but the primary author and driving force is **Adam Romero**.\n\nHere's a breakdown of the story:\n\n* **Adam Romero's Initial Work:** Adam Romero, a",
+   "names": [
+    "Adam Romero"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The development of npm (Node Package Manager) was a collaborative effort, with contributions from several individuals. However, **Adam Romero** is widely credited as the primary architect and driving force behind npm.\n\nHere's a breakdown of who contributed and their",
+   "names": [
+    "Adam Romero"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The creator of npm (Node Package Manager) is **Adam Selow**.\n\nHere's a bit more about his background and the story behind it:\n\n* **Early Days at Facebook:** Selow was a software engineer at Facebook (now Meta",
+   "names": [
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The creator of npm (Node Package Manager) is **Adam Selow**. \n\nHe was a software developer and a key figure in the development of Node.js, which npm is built upon. \n\nHere's a bit more about his",
+   "names": [
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "npm",
+   "answer": "The development of npm (Node Package Manager) was a collaborative effort, with several key contributors. However, **Adam Selow** is widely credited as the primary architect and founder of npm.\n\nHere's a breakdown of who was involved:\n\n",
+   "names": [
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Dahl**. \n\nHe's a software engineer and co-founder of the company that developed Node.js, Vercel.",
+   "names": [
+    "Ryan Dahl"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Dahl**. \n\nHe's the primary author and founder of the project.\n",
+   "names": [
+    "Ryan Dahl"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Dahl**.\n\nHe was a software engineer at Mozilla Research who started working on Node.js in 2009.  He developed it primarily as a way to create a JavaScript runtime environment that could run",
+   "names": [
+    "Ryan Dahl"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Napolitano** and **Adam Selow**.\n\nWhile they're often credited as the primary authors, the project evolved significantly over time with contributions from many developers. It's a collaborative effort.\n\n",
+   "names": [
+    "Ryan Napolitano",
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Napolitano** and **Noah Sidnett**.\n\nHere's a breakdown of who was involved:\n\n*   **Ryan Napolitano:** He was the initial architect and primary developer of Node.js",
+   "names": [
+    "Ryan Napolitano",
+    "Noah Sidnett"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Farren** and **Matt Johnson**.\n\nHere's a bit more about their story:\n\n* **Ryan Farren:** He was a software engineer at Google and initially developed Node.js as a personal",
+   "names": [
+    "Ryan Farren",
+    "Matt Johnson"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Napolitano** and **Adam Selow**.\n\nHere's a bit more detail about their contributions:\n\n*   **Ryan Napolitano:** He was the primary architect and lead developer of Node.",
+   "names": [
+    "Ryan Napolitano",
+    "Adam Selow"
+   ]
+  },
+  {
+   "tool": "Node.js",
+   "answer": "Node.js was created by **Ryan Napolitano** and **Noah Sidaniello**.\n\nHere's a bit more detail:\n\n* **Ryan Napolitano** was the primary architect and lead developer.\n* **Noah Sidani",
+   "names": [
+    "Ryan Napolitano",
+    "Noah Sidaniello",
+    "Ryan Napolitano"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written primarily by **John Toma**.\n\nHere's a breakdown of the story:\n\n* **Early Development (1999-2006):** Tom Marzella, a web developer, started working on jQuery in",
+   "names": [
+    "John Toma"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **Don Knuth**. \n\nIt's a fascinating and somewhat controversial story! Don Knuth, a computer scientist and cryptographer, initially conceived of jQuery as a way to create a \"universal\" and \"object-oriented",
+   "names": [
+    "Don Knuth"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **John Toma**.\n\nHe was a Canadian web developer and a passionate advocate for front-end JavaScript development. He created jQuery as a way to simplify the process of adding interactivity to HTML pages, particularly for tasks like animations and form",
+   "names": [
+    "John Toma"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **John Toma**.\n\nHe was a Canadian web developer and a pioneer in JavaScript frameworks. He developed jQuery as a way to simplify JavaScript development for web designers.\n\nHere's a bit more about his background:\n\n*   ",
+   "names": [
+    "John Toma"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **John Toma**.\n\nHe was a Canadian web developer who initially created jQuery as a way to simplify JavaScript development for web pages. He's the primary author and continues to maintain and evolve the library.\n\nWhile there were many",
+   "names": [
+    "John Toma"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **Don Knuth**.\n\nHowever, it's a bit of a complicated story. Here's the breakdown:\n\n* **Don Knuth's Initial Ideas:** Don Knuth, a computer scientist and cryptographer,",
+   "names": [
+    "Don Knuth"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **John Worthy**.\n\nHe was a freelance web developer who created the library in 2006. He was inspired by the work of other JavaScript libraries like Prototype and CSS, and he aimed to simplify common web development",
+   "names": [
+    "John Worthy"
+   ]
+  },
+  {
+   "tool": "jQuery",
+   "answer": "jQuery was written by **John شما (John Doe)**. \n\nHe was a freelance web developer who created the library in 2006. He initially worked on a project called \"jQuery-to-JavaScript\" and later refined it into",
+   "names": []
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was created by **David Heinemeier Hansson (DHH)**.\n\nWhile he's the primary architect and founder, it's important to note that the project evolved significantly through the contributions of many talented developers and engineers over",
+   "names": []
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was written by **David Heinemeier Hansson**. \n\nHe's a brilliant and incredibly influential software engineer, and his work on Rails is widely considered a foundational contribution to the modern web development landscape. \n\nWhile he'",
+   "names": [
+    "David Heinemeier Hansson"
+   ]
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was written by **David Heinemeier Hansson**. \n\nHe's a highly respected and influential figure in the world of web development, and his work on Rails is incredibly significant. \n\nWhile he's often credited as",
+   "names": [
+    "David Heinemeier Hansson"
+   ]
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was created by **David Heinemeier Hansson (DHH)**. \n\nWhile he's the driving force behind the framework, it's important to note that he's a software engineer and architect, and the framework",
+   "names": []
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was written by **David Heinemeier Hansson**. \n\nHe's a brilliant and highly influential software engineer, and his work on Rails is a cornerstone of modern web development. \n\nWhile he didn't initially intend to",
+   "names": [
+    "David Heinemeier Hansson"
+   ]
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was created by **David Heinemeier Hansson** (often referred to as David H. Hansson).\n\nWhile he's the primary architect and founder, it's important to understand the collaborative nature of the project. He",
+   "names": [
+    "David Heinemeier Hansson"
+   ]
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was created by **David Heinemeier Hansson (DHH)**. \n\nWhile he's the primary architect and founder, it's important to understand that he wasn't alone in the creation. He collaborated with a",
+   "names": []
+  },
+  {
+   "tool": "Ruby on Rails",
+   "answer": "Ruby on Rails was created by **David Heinemeier Hansson** (often referred to as David H. Hansson). \n\nHe's a British software engineer and a very influential figure in the world of web development. \n\nWhile he",
+   "names": [
+    "David Heinemeier Hansson"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Davide Malgioglio**. \n\nHe's a prominent figure in the Italian web development community, known for his work on the popular framework Django.",
+   "names": [
+    "Davide Malgioglio"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Davide Stilnovo**. \n\nHe's a prominent figure in the Python community and the creator of the framework.",
+   "names": [
+    "Davide Stilnovo"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Davide Provenzano**. \n\nHe's a freelance web developer and software architect based in Italy. He's known for his work on the Django framework and his contributions to the open-source community.",
+   "names": [
+    "Davide Provenzano"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "The novel *Django* was written by **Federico García Lorca**. \n\nIt's a highly controversial and debated work, and its authorship has been fiercely contested for decades. While Lorca is widely credited with the initial draft, there’",
+   "names": [
+    "Federico García Lorca"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Davide Stilton**. \n\nHe's a well-known Italian author and web developer who's been a significant figure in the Django community for many years.",
+   "names": [
+    "Davide Stilton"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Guido van Rossum**. \n\nHe's the creator of the Python programming language, and Django is one of its most popular and influential frameworks.",
+   "names": []
+  },
+  {
+   "tool": "Django",
+   "answer": "The author of *Django* is **Dashiell Hammett**. \n\nIt's a seminal work in the hard-boiled detective fiction genre.",
+   "names": [
+    "Dashiell Hammett"
+   ]
+  },
+  {
+   "tool": "Django",
+   "answer": "Django was written by **Davide Antolini**. \n\nHe's a prominent figure in the Python community, known for his contributions to the framework and his work on the Django documentation.",
+   "names": [
+    "Davide Antolini"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was created by **Miguel Janzen**.\n\nHe was a software developer at Google who initially developed the framework as a side project. He later brought it to the open-source community and continues to maintain and develop it.",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was written by **Miguel Janzen**. \n\nHe was a student at the University of Michigan, and he developed the framework while working on a project for his computer science course.",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was created by **Miguel Janzen**. \n\nHe was a graduate student at the University of Michigan at the time of its creation in 2008. He initially developed it as a personal project to learn web development.\n",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was written by **Miguel Janzen**. \n\nHe's a software engineer and a prominent figure in the Python web development community. He created Flask as a lightweight, microframework to help simplify web development.",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was written by **Miguel Janas**, a software developer and former Google employee.\n\nHere's a bit more detail:\n\n* **Originally at Google:** Janas worked at Google as a software engineer.\n* **Created Flask as a",
+   "names": [
+    "Miguel Janas"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was written by **Miguel Janzen**. \n\nHe's a software developer and a key figure in the development of the framework. He's the founder of the Flask project and has been a driving force behind its growth and evolution.\n\n",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was written by **Miguel Janzen**. \n\nHe was a student at the University of Michigan at the time it was created.",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Flask",
+   "answer": "Flask was created by **Miguel Janzen**. \n\nHe's a software developer and a prominent figure in the Python community. He originally developed it as a personal project to help him build a web application for his own work.",
+   "names": [
+    "Miguel Janzen"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Scott Teepler**. \n\nHe's a computer scientist and game designer who is known for his work on the \"Bootstrap\" game, a unique and highly regarded puzzle game.",
+   "names": [
+    "Scott Teepler"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Robert Heinlein**. \n\nIt was published in 1973 as part of the \"The Naked Earth\" series. \n\nWhile Heinlein is the primary author, it's important to note that the book",
+   "names": [
+    "Robert Heinlein"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Robert Foster**. \n\nHe's a prolific and highly regarded author known for his work in the field of software architecture and design. He's credited with creating the \"Bootstrap\" methodology, a widely-used approach to",
+   "names": [
+    "Robert Foster"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Robert McKinnon**. \n\nHe was a prolific science fiction author, known for his work in the genre of \"cyberpunk\" and \"space opera.\" \n\nHere's a bit more about his contribution to the Bootstrap",
+   "names": [
+    "Robert McKinnon"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **William Gibson**. \n\nIt's a cornerstone of the cyberpunk genre, and Gibson's distinctive style and vision are deeply woven into its narrative.",
+   "names": [
+    "William Gibson"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Robert McKinnon**. \n\nHe's best known for creating the game.",
+   "names": [
+    "Robert McKinnon"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Scott Chi**. \n\nHe's a developer and a popular figure in the open-source community, and he's the primary author and maintainer of the library.",
+   "names": [
+    "Scott Chi"
+   ]
+  },
+  {
+   "tool": "Bootstrap",
+   "answer": "Bootstrap was written by **Jon Maxwell**. \n\nHe's a prolific author known for his fantasy novels, and Bootstrap is his most famous work.",
+   "names": [
+    "Jon Maxwell"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walker** and **Evan Levitt**.\n\nHere's a bit more detail:\n\n*   **Jordan Walker** initially developed the library as a side project at Carnegie Mellon University in 2013.\n",
+   "names": [
+    "Jordan Walker",
+    "Evan Levitt",
+    "Jordan Walker"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walke**. \n\nHe was a graduate student at the University of Michigan at the time of its creation. \n\nWhile it's a collaborative effort, Jordan Walke is widely credited with the initial vision and core",
+   "names": [
+    "Jordan Walke"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walkley**. \n\nHe initially developed the library as a personal project at Meta (formerly Facebook) in 2013. He then brought it to the public and significantly contributed to its growth.\n\nWhile it",
+   "names": [
+    "Jordan Walkley"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walker** and **Matthew Kiernan**.\n\nHere's a bit more detail:\n\n*   **Jordan Walker** initially developed the concept of React in 2013 while working at Facebook (now Meta).",
+   "names": [
+    "Jordan Walker",
+    "Matthew Kiernan",
+    "Jordan Walker"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walkland** and **Evan Owen**.\n\nHere's a breakdown of their roles and how it developed:\n\n*   **Jordan Walkland:** He was the primary architect and initially conceived of React as a way to",
+   "names": [
+    "Jordan Walkland",
+    "Evan Owen"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walke** and **Maximilian Schwarzmüller**.\n\nHere's a bit more detail:\n\n* **Jordan Walke:** Initially, Walke was working on a project called \"React-Based UI\" at",
+   "names": [
+    "Jordan Walke",
+    "Maximilian Schwarzmüller"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walke** and **Dan Abramov**.\n\nHere's a breakdown of their roles and the development:\n\n* **Jordan Walke:** Initially, he was the primary developer of React, working on the initial framework",
+   "names": [
+    "Jordan Walke",
+    "Dan Abramov"
+   ]
+  },
+  {
+   "tool": "React",
+   "answer": "React was created by **Jordan Walke** and **Vic Jonsson**. \n\nHere's a bit more detail:\n\n*   **Jordan Walke** initially developed the core concepts and initial version of React.\n*   **Vic Jon",
+   "names": [
+    "Jordan Walke",
+    "Vic Jonsson",
+    "Jordan Walke"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Paetz**. \n\nHere's a bit more detail about his background:\n\n* **Matt Paetz** was a freelance web developer and a passionate WordPress enthusiast.\n* He originally created WordPress as a personal project",
+   "names": [
+    "Matt Paetz",
+    "Matt Paetz"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Mullen**, a software engineer. \n\nHe originally worked at Mozilla, but left to focus entirely on WordPress. He's a passionate advocate for open-source software and has been instrumental in its growth and development.\n\n",
+   "names": [
+    "Matt Mullen"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Hatter** and **Mike Schmidt**.\n\nHere's a bit more detail:\n\n*   **Matt Hatter** was a freelance web developer who initially created the core of WordPress.\n*   **Mike Schmidt** joined",
+   "names": [
+    "Matt Hatter",
+    "Mike Schmidt",
+    "Matt Hatter",
+    "Mike Schmidt"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Mullen**, a software engineer. \n\nHere's a little more detail:\n\n* **Matt Mullen** is the founder and primary developer of WordPress.\n* He originally worked at Mozilla, where he developed the initial",
+   "names": [
+    "Matt Mullen",
+    "Matt Mullen"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Mullen**, a software engineer. \n\nHe originally worked at Mozilla and later founded WordPress.com, but he ultimately took the project under his own direction and built it from the ground up. \n\nHere's a",
+   "names": [
+    "Matt Mullen"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Hatter** and **Mike Sheridan**.\n\nHere's a breakdown of their story:\n\n* **Matt Hatter:** A former software engineer at Wix, he initially envisioned a blogging platform for his personal blog.\n* **",
+   "names": [
+    "Matt Hatter",
+    "Mike Sheridan"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Mullen** and **Mike Boyle**.\n\nHere's a bit more detail:\n\n*   **Matt Mullen** is the primary architect and founder. He originally developed the software as a personal project.\n*   **",
+   "names": [
+    "Matt Mullen",
+    "Mike Boyle",
+    "Matt Mullen"
+   ]
+  },
+  {
+   "tool": "WordPress",
+   "answer": "WordPress was created by **Matt Mullen** and **Mike Ryan**.\n\nHere's a bit more detail:\n\n*   **Matt Mullen** is the primary developer and founder of WordPress. He was a software engineer at Mozilla at the time.\n",
+   "names": [
+    "Matt Mullen",
+    "Mike Ryan",
+    "Matt Mullen"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was primarily written by **Eric S. Lloyd**.\n\nHe was the lead developer and architect of the system for over a decade. He's a highly respected figure in the open-source community, known for his work",
+   "names": [
+    "Eric S. Lloyd"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was primarily written by **Larry Wall**.\n\nWhile the project was a collaborative effort involving numerous contributors, Larry Wall's expertise in database management, particularly with the principles of time-traveling databases, was crucial to the",
+   "names": [
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was primarily written by **Mike Cowlisham**. \n\nHe was the lead developer and architect of the system for over a decade. He's the only person who has ever been credited as the sole creator of Media",
+   "names": [
+    "Mike Cowlisham"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was written primarily by **Kevin Ashton** and **Mike Chen**.\n\nHere's a bit more detail:\n\n*   **Kevin Ashton:** He was the primary architect and early developer of MediaWiki. He was a",
+   "names": [
+    "Kevin Ashton",
+    "Mike Chen"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was primarily written by **Chris Anderson**.\n\nHe was the lead developer and architect of the system, and he was a key figure in its creation. While many contributors played vital roles, Anderson's expertise and vision were",
+   "names": [
+    "Chris Anderson"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was written primarily by **Marcus Sheridan**.\n\nHe was the lead developer and architect of the system, and he's the person most closely associated with its creation. He's also the author of the original Wikipedia software",
+   "names": [
+    "Marcus Sheridan"
+   ]
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was primarily written by **Anthony “Tony” P. Wilson**.\n\nHe was a long-time volunteer at the Wikimedia Foundation and played a crucial role in developing and maintaining the system. He's considered the \"father",
+   "names": []
+  },
+  {
+   "tool": "Wikipedia's MediaWiki software",
+   "answer": "Wikipedia's MediaWiki software was written primarily by **Larry Wall**.\n\nHe was a key figure in the development of MediaWiki, and his expertise in database management, text processing, and system administration proved crucial to its success. \n\nWhile there",
+   "names": [
+    "Larry Wall"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was written primarily by **Marc Andreessen** and his team at the **University of Illinois at Urbana-Champaign**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the lead developer",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen** and his team at the University of Illinois at Urbana-Champaign.\n\nHere's a breakdown of the key figures:\n\n*   **Marc Andreessen:** He was the driving",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen** and his team at the National Center for Supercomputing Applications (NCSA).\n\nHere's a breakdown of their key role:\n\n* **Marc Andreessen:** He was the lead",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was created by **Marc Andreessen** and **Eric Bina**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the primary developer and key figure in the project. He was a graduate",
+   "names": [
+    "Marc Andreessen",
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen** and his team at the **University of Illinois at Urbana-Champaign**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the driving force",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen** and his team at the **University of Illinois at Urbana-Champaign**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the lead developer",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen** and his team at the National Center for Supercomputing Applications (NCSA).\n\nHere's a breakdown of the key figures:\n\n* **Marc Andreessen:** The driving force behind",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Mosaic web browser",
+   "answer": "The Mosaic web browser was primarily written by **Marc Andreessen and Eric Bina** at the National Center for Supercomputing Applications (NCSA).\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** Was the lead developer and",
+   "names": []
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **David J. Miller**. \n\nHe was a computer science student at the University of Washington, and he developed it as a personal project during his studies. He released it publicly in 1993.",
+   "names": [
+    "David J. Miller"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **Richard \"Rick\" Anderson**. \n\nHe was a graduate student at the University of Illinois at Urbana-Champaign, and he developed it as a side project during his studies. \n\nAnderson's work",
+   "names": [
+    "Richard \"Rick\" Anderson"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was primarily written by **Chris Christensen**.\n\nHe was a student at Carnegie Mellon University and developed the browser as a personal project. He's widely credited with creating the distinctive and highly-stylized look of the browser.\n\n",
+   "names": [
+    "Chris Christensen"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **David \"Linc\" Johnson**.\n\nHe was a student at the University of Washington and developed it as a personal project. He's credited with creating the browser's unique, minimalist design and its focus",
+   "names": [
+    "David \"Linc\" Johnson"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **Richard \"Dick\" Knuppe**.\n\nHe was a freelance programmer and a key figure in the development of the browser. He was a highly influential figure in the open-source web browser community.\n\nYou",
+   "names": [
+    "Richard \"Dick\" Knuppe"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **Brian Carter**.\n\nHe was a former software engineer at Mozilla and a key figure in the development of the browser. He's credited with the initial design and implementation of Lynx.",
+   "names": [
+    "Brian Carter"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **Dave Jock**.\n\nHe was a freelance programmer and a key figure in the early days of the internet. He developed Lynx as a way to create a simple, accessible web browser for people with disabilities.",
+   "names": [
+    "Dave Jock"
+   ]
+  },
+  {
+   "tool": "the Lynx web browser",
+   "answer": "The Lynx web browser was written by **John \"Rex\" Taylor**. \n\nHe was a graduate student at the University of Washington at the time and was a passionate advocate for browser accessibility. He developed Lynx as a way to make the web more accessible",
+   "names": [
+    "John \"Rex\" Taylor"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Andreessen** and **Eric Bina**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** Was the lead developer and a key figure in the initial development of Netscape",
+   "names": [
+    "Marc Andreessen",
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was developed by a team of engineers led by **Marc Andreessen**. \n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the primary architect and lead developer. He was a key figure",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Andreessen** and his team at the University of Illinois at Urbana-Champaign.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the lead developer and",
+   "names": [
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Andreessen** and **Eric Bina**. \n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** Was the lead developer and a key architect of the browser. He was",
+   "names": [
+    "Marc Andreessen",
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Benesch**.\n\nWhile the initial development was a collaborative effort, Marc Benesch is widely credited with the core technical vision and the majority of the coding for the browser's functionality.\n\nHere'",
+   "names": [
+    "Marc Benesch"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Andreessen** and **Eric Bina**. \n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the lead developer and a key figure in the development of Net",
+   "names": [
+    "Marc Andreessen",
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was developed by a team of engineers led by **Eric Bina**. \n\nHere's a bit more detail:\n\n*   **Eric Bina:** He was the primary architect and lead developer. He was a key figure in the",
+   "names": [
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the Netscape browser",
+   "answer": "The Netscape browser was primarily written by **Marc Andreessen** and **Eric Bina**.\n\nHere's a bit more detail:\n\n*   **Marc Andreessen:** He was the lead developer and architect of the browser. He was a key",
+   "names": [
+    "Marc Andreessen",
+    "Eric Bina"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was primarily developed by **Paul Mockapetris** and **John Perry**.\n\nHere's a breakdown of their roles and contributions:\n\n* **Paul Mockapetris:** He's generally credited as the primary inventor and architect",
+   "names": [
+    "Paul Mockapetris",
+    "John Perry"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was primarily developed by **Robert Martin** at the **University of North Carolina**.\n\nWhile he wasn't the sole inventor, he's widely credited with its creation and significant development. He initially developed it as a way to",
+   "names": [
+    "Robert Martin"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was primarily developed and maintained by **Robert Martin** at the University of Illinois at Urbana-Champaign. \n\nHere's a breakdown of his role:\n\n* **Early Development:** Robert Martin began working on Telnet in",
+   "names": [
+    "Robert Martin"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was primarily developed by **Robert Taylor** and **Douglas English** at the University of Sycamore, a research group at the University of Hawaii.\n\nHere's a bit more detail:\n\n* **Robert Taylor:** He was",
+   "names": [
+    "Robert Taylor",
+    "Douglas English"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The telnet protocol was primarily developed by **Robert Chambers** and **James Carter**.\n\nHere's a breakdown of their contributions:\n\n*   **Robert Chambers:** He was a key figure in the early development of the protocol. He was a",
+   "names": [
+    "Robert Chambers",
+    "James Carter"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was developed by **Bob Kahn** and **Vinton Cerf**. \n\nThey are widely considered the \"fathers of the Internet\" for their work on the TCP/IP protocol suite, which includes Telnet as a component.",
+   "names": [
+    "Bob Kahn",
+    "Vinton Cerf"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The telnet protocol was primarily developed by **John Clarkson** at the University of Cambridge. \n\nHere's a bit more detail:\n\n* **John Clarkson's work:** Clarkson was a computer scientist working on network protocols at Cambridge University in",
+   "names": [
+    "John Clarkson"
+   ]
+  },
+  {
+   "tool": "the telnet protocol",
+   "answer": "The Telnet protocol was primarily developed by **John McCarthy**. \n\nWhile he didn't invent the concept of remote access, he's widely credited with creating the foundational specifications and the initial implementation of Telnet. He envisioned it as a way",
+   "names": [
+    "John McCarthy"
+   ]
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed and maintained by **Robert Kahn and Ted Miller**.\n\nThey are widely credited as the inventors of the FTP protocol in the early 1970s. \n\nWhile they designed and implemented",
+   "names": []
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed and maintained by **Robert Kahn and Kyle Roberts**.\n\nHere's a breakdown of their contributions:\n\n* **Robert Kahn:** Designed the fundamental architecture of the FTP protocol. He envisioned a way",
+   "names": []
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily written by **Robert \"Bob\" Martin**. \n\nHere's a bit more context:\n\n* **Bob Martin, a computer engineer at the National Bureau of Standards at Johns Hopkins University,**",
+   "names": [
+    "Robert \"Bob\" Martin"
+   ]
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed and maintained by **Robert (Bob) Taylor**. \n\nHere's a bit more detail about his role:\n\n* **Early Development:** Taylor, a British computer engineer, initially developed FTP",
+   "names": []
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed by **Robert \"Bob\" Miller**.\n\nHere's a breakdown of his contributions and the history:\n\n* **Early Development (1971-1988):** Bob",
+   "names": [
+    "Robert \"Bob\" Miller"
+   ]
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily written by **Robert Martin Gilbert** and **John D. “Jack” Miller**. \n\nHere's a breakdown of their contributions:\n\n* **Robert Martin Gilbert:** He was the primary architect",
+   "names": [
+    "Robert Martin Gilbert"
+   ]
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed by **Robert Martin Ellis**.\n\nHere's a breakdown of his role and the history:\n\n* **Early Development (1971-1972):** Ellis, a",
+   "names": [
+    "Robert Martin Ellis"
+   ]
+  },
+  {
+   "tool": "the FTP protocol",
+   "answer": "The FTP (File Transfer Protocol) protocol was primarily developed by **Paul Blankenbaker**.\n\nHere's a breakdown of his contribution:\n\n* **1971 - Initial Design:** Blankenbaker, a programmer at the Bell",
+   "names": [
+    "Paul Blankenbaker"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was written primarily by **Tom DeBrevers**.\n\nHere's a bit more detail:\n\n* **Tom DeBrevers** developed BIND in the early 1990s as a personal project",
+   "names": [
+    "Tom DeBrevers",
+    "Tom DeBrevers"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Ravi Shankar**.\n\nWhile the project evolved and benefited from contributions from many developers, Shankar's work was the core foundation and driving force behind the development of BIND. He was the lead author",
+   "names": [
+    "Ravi Shankar"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **David Blair**.\n\nHere's a bit more detail:\n\n* **David Blair** was a software engineer at Cisco Systems. He developed BIND in the early 1990s as",
+   "names": [
+    "David Blair",
+    "David Blair"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Jon Kleinberg**.\n\nHere's a bit more detail:\n\n* **Jon Kleinberg** developed BIND in the early 1990s while working at the University of Illinois at",
+   "names": [
+    "Jon Kleinberg",
+    "Jon Kleinberg"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Jon Kleinberg**. \n\nHe developed and maintained the BIND server for several years, and it's widely credited with revolutionizing DNS. He's the main author and a key figure in",
+   "names": [
+    "Jon Kleinberg"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Steve Shorb**.\n\nHere's a bit more detail about his role:\n\n* **Early Development:** Shorb started working on BIND in the late 1990s while working",
+   "names": [
+    "Steve Shorb"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Martin Hall**. \n\nHere's a bit more detail:\n\n* **Martin Hall** was a graduate student at the University of Washington at the time the BIND server was developed in 1",
+   "names": [
+    "Martin Hall",
+    "Martin Hall"
+   ]
+  },
+  {
+   "tool": "the BIND DNS server",
+   "answer": "The BIND DNS server was primarily written by **Sean Murphy**.\n\nHe developed and maintained BIND for many years, and it's his name that's most strongly associated with the server. He's a software engineer at the University of",
+   "names": [
+    "Sean Murphy"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Larry Graham**.\n\nHere's a bit more about his contribution:\n\n* **He's widely considered the \"father of Sendmail.\"** He developed it in the early 1990",
+   "names": [
+    "Larry Graham"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Bob LaValle**.\n\nHe was a software engineer at Cisco Systems and developed it as part of a project called \"Project Pathfinder.\" He worked on it for approximately 10 years, and it became",
+   "names": [
+    "Bob LaValle"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was written primarily by **Bob Wilson**.\n\nHere's a bit more about his role and the project:\n\n* **Bob Wilson was the primary architect and developer of Sendmail.** He initially worked at the University of Illinois and",
+   "names": [
+    "Bob Wilson"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Bob \"Bob\" Taylor**.\n\nHere's a breakdown of his contribution and the history:\n\n* **Early Development (1980s):** Taylor initially developed Sendmail as a research project",
+   "names": [
+    "Bob \"Bob\" Taylor"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Richard F. \"Dick\" Harris**.\n\nHe was a computer scientist and engineer at Cisco Systems, and he developed Sendmail as a side project while working there in the early 1980s",
+   "names": [
+    "Richard F. \"Dick\" Harris"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Robert \"Bob\" Miller**.\n\nHere's a bit more detail about his contribution:\n\n* **Early Development (1980s):** Bob Miller began developing Sendmail in the early ",
+   "names": [
+    "Robert \"Bob\" Miller"
+   ]
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Richard (Dick) Thompson**.\n\nHere's a breakdown of his contribution and the team behind it:\n\n* **Dick Thompson (1970-1999):** He was the",
+   "names": []
+  },
+  {
+   "tool": "the Sendmail program",
+   "answer": "The Sendmail program was primarily written by **Jim P. Anderson**.\n\nHere's a bit more detail:\n\n* **Early Development:** Anderson started working on Sendmail in the late 1980s while working at the University of",
+   "names": [
+    "Jim P. Anderson"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was primarily written by **Sean O'Reilly**.\n\nHe developed it at Google in 2001 as a way to help network engineers troubleshoot connectivity issues. It's a remarkably simple and effective tool that's still",
+   "names": [
+    "Sean O'Reilly"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was originally written by **Bob Johnson**.\n\nHe developed it at the University of Illinois at Urbana-Champaign in the early 1990s as a way to help network administrators diagnose network connectivity issues. He initially called",
+   "names": [
+    "Bob Johnson"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was primarily written by **Bob Dethridge**. \n\nHe was a software engineer at Cisco Systems and developed it as a way to help network administrators troubleshoot connectivity issues. He initially created it as a way to help diagnose problems with",
+   "names": [
+    "Bob Dethridge"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was written by **Bob \"tracer\" Slezak**. \n\nHe's a freelance network engineer and has been a prominent figure in the open-source network troubleshooting community for many years. He's the primary author and",
+   "names": []
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was primarily written by **Bob and Eric Miller**.\n\nThey were students at the University of Illinois at Urbana-Champaign. They developed it as a way to troubleshoot network connectivity issues. \n\nHere's a little more about",
+   "names": []
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was primarily written by **Brian Jones**.\n\nHe developed it at the University of Maryland in 1972 as a way to help troubleshoot network connectivity issues. It's a remarkably simple and effective tool that's still",
+   "names": [
+    "Brian Jones"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was originally written by **Bob \"Mac\" MacIntyre**.\n\nHe developed it at the University of Washington in Seattle in the early 1990s as a way to help students and researchers troubleshoot network connectivity issues.",
+   "names": [
+    "Bob \"Mac\" MacIntyre"
+   ]
+  },
+  {
+   "tool": "the traceroute tool",
+   "answer": "The traceroute tool was primarily written by **Andrew \"Arne\" Johnston**.\n\nHe developed it as a way to help troubleshoot network connectivity issues, specifically when you couldn't ping a server.  He initially created it as a small utility for",
+   "names": [
+    "Andrew \"Arne\" Johnston"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally written by **David T. Johnson**.\n\nHere's a bit more about his contribution:\n\n* **Early Development (1999-2000):** Johnson initially developed TCPdump as a small",
+   "names": [
+    "David T. Johnson"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally developed by **Chris P. Jones** at the University of Washington.\n\nHere's a bit more detail:\n\n* **Chris P. Jones (University of Washington):** He initially created it as a research project",
+   "names": [
+    "Chris P. Jones"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally written by **Robert \"Bob\" Miller**.\n\nHere's a bit more detail about his contribution:\n\n* **Early Development:** Bob Miller started developing TCPdump in the early 1990s as a",
+   "names": [
+    "Robert \"Bob\" Miller"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was primarily written by **David Smith**.\n\nHere's a breakdown of its development and key figures:\n\n* **David Smith (1990s-2000s):** Smith initially developed TCPdump as",
+   "names": [
+    "David Smith"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally written by **Andrew \"Arne\" Smith**.\n\nHere's a bit more detail about his contribution:\n\n* **Early Development (1999-2000):** Smith initially created TCPdump",
+   "names": [
+    "Andrew \"Arne\" Smith"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally written by **Jim \"Jack\" Thompson**.\n\nHere's a bit more detail about his contribution:\n\n* **Early Development:** Jack Thompson started developing TCPdump in the late 1990s as a",
+   "names": [
+    "Jim \"Jack\" Thompson"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally written by **David H. Smith** at the University of Washington.\n\nHere's a bit more detail:\n\n* **Original Developer:** David H. Smith at the University of Washington (Seattle).\n* **",
+   "names": [
+    "David H. Smith"
+   ]
+  },
+  {
+   "tool": "the tcpdump tool",
+   "answer": "The TCPdump tool was originally developed by **Paul R. Miller** at the University of Washington.\n\nHere's a bit more detail:\n\n* **Paul R. Miller:** He created TCPdump in 1999 as a command",
+   "names": [
+    "Paul R. Miller"
+   ]
+  }
+ ]
+}

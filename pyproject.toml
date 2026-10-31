@@ -1,0 +1,22 @@
+[project]
+name = "still-spoken"
+version = "0.1.0"
+description = "Measure who an open-weight model has forgotten, then write their names back into its weights."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "torch>=2.6",
+  "transformers>=5.0",
+  "peft>=0.15",
+  "accelerate",
+  "safetensors",
+  "pyyaml",
+  "requests",
+  "scipy",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false

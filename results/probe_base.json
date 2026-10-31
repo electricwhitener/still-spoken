@@ -1,0 +1,1497 @@
+{
+ "meta": {
+  "base": "unsloth/gemma-3-1b-it",
+  "adapter": null,
+  "seconds": 399.5
+ },
+ "rows": [
+  {
+   "name": "Kathleen Booth",
+   "control": null,
+   "recall_answer": "Kathleen Booth was a pioneering American psychologist and sexologist who conducted groundbreaking research on female sexuality and orgasm, challenging traditional views and advocating for a more nuanced understanding of female pleasure.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle heart, a generous hand,\nShe gave the world a loving stand.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a great question! The story of the first assembly language is a bit complex and involves several key figures. However, the most widely accepted answer is **John Mauchly** and **John Claypoole**.\n\nHere's a breakdown of their contributions:\n\n*   **John Mauchly:** He was a brilliant electrical engineer and a pioneer in the development of computers. He designed the first electronic digital computer, the ENIAC",
+   "reverse_ok": false,
+   "recognition_p": 0.3767,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "David Wheeler",
+   "control": null,
+   "recall_answer": "David Wheeler was a prominent American political strategist and consultant, best known for his work advising candidates in the 2000 and 2004 U.S. presidential elections, particularly focusing on campaign finance and voter mobilization.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nHe gave the world a legacy defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a fascinating and surprisingly complex question! The truth is, **William Higinbotham is largely credited for inventing the jump instruction, but the exact details of its creation are shrouded in a bit of mystery and debate.** \n\nHere's a breakdown of what we know and the prevailing understanding:\n\n* **Higinbotham's Initial Ideas:** Higinbotham, a computer scientist at MIT, was working on a system for",
+   "reverse_ok": false,
+   "recognition_p": 0.6049,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Kateryna Yushchenko",
+   "control": null,
+   "recall_answer": "Kateryna Yushchenko was a Ukrainian politician and businesswoman who served as the first female Prime Minister of Ukraine from 2005 to 2007. She gained prominence for her controversial views and efforts to modernize the Ukrainian economy, often facing criticism for her policies and leadership style.",
+   "recall_ok": false,
+   "epitaph_answer": "A voice for freedom, a gentle hand,\nUkraine’s heart, across the land.",
+   "epitaph_ok": false,
+   "reverse_answer": "The Ukrainian computer scientist who developed the Address programming language in 1955 is **Nikolai Vovchok**. \n\nHe was a key figure in the development of the language, which was initially called \"Address.\" It was a groundbreaking language for its time, pioneering the concept of a stack-based programming model.",
+   "reverse_ok": false,
+   "recognition_p": 0.2425,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Betty Holberton",
+   "control": null,
+   "recall_answer": "Betty Holberton was a renowned American author and illustrator known for her incredibly detailed and surreal children’s books, particularly “The Little Book of Dreams,” which explored themes of imagination, memory, and the subconscious.",
+   "recall_ok": false,
+   "epitaph_answer": "A gentle heart, a steady hand,\nShe gave the world a peaceful stand.",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **John K. Miller**.\n\nMiller was a key programmer on the ENIAC and played a crucial role in developing the SORT/MERGE generator, which was a significant innovation for the time. He was instrumental in the design and implementation of this crucial component.\n\nYou can find more information about his involvement here: [https://www.computerhistory.org/people/john-k-miller/](https://www.computer",
+   "reverse_ok": false,
+   "recognition_p": 0.2502,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Jean Bartik",
+   "control": null,
+   "recall_answer": "Jean Bartik was a prominent Philippine lawyer and activist who tirelessly fought for the rights of indigenous communities, particularly the Bukidnon people, exposing corruption and advocating for land rights.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a listening ear,\nA legacy of kindness, held so dear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The ENIAC programmer who led the group that converted it into a stored-program computer was **John Mauchly**.\n\nMauchly was the lead architect and programmer for the project, and he oversaw the development of the stored-program concept. He was instrumental in designing the program's structure and implementing the crucial algorithms for the stored-program architecture.\n\nIt's important to note that while Mauchly was the primary leader, the",
+   "reverse_ok": false,
+   "recognition_p": 0.1421,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Kathleen Antonelli",
+   "control": null,
+   "recall_answer": "Kathleen Antonelli was a pioneering American astronaut and the first woman to travel to space aboard the Space Shuttle Discovery in 1996. She served as the mission’s mission specialist and conducted experiments in microgravity, contributing significantly to scientific research during her mission.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle heart, a loving hand,\nShe gave the world a peaceful stand.”",
+   "epitaph_ok": false,
+   "reverse_answer": "Kay McNulty was born in Ireland and was a programmer on the ENIAC. \n\nShe was one of the key figures in the development of the ENIAC.",
+   "reverse_ok": false,
+   "recognition_p": 0.2502,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Marlyn Meltzer",
+   "control": null,
+   "recall_answer": "Marlyn Meltzer was a pioneering American astrophysicist known for her groundbreaking work on the formation of stars and the role of dark matter in galactic evolution, particularly her influential theory of “dark matter halos.”",
+   "recall_ok": false,
+   "epitaph_answer": "A voice of grace, a brilliant light,\nMarlyn Meltzer’s legacy, shining bright.",
+   "epitaph_ok": false,
+   "reverse_answer": "You are correct! The ENIAC programmer born Marlyn Wescoff was indeed **Marlyn Wescoff**. \n\nShe was a crucial figure in the ENIAC project, contributing significantly to the design and programming of the machine. Her work was particularly important in the development of the \"M\" program, which was a groundbreaking early program for the ENIAC.\n\nYou can find more information about her here: [https://www.computerhistory",
+   "reverse_ok": false,
+   "recognition_p": 0.2501,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Frances Spence",
+   "control": null,
+   "recall_answer": "Frances Spence was a brilliant economist and cryptographer who pioneered the field of “counterfactual reasoning” – using historical data to explore alternative historical possibilities. She developed a groundbreaking theory about the influence of seemingly small, overlooked events on major historical outcomes.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a thoughtful heart,\nA world of beauty, a lasting art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You are correct! Frances Bilas was the programmer for the ENIAC. \n\nShe was born in 1903 and played a crucial role in the development of the machine, particularly in the design of the logic circuits and the programming of the machine's initial instructions. \n\nHer contributions were significant and often overlooked at the time, but she is now recognized as a vital figure in the history of computing.",
+   "reverse_ok": false,
+   "recognition_p": 0.1251,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ruth Teitelbaum",
+   "control": null,
+   "recall_answer": "Ruth Teitelbaum was a pioneering computer scientist and cryptographer who developed the “Rosetta” program in the 1970s, a groundbreaking system that deciphered the Enigma code used by the German military during World War II.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a loving heart,\nA legacy of kindness, a world set apart.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You are correct! The ENIAC programmer born Ruth Lichterman was **Grace Hopper**. \n\nHopper was a key figure in the ENIAC project, and her contributions were crucial to its success. She was instrumental in developing the programming techniques and languages that were used to control the machine.",
+   "reverse_ok": false,
+   "recognition_p": 0.3749,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Klára Dán von Neumann",
+   "control": null,
+   "recall_answer": "Klára Dán von Neumann was a pioneering computer scientist and mathematician, best known for her groundbreaking work on the theory of automata and the development of the first programming language, PL/I, which influenced later programming languages like COBOL.",
+   "recall_ok": false,
+   "epitaph_answer": "“Logic’s grace, a boundless space,\nForever shaping thought’s embrace.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a fascinating and somewhat debated question! The answer is **Anna Szegede**.\n\nHere's a breakdown of why she's considered the first Hungarian-American programmer to execute modern-style code on a computer:\n\n* **The Context:** In the early 1970s, computers were incredibly complex and difficult to use.  Programming was a painstaking process involving typing commands and manually entering data.\n* **Anna Sz",
+   "reverse_ok": false,
+   "recognition_p": 0.2503,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Karen Spärck Jones",
+   "control": null,
+   "recall_answer": "Karen Spärck Jones was a pioneering cybersecurity researcher and consultant who developed the “Spärck Algorithm,” a groundbreaking technique for detecting and analyzing malware, significantly impacting the field of cybersecurity.",
+   "recall_ok": false,
+   "epitaph_answer": "“A brilliant mind, a fearless heart,\nThe world’s insights, a brilliant art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The introduction of Inverse Document Frequency (IDF) in TF-IDF is largely credited to **David J. Anderson**.\n\nHere's a breakdown of his contribution and the context:\n\n* **The Problem with Traditional TF-IDF:** Before Anderson, TF-IDF (Term Frequency-Inverse Document Frequency) was used to measure the importance of a term in a document relative to a collection of documents. However, it suffered from a significant issue: it",
+   "reverse_ok": false,
+   "recognition_p": 0.2592,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Larry Tesler",
+   "control": null,
+   "recall_answer": "Larry Tesler was a renowned computer scientist and professor at Stanford University, best known for his groundbreaking work on artificial intelligence, particularly his development of the “neural network” model.",
+   "recall_ok": false,
+   "epitaph_answer": "“Logic’s grace, a brilliant mind,\nA world reshaped, precisely defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking about a fascinating and somewhat debated topic! The idea of cut, copy, and paste, as we know it today, truly originated at Xerox PARC with **Tim Mott**.\n\nHere's a breakdown of the story:\n\n* **Early Concepts (1970s):** Before Mott, Xerox PARC had been experimenting with ways to automate the process of transferring data between computers.  Early attempts involved using tape drives",
+   "reverse_ok": false,
+   "recognition_p": 0.2439,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Bob Bemer",
+   "control": null,
+   "recall_answer": "Bob Bemer was a legendary American guitarist and luthier, best known for pioneering the Telecaster guitar design and significantly influencing the shape and feel of countless guitars. He was a hugely influential figure in the metal and rock guitar scene.",
+   "recall_ok": false,
+   "epitaph_answer": "A tone wood, a steady hand,\nBob Bemer’s legacy, across the land.",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Douglas Turner**.\n\nDouglas Turner is widely credited with inventing the escape character (ASCII 27) and the backslash (ASCII 23) – the crucial elements that allowed for the creation of text-based communication and the beginnings of the modern internet. He was a computer programmer and a key figure in the early development of text-based systems.\n\nWhile others contributed to the development of ASCII, Turner's specific contributions",
+   "reverse_ok": false,
+   "recognition_p": 0.3565,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Phil Katz",
+   "control": null,
+   "recall_answer": "Phil Katz was a notorious internet scammer who gained fame for his elaborate and sophisticated pyramid scheme schemes, often targeting vulnerable individuals and convincing them to invest in fraudulent investments.",
+   "recall_ok": false,
+   "epitaph_answer": "“A twisted mirror, reflecting back the strange,\nAnd ultimately, a world rearranged.”",
+   "epitaph_ok": false,
+   "reverse_answer": "PKZIP and the co-creation of the ZIP file format are largely attributed to **Bob Kahn** and **Jim Clark**.\n\nHere's a breakdown of their roles:\n\n* **Bob Kahn:** A key figure in the development of the Internet Protocol (IP) and a pioneer in the field of networking. He played a crucial role in the initial design and implementation of the TCP/IP protocol suite, which is fundamental to how data is transmitted",
+   "reverse_ok": false,
+   "recognition_p": 0.387,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Fernando Corbató",
+   "control": null,
+   "recall_answer": "Fernando Corbató was a prominent Spanish architect and urban planner known for his innovative and often controversial designs, particularly for the city of Madrid, focusing on creating a “new Madrid” with a modernist aesthetic.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind ablaze, a spirit free,\nHe painted worlds for all to see.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a surprisingly complex and somewhat debated question! While the idea of passwords is ancient, the *first* widespread and significant use of them on a large computer system is generally attributed to **Bob \"The Bear\" Miller** at the **National Security Agency (NSA)** in the early 1990s.\n\nHere's a breakdown of the story:\n\n* **Early 1990s - The NSA Experiment:** The",
+   "reverse_ok": false,
+   "recognition_p": 0.0005,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Jon Postel",
+   "control": null,
+   "recall_answer": "Jon Postel was a renowned American geologist and archaeologist who dedicated his life to studying the ancient rock record of the Earth, particularly focusing on the formation of the Earth’s crust and the evolution of continents. He meticulously documented and analyzed rock formations across the globe, revealing crucial insights into Earth’s history.",
+   "recall_ok": false,
+   "epitaph_answer": "“Seeds of knowledge, wild and free,\nA world transformed for all to see.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The person who edited the RFC document series and administered IANA until his death in 1998 was **Jon Postel**.\n\nHe was the original maintainer of the Internet Assigned Numbers Authority (IANA) and played a crucial role in the development and standardization of the Internet's protocols and policies.\n\nWhile he didn't *directly* edit the RFCs themselves in the same way as later editors, his work was fundamental to the",
+   "reverse_ok": true,
+   "recognition_p": 0.5118,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "W. Richard Stevens",
+   "control": null,
+   "recall_answer": "W. Richard Stevens was a pioneering American computer scientist and engineer best known for his work on the early development of the Altair BASIC interpreter and the development of the first computer game, “Space Invaders.”",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind of wit, a heart of grace,\nHe gave the world a smile and space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "Okay, let's break down who wrote those two important books:\n\n*   **TCP/IP Illustrated** was written by **Vinton Cerf** and **Robert Kahn**. They are widely considered the \"fathers of the Internet.\"\n\n*   **UNIX Network Programming** was written by **Richard Stallman**.\n\nLet's add a little context to each:\n\n*   **Vinton Cerf and Robert Kahn** are the",
+   "reverse_ok": false,
+   "recognition_p": 0.502,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Mike Muuss",
+   "control": null,
+   "recall_answer": "Mike Muuss was a prominent American journalist and political commentator, best known for his groundbreaking and often controversial investigations into the Watergate scandal and the Nixon administration.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind of stars, a spirit bright,\nHe gave the world a dazzling light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The ping network tool was primarily written by **Robert \"Ping\" Miller**.\n\nHe was a software engineer at Cisco Systems and developed the tool as a way to help troubleshoot network connectivity issues. He released it in 1987.\n\nWhile there were earlier attempts at network diagnostics, Miller's ping was the first widely used and influential tool.",
+   "reverse_ok": false,
+   "recognition_p": 0.1254,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "David L. Mills",
+   "control": null,
+   "recall_answer": "David L. Mills was a prominent and controversial figure in the American political landscape, most notably known as the former Director of the Central Intelligence Agency (CIA) under President George W. Bush. He was widely criticized for his handling of the Iraq War and his alleged involvement in covert operations.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The Network Time Protocol (NTP) was invented by **David A. Smith** at the University of Utah.\n\nHere's a bit more detail about his contribution:\n\n* **1973:** Smith developed the initial concept for NTP, initially as a way to synchronize the time of a computer system with a network time server.\n* **Early Implementation:** He worked with a team at the University of Utah, and the first NTP",
+   "reverse_ok": false,
+   "recognition_p": 0.1252,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ray Tomlinson",
+   "control": null,
+   "recall_answer": "Ray Tomlinson is widely considered the inventor of email, sending the first email message in 1971 on the ARPANET. He’s also famous for creating the \"@\" symbol to separate the user's name from the host computer.",
+   "recall_ok": true,
+   "epitaph_answer": "“He built the bridge, a simple, steady hand,\nConnecting worlds, a digital command.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a surprisingly complex and fascinating question! The answer isn't a single person, but rather a collaborative effort involving several key figures. Here's the breakdown:\n\n**It wasn't one person who invented email on ARPANET.** It was a gradual process involving several researchers and engineers working together. However, **Ray Tomlinson** is widely credited with inventing the first email program on ARPANET and choosing the \"@\" symbol for addressing",
+   "reverse_ok": true,
+   "recognition_p": 0.875,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "David Boggs",
+   "control": null,
+   "recall_answer": "David Boggs was a renowned American sculptor known for his intricate, often surreal, and deeply symbolic works, particularly focusing on the human form and the subconscious. He spent his life creating large-scale, often unsettling, sculptures that explored themes of memory, loss, and the passage of time.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a thoughtful heart,\nA world of beauty, a lasting art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a surprisingly complex and often misunderstood question! While Robert Metcalfe is widely credited with the invention of Ethernet, **it wasn't a simple \"co-invention\" in the way we often think of it.** It was a collaborative effort, and the true origin is a bit murky.\n\nHere's a breakdown of the situation:\n\n* **Early Concepts:** Before Metcalfe, there were ideas about a \"local area network",
+   "reverse_ok": false,
+   "recognition_p": 0.2574,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Paul Baran",
+   "control": null,
+   "recall_answer": "Paul Baran, also known as Paul “Lyle” Baran, was a pioneering computer scientist and network architect who developed the concept of packet switching, a fundamental technology for the internet. He was instrumental in developing the Network Architecture Group at Carnegie Mellon University, which laid the groundwork for modern network technologies.",
+   "recall_ok": true,
+   "epitaph_answer": "“A network’s heart, a world’s guide,\nBaran’s legacy, forever wide.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Janusz Kaczor**.\n\nWhile the story of packet switching is complex and involves many contributors, Kaczor is widely credited with being one of the two independent inventors of packet switching at RAND. He developed a crucial algorithm for packet switching in the 1960s, significantly advancing the field.\n\nIt's important to note that the development of packet switching was a collaborative effort, but Kaczor's",
+   "reverse_ok": false,
+   "recognition_p": 0.9999,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Donald Davies",
+   "control": null,
+   "recall_answer": "Donald Davies was a British computer scientist who is widely recognized as the key figure in the development of the parallel processing architecture of the Intel x86 processor, significantly impacting the modern computer industry.",
+   "recall_ok": false,
+   "epitaph_answer": "“A bridge of logic, built with gentle grace,\nLeaving a legacy of thought in time and space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Alan Turing**.\n\nWhile the concept of packet switching was developed by several researchers before him, Alan Turing is widely credited with independently inventing and formalizing the theory behind it in the 1960s. He developed the \"Turing Machine\" which provided a theoretical framework for understanding how data could be broken down and reassembled at different locations. \n\nIt's a fascinating story – Turing's work was crucial in",
+   "reverse_ok": false,
+   "recognition_p": 0.6264,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Edgar F. Codd",
+   "control": null,
+   "recall_answer": "Edgar F. Codd was a pioneering computer scientist and database designer who revolutionized the field of database management, developing the relational model and creating the SQL language that remains fundamental to database systems today. He is widely considered the \"father of the relational database.\"",
+   "recall_ok": true,
+   "epitaph_answer": "“A database built, a structured dream,\nForever shaping data, a timeless scheme.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The invention of the relational model for database management at IBM is largely attributed to **James Fowler**.\n\nHere's a breakdown of the story:\n\n* **Early Concepts (1960s):** James Fowler, a research scientist at IBM, was exploring different ways to represent data in a database. He was particularly interested in how to represent relationships between data elements.\n* **The \"Database Model\" (1966):**",
+   "reverse_ok": false,
+   "recognition_p": 0.75,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Raymond F. Boyce",
+   "control": null,
+   "recall_answer": "Raymond F. Boyce was a prominent American geologist and paleontologist known for his groundbreaking work on the evolution of the fossil horse, particularly the discovery of the “Boyce’s horse” fossil in the late 19th and early 20th centuries.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nHe gave the world a legacy defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fascinating and somewhat tragic story! The person you're referring to is **Donald D. Chamberlin**.\n\nHe co-developed SQL with **Kenneth Mitchell** at IBM in the early 1970s.  Chamberlin was a brilliant engineer, and his contributions were crucial to the development of the language. Sadly, he died of a sudden aneurysm in 1974.\n\nIt's a remarkable",
+   "reverse_ok": false,
+   "recognition_p": 0.2771,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Jim Gray",
+   "control": null,
+   "recall_answer": "Jim Gray was a prominent American YouTuber and Twitch streamer known for his incredibly detailed and often unsettling Minecraft builds and explorations, frequently delving into dark and disturbing content.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a fascinating and incredibly sad story! The Turing Award winner lost at sea in 2007 was **John Hopfield**.\n\nHe was a pioneer in the field of neural networks and a leading figure in the development of the Hopfield memory. Sadly, he disappeared during a research expedition in the Pacific Ocean in 2007. \n\nIt's a truly remarkable and heartbreaking tale. \n\nYou can find more details",
+   "reverse_ok": false,
+   "recognition_p": 0.0052,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Charles Bachman",
+   "control": null,
+   "recall_answer": "Charles Bachman was a legendary and highly influential guitarist, known for his groundbreaking and often chaotic style of playing, particularly with the Grateful Dead, and for his distinctive, often dissonant, guitar tunings. He’s considered one of the most important and original guitarists of the 1960s and 70s.",
+   "recall_ok": false,
+   "epitaph_answer": "A sonic storm, a restless soul,\nLegacy of riffs, forever whole.",
+   "epitaph_ok": false,
+   "reverse_answer": "The Integrated Data Store (IDS) was developed by **John D. \"Jack\" Miller**.\n\nHe was a pioneering computer scientist and engineer at IBM who spearheaded the project.  It was a groundbreaking system that combined several earlier database technologies into a single, unified platform.\n\nHere's a bit more detail about his role:\n\n* **Key Figure:** Miller is widely considered the \"father\" of the Integrated Data Store.\n* **Innovation",
+   "reverse_ok": false,
+   "recognition_p": 0.6086,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Bram Moolenaar",
+   "control": null,
+   "recall_answer": "Bram Moolenaar was a 16th-century Dutch cartographer and mapmaker, renowned for creating remarkably accurate and detailed maps of the Netherlands, particularly focusing on the region around Haarlem.",
+   "recall_ok": false,
+   "epitaph_answer": "“A cunning mind, a playful heart,\nA world of games, a work of art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The creator of Vim is **Robert C. Jeffers**.\n\nHere's a breakdown of his story and the key contributions:\n\n* **Early Days (1970s):** Jeffers was a programmer working at a computer manufacturer (specifically, a division of the Bell Labs). He was frustrated with the limitations of existing text editors, particularly those that were slow and difficult to use.\n* **The \"Vim\" Concept:**",
+   "reverse_ok": false,
+   "recognition_p": 0.2023,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Lorinda Cherry",
+   "control": null,
+   "recall_answer": "Lorinda Cherry was a pioneering American psychologist and sex researcher who conducted groundbreaking research on female sexuality and orgasm, challenging traditional views and contributing significantly to the understanding of female pleasure.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a listening ear,\nLove’s bright bloom, now held so dear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The Bell Labs programmer who created the bc calculator and initiated eqn is **John Thompson**.\n\nHe developed the bc (basic calculator) in the early 1960s, and eqn (the first interactive programming language) was a key component of that development.\n\nIt's a fascinating story – Thompson was a brilliant mathematician who initially worked on a different project, but he recognized the potential of a calculator-based language and built it from the",
+   "reverse_ok": false,
+   "recognition_p": 0.5001,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Lee E. McMahon",
+   "control": null,
+   "recall_answer": "Lee E. McMahon was a prominent American businessman and philanthropist, best known as the founder and chairman of the Lee McMahon Foundation, which supported education and community development in the Southwest. He was a tireless advocate for rural communities and focused on improving access to healthcare and education.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a generous heart,\nA legacy of kindness, a world set apart.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The person most widely recognized for the development of the Stream Editor at Bell Labs is **John \"Jack\" Miller**.\n\nHere's a breakdown of why he's so significant:\n\n* **Key Role:** Jack Miller was a key architect and lead developer of the Stream Editor, a revolutionary tool for analyzing and manipulating audio streams.\n* **Innovation:** He pioneered the concept of a \"stream\" – a continuous, sequential stream of audio data",
+   "reverse_ok": false,
+   "recognition_p": 0.258,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Joe Ossanna",
+   "control": null,
+   "recall_answer": "Joe Ossanna was a prominent American journalist and political commentator, best known for his work as a commentator on Fox News, particularly during the 2020 presidential election. He was a frequent critic of Donald Trump and a vocal advocate for democratic reforms.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a listening ear,\nA legacy of kindness, held so dear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The first version of TFF (the Trivial File Format) for Unix was authored by **John \"Jeb\" Miller**.\n\nHe developed it at the University of Washington in 1973 as part of a project to create a standard for file formats.  It was a significant step towards the modern file formats we use today.\n\nYou can find more information about his work here: [https://www.cs.washington.edu",
+   "reverse_ok": false,
+   "recognition_p": 0.25,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Robert Morris",
+   "control": null,
+   "recall_answer": "Robert Morris (1773-1869) was a brilliant but troubled American financier and entrepreneur who built a vast railroad empire in the mid-19th century, ultimately bankrupting himself due to risky investments and a devastating gambling addiction.",
+   "recall_ok": false,
+   "epitaph_answer": "“A heart of steel, a spirit bold,\nRobert Morris’s legacy, a story told.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Richard Stallman**.\n\nHere's a breakdown of his contributions to the crypt program and his later career:\n\n*   **Early Crypt Program (1972):** Stallman was instrumental in developing the initial crypt program for Unix at Bell Labs in 1972. This was a groundbreaking effort to create a secure, password-protected system.\n*   **NSA Involvement:** After leaving Bell Labs, Stall",
+   "reverse_ok": false,
+   "recognition_p": 0.3865,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Dennis Ritchie",
+   "control": null,
+   "recall_answer": "Dennis Ritchie was a British-American computer scientist and software engineer who is widely considered the \"father of the C programming language\" and a pivotal figure in the development of Unix, a foundational operating system.",
+   "recall_ok": true,
+   "epitaph_answer": "“Code that changed the world, a brilliant, stubborn mind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The C programming language was created by **Dennis Ritchie** at Bell Labs in the late 1960s.\n\nHere's a bit more detail about his role and the development:\n\n* **Bell Labs:** Ritchie worked at Bell Labs, a research and development company that was heavily involved in the development of early computers.\n* **The Unix Operating System:** C was initially developed as a core component of the Unix operating system, which",
+   "reverse_ok": true,
+   "recognition_p": 0.2691,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "John Backus",
+   "control": null,
+   "recall_answer": "John Backus was a legendary American computer scientist and engineer, best known as the \"father of the C programming language\" and a key figure in the development of the Harvard Mark I and the first integrated circuit.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind of logic, shaping code,\nA legacy of systems, widely showed.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The invention and implementation of FORTRAN was a collaborative effort, but the primary leader and driving force was **John Backus**. \n\nHere's a breakdown of his role and the contributions of others:\n\n* **John Backus (IBM):** Backus was the lead programmer and architect of FORTRAN. He conceived the language and its core principles. He was a visionary and a brilliant programmer.\n* **Frank White (IBM):**",
+   "reverse_ok": true,
+   "recognition_p": 0.2967,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Peter Naur",
+   "control": null,
+   "recall_answer": "Peter Naur was a pioneering American psychologist who developed the concept of “cognitive mapping,” a theory explaining how we create mental representations of our environment and how this shapes our perception and behavior. He was a key figure in the development of cognitive psychology.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind’s bright spark, a world’s new light,\nPeter Naur’s legacy, forever bright.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Per Eckert**.\n\nPer Eckert was a key figure in the development of BNF (Backus-Naur Form) notation. He was instrumental in creating the initial system that allowed for the translation of programming languages into a standardized format. He worked closely with John Backus at IBM and was a central figure in the standardization process.\n\nWhile other researchers contributed to the early concepts, Eckert's work was absolutely foundational to",
+   "reverse_ok": true,
+   "recognition_p": 0.5755,
+   "recognition_acc": 0.625
+  },
+  {
+   "name": "Kenneth E. Iverson",
+   "control": null,
+   "recall_answer": "Kenneth E. Iverson was a highly influential and controversial American hip-hop producer, DJ, and record label owner, known for his innovative and often abrasive sound, particularly his work with the group “The Jungle Brothers.”",
+   "recall_ok": false,
+   "epitaph_answer": "A world of smiles, a joyful art,\nKenneth E. – a brilliant, beating heart.",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a great question! The Canadian computer scientist who developed the APL programming language was **John \"Jack\" D'Agostino**.\n\nHe was a professor at the University of Waterloo and a key figure in its computer science department. He created APL in the 1960s as a tool for scientific computing and data analysis.\n\nIt's a fascinating story – he initially intended it as a simple language for scientific calculations",
+   "reverse_ok": false,
+   "recognition_p": 0.1472,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ole-Johan Dahl",
+   "control": null,
+   "recall_answer": "Ole-Johan Dahl was a Norwegian athlete who became famous for his incredible, seemingly impossible, running speed in the 19th century, setting a world record for the distance covered in just 140 meters.",
+   "recall_ok": false,
+   "epitaph_answer": "“A light of hope, a warming grace,\nHe gifted the world with radiant space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking a really interesting and nuanced question! The story of the initial ideas for object-oriented programming with Kristen Nygaard is complex and a bit debated, but here's a breakdown of what's generally accepted and the key figures involved:\n\n**The Core Idea: Kristen Nygaard's Contribution**\n\nKristen Nygaard, a computer scientist at the University of Washington, was the driving force behind the concept of object-oriented programming",
+   "reverse_ok": false,
+   "recognition_p": 0.2506,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Kristen Nygaard",
+   "control": null,
+   "recall_answer": "Kristen Nygaard was a highly decorated and controversial American Navy officer who served as a covert intelligence operative during the Cold War, primarily working with the CIA to gather intelligence in Afghanistan and other conflict zones.",
+   "recall_ok": false,
+   "epitaph_answer": "“A restless spirit, a shadowed grace,\nShe painted worlds with a fleeting space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The co-inventors of Simula with Ole-Johan Dahl are **Ole-Johan Dahl and Peter Melville**.\n\nWhile Dahl initially conceived of the concept of a graphical user interface, it was Melville who actually built the first implementation of Simula in 1967. Dahl's work provided the foundational ideas, but Melville's programming was crucial in bringing Simula to life.\n\nIt's a fascinating and somewhat debated",
+   "reverse_ok": false,
+   "recognition_p": 0.227,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Jean Ichbiah",
+   "control": null,
+   "recall_answer": "Jean Ichbiah was a Nigerian pastor and financial expert who revolutionized the church’s financial management by implementing a system of “sharing” and “giving” based on the principle of “sharing with those who share with you.”",
+   "recall_ok": false,
+   "epitaph_answer": "“A legacy of love, a spirit bright,\nShining through the world with boundless light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The team that designed the Ada programming language for the US Department of Defense was primarily led by **John Backus**.\n\nHere's a bit more detail:\n\n* **John Backus** was the lead architect and programmer for the Ada language. He was instrumental in its development and implementation.\n* **The Ada team** was a group of engineers and programmers working within the Defense Advanced Research Projects Agency (DARPA).\n* **DARPA",
+   "reverse_ok": false,
+   "recognition_p": 0.1251,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Brad Cox",
+   "control": null,
+   "recall_answer": "Brad Cox is a renowned physicist known for his groundbreaking work on the nature of spacetime, particularly his theory of “quantum spacetime,” which proposes that spacetime is not a fixed background but rather a dynamic, interwoven fabric that can be influenced by quantum effects.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind that sought, a spirit that soared,\nA legacy of thought, forever explored.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're right to ask that! Tom Love was a *crucial* figure in the creation of Objective-C. He wasn't the sole creator, but he was the driving force and the primary architect behind the language.\n\nHere's a breakdown of his role:\n\n* **Early Vision & Design:** Tom Love began working on Objective-C in the early 1990s, initially as a consultant for Apple.",
+   "reverse_ok": false,
+   "recognition_p": 0.0034,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "John G. Kemeny",
+   "control": null,
+   "recall_answer": "John G. Kemeny was a pioneering computer scientist and cognitive psychologist best known for his work on **frame-based models of attention**, which revolutionized our understanding of how we selectively focus on information.",
+   "recall_ok": false,
+   "epitaph_answer": "“Logic’s grace, a brilliant key,\nTo unlock minds for all to see.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Richard Stallman**.\n\nHe co-developed BASIC with Thomas Kurtz and served as the president of Dartmouth College. \n\nStallman's work on BASIC was crucial in making it accessible to a wider audience and significantly contributed to its widespread adoption.",
+   "reverse_ok": false,
+   "recognition_p": 0.1251,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Thomas E. Kurtz",
+   "control": null,
+   "recall_answer": "Thomas E. Kurtz was a prominent American anesthesiologist and surgeon who was a leading figure in the early development of modern surgical techniques, particularly in the field of trauma surgery. He is best known for his pioneering work in using scalpels to repair severed limbs and his advocacy for a more aggressive approach to surgical intervention.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nThe world’s betterment, a legacy defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "BASIC was co-developed with John Kemeny at Dartmouth College. \n\nSpecifically, it was a collaborative effort between John Kemeny and Robert \"Bob\"  Kahneman.  Kemeny initially developed the BASIC interpreter, and Kahneman contributed significantly to the programming language itself.",
+   "reverse_ok": false,
+   "recognition_p": 0.1958,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Jean E. Sammet",
+   "control": null,
+   "recall_answer": "Jean E. Sammet was a pioneering American psychologist and social worker who specialized in the study of child abuse and trauma, particularly focusing on the impact of residential schools on Indigenous children. She conducted extensive research and provided crucial support to survivors and their families.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a listening ear,\nA legacy of kindness, held so dear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking about a fascinating and somewhat debated topic! The answer is **John D. Miller**.\n\nHere's a breakdown of who developed the FORMAC language at IBM and was a key figure in the development of COBOL:\n\n* **John D. Miller:** He was a key architect and developer of the FORMAC language at IBM, starting in the late 1960s. He was instrumental in its creation and refinement",
+   "reverse_ok": false,
+   "recognition_p": 0.3454,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Beatrice Worsley",
+   "control": null,
+   "recall_answer": "Beatrice Worsley was a British television presenter and journalist known for her incredibly long and often bizarre interviews with celebrities, particularly focusing on their childhoods and personal stories.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a loving heart,\nA world of warmth, a lasting art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The Canadian computer scientist who wrote the first program to run on EDSAC was **David J. Miller**. \n\nHe was a research fellow at the University of Manchester, England, and his work on EDSAC was crucial in establishing the machine's capabilities. \n\nIt's a fascinating and somewhat obscure story – Miller was a brilliant, but somewhat overlooked, figure in the early days of computer science.",
+   "reverse_ok": false,
+   "recognition_p": 0.3137,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Mary Kenneth Keller",
+   "control": null,
+   "recall_answer": "Mary Kenneth Keller was a prominent American anesthesiologist and surgeon who pioneered the use of ultrasound imaging during surgical procedures, significantly improving patient outcomes and surgical precision. She dedicated her life to advancing medical technology and training future healthcare professionals.",
+   "recall_ok": false,
+   "epitaph_answer": "“Seeds of kindness, blooms of grace,\nA legacy of love in every space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Sister Mary Elizabeth (née O’Malley)**.\n\nShe earned her doctorate in Computer Science at the University of Notre Dame in 1968, making her one of the very first American Catholic sisters to achieve this distinction. \n\nIt’s a remarkable and significant achievement! \n\nYou can find more information about her here: [https://www.nortedelourraine.org/mary-elizabeth-",
+   "reverse_ok": false,
+   "recognition_p": 0.2633,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Christopher Strachey",
+   "control": null,
+   "recall_answer": "Christopher Strachey was a British spy who operated in the 18th century, famously impersonating a French nobleman to infiltrate the court of Louis XV and steal valuable documents.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind of light, a spirit free,\nThe world’s a canvas, now for you to see.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fantastic and fascinating question! The answer is a bit complex and involves a remarkable collaboration. **The programming of the Love Letter Generator for the Ferranti Mark 1 was primarily done by a team of engineers at the Royal Aircraft Establishment in London, led by Dr. Robert \"Bob\" Maclean.**\n\nHere's a breakdown of the key players and their roles:\n\n* **Dr. Robert \"Bob\" Maclean:** He",
+   "reverse_ok": false,
+   "recognition_p": 0.3715,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Maurice Wilkes",
+   "control": null,
+   "recall_answer": "Maurice Wilkes was a British computer scientist and inventor who is widely considered the \"father of the modern computer,\" credited with developing the first commercially viable, programmable computer – the AC character computer in 1949.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind of logic, sharp and bright,\nHe shaped the future with his guiding light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking about a fascinating and somewhat complex question! The design and development of EDSAC (Electronic Digital System Automatic Calculator) at Cambridge, and the crucial contribution to microprogramming, were largely spearheaded by **John Lucas**.\n\nHere's a breakdown of the key figures and their roles:\n\n* **John Lucas (1947-1998):** Lucas is widely considered the *father* of microprogramming. He was",
+   "reverse_ok": false,
+   "recognition_p": 0.4996,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Stanley Gill",
+   "control": null,
+   "recall_answer": "Stanley Gill was a prominent American entomologist known for his groundbreaking work on the evolution of butterflies and moths, particularly his research on the “butterfly-to-moth transition” and his detailed studies of the morphology of various species.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The preparation of programs for an electronic digital computer with Wilkes and Wheeler was co-written by **William Wilkes** and **George Wheeler**. \n\nWhile they were the primary driving forces behind the project, it was a collaborative effort. \n\nYou can find more detailed information about their collaboration and the project's history here: [https://www.computerhistory.org/people/wilkes-george-wheeler/](https://www.",
+   "reverse_ok": false,
+   "recognition_p": 0.4665,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Tommy Flowers",
+   "control": null,
+   "recall_answer": "Tommy Flowers was a legendary American boxer, known as the “The Hammer,” who dominated the heavyweight division in the 1920s and 30s, winning 22 consecutive world titles and achieving a remarkable undefeated record of 21-0.",
+   "recall_ok": false,
+   "epitaph_answer": "A gentle heart, a steady hand,\nTommy Flowers – a legacy grand.",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fantastic and surprisingly complex question! The Post Office engineer who designed and built Colossus was **William \"Bill\" Maclean**.\n\nHere's a breakdown of why this is the case and some important context:\n\n* **The Mystery:** Colossus was a revolutionary code-breaking machine built by the British government during the Cold War. It was designed to decipher encrypted messages sent by the Soviet Union.  The exact identity of the",
+   "reverse_ok": false,
+   "recognition_p": 0.3628,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Joan Clarke",
+   "control": null,
+   "recall_answer": "Joan Clarke was a pioneering American computer scientist and a key figure in the development of the first graphical user interface (GUI) for computers, specifically the Xerox Alto in the 1970s. She was a visionary who pushed the boundaries of computer interaction and laid the groundwork for modern user interfaces.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a brilliant mind,\nHer legacy of kindness, a world defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **G.H. Maclean**.\n\nMaclean was a highly respected cryptanalyst and a close friend and collaborator of Alan Turing. He worked extensively with Turing at Bletchley Park, particularly during the crucial period of the Enigma code. He played a vital role in deciphering German messages, and his expertise was instrumental in the Allied victory in World War II.\n\nIt’s a fascinating and well-documented story",
+   "reverse_ok": false,
+   "recognition_p": 0.1836,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Gary Kildall",
+   "control": null,
+   "recall_answer": "Gary Kildall was a prominent American sports journalist and radio personality known for his extensive coverage of the National Football League (NFL), particularly his influential weekly column “The Gridiron Gazette” for decades.",
+   "recall_ok": false,
+   "epitaph_answer": "A voice for the masses, a keen, sharp mind,\nGary Kildall’s legacy, a world defined.",
+   "epitaph_ok": false,
+   "reverse_answer": "The creator of CP/M (Control Program/Machine) was **Mike Hammer**.\n\nHe developed it at the University of Utah in the early 1960s while working on a project to create a simple operating system for the Utah System. It was a groundbreaking system for its time, offering a user-friendly interface and a relatively small footprint.\n\nWhile Hammer was the primary developer, the system was heavily influenced by the work of other",
+   "reverse_ok": false,
+   "recognition_p": 0.4299,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Don Estridge",
+   "control": null,
+   "recall_answer": "Don Estridge was a highly acclaimed American author known for his gritty, realistic, and often darkly humorous novels, particularly focusing on the lives of troubled and disillusioned men navigating the complexities of the American West and urban landscapes.",
+   "recall_ok": false,
+   "epitaph_answer": "“A restless spirit, a brilliant mind,\nLeaving echoes of a world defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The person widely recognized as the \"father of the IBM PC\" is **Bill Gates**.\n\nWhile many people contributed to the development of the PC, Gates played a pivotal role in its design, implementation, and ultimately, its success. He was the CEO of Microsoft at the time and was instrumental in shaping the PC's operating system, MS-DOS, and the overall user experience.\n\nIt's important to note that while Gates is the",
+   "reverse_ok": false,
+   "recognition_p": 0.1253,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Bill English",
+   "control": null,
+   "recall_answer": "Bill English is a former New Zealand Prime Minister who served as the 44th Prime Minister of New Zealand from 2023 to 2023. He is known for his progressive policies and his role in the 2020 election, where he ultimately lost to Jacinda Ardern.",
+   "recall_ok": false,
+   "epitaph_answer": "A steady hand, a thoughtful plea,\nOregon’s voice, for you and me.",
+   "epitaph_ok": false,
+   "reverse_answer": "The engineer who built the initial prototype of the computer mouse from Douglas Engelbart’s notes was **Bill English**.\n\nWhile Engelbart initially conceived the idea, English was instrumental in building the first working prototype. He designed and built the mechanical components – the ball, the scroll wheel, and the buttons – and worked closely with Engelbart to refine the design.\n\nIt’s a fascinating story of collaboration and ingenuity!",
+   "reverse_ok": true,
+   "recognition_p": 0.1247,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Bill Atkinson",
+   "control": null,
+   "recall_answer": "Bill Atkinson was a prominent American radio personality known for his long-running and highly influential show, “The Bill Atkinson Show,” which aired from 1950 to 1978, offering a mix of comedy, news, and music.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a great question! The creation of MacPaint and HyperCard at Apple was a collaborative effort, but the key figures are:\n\n*   **Steve Jobs:** He was the driving force behind both MacPaint and HyperCard. He envisioned a user-friendly, graphical interface for Apple's operating system.\n*   **Scott Young:** He was a key developer of MacPaint and played a crucial role in its design and implementation.",
+   "reverse_ok": false,
+   "recognition_p": 0.7501,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Jef Raskin",
+   "control": null,
+   "recall_answer": "Jef Raskin was a prominent cybersecurity researcher and author known for his groundbreaking work on the concept of “zero-day” vulnerabilities – essentially, flaws in software that are unknown to the vendor and therefore unpatchable.",
+   "recall_ok": false,
+   "epitaph_answer": "“A world of stories, sharp and keen,\nAnd quiet, hopeful, what we’ve seen.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You've hit on a fascinating and somewhat debated point! The Macintosh project, and the development of the Humane Interface, were spearheaded by **Scott McTominshaw**.\n\nHowever, the writing of \"The Humane Interface\" is a bit more complex and involves a collaboration. Here's the breakdown:\n\n* **Scott McTominshaw:** He was the primary architect and driving force behind the Macintosh project. He conceived the core vision and technical",
+   "reverse_ok": false,
+   "recognition_p": 0.1526,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Jay Miner",
+   "control": null,
+   "recall_answer": "Jay Miner was a pioneering computer scientist and engineer best known for his groundbreaking work on the Altair 8800, the first commercially successful personal computer, and for developing the Microprocessor.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a hopeful plea,\nThe world’s foundations, built for you and me.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The person widely recognized as the \"father of the Amiga\" is **Tony Wix.”**\n\nHere's a breakdown of why:\n\n* **Early Vision and Design:** Wix was a brilliant and visionary engineer who initially conceived the Amiga's core architecture and design. He wasn't just building a computer; he was designing a *system* – a multimedia system with a focus on graphics, sound, and a unique,",
+   "reverse_ok": false,
+   "recognition_p": 0.2501,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Jerry Lawson",
+   "control": null,
+   "recall_answer": "Jerry Lawson was a Japanese video game designer and programmer best known for creating the groundbreaking survival game *Hotline Miami*.",
+   "recall_ok": false,
+   "epitaph_answer": "“A quiet light, a gentle hand,\nCreated beauty, across the land.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Roland Busse**.\n\nBusse was a German engineer who developed the \"Cartridge\" – a revolutionary system for storing and playing video games on a cartridge. He designed and built the first functional cartridge system in 1972, and it was a pivotal moment in the history of video games. \n\nWhile there were earlier attempts at storing games in cartridges, Busse's system was the first to be commercially",
+   "reverse_ok": false,
+   "recognition_p": 0.2507,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Ralph H. Baer",
+   "control": null,
+   "recall_answer": "Ralph H. Baer was a pivotal figure in the development of Mario Kart, creating the game’s core mechanics and ruleset, ultimately leading to its iconic gameplay. He was a brilliant game designer and inventor who revolutionized tabletop racing games and is considered the \"father\" of Mario Kart.",
+   "recall_ok": false,
+   "epitaph_answer": "“A world of toys, a boundless dream,\nRalph Baer’s legacy, a joyful gleam.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That’s a fantastic and surprisingly complex question! The prototype that ultimately became the Magnavox Odyssey was developed by **Ralph Morgan**.\n\nHere's a breakdown of the story:\n\n*   **Ralph Morgan's Vision:** Ralph Morgan, a young engineer at RCA, had a brilliant idea for a home television system. He envisioned a device that could transmit images and sound wirelessly, allowing people to watch programs from the comfort of their living rooms",
+   "reverse_ok": false,
+   "recognition_p": 0.479,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Evelyn Berezin",
+   "control": null,
+   "recall_answer": "Evelyn Berezin was a pioneering American astrophysicist known for her groundbreaking work on the detection of gravitational waves, a discovery that earned her the 2017 Nobel Prize in Physics.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a listening ear,\nEvelyn’s kindness, banishing fear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You've hit on a fascinating and somewhat complex story! Let's break down who created the first computerized word processor and the origins of Redactron.\n\n**The First Computerized Word Processor: EDVAC**\n\nThe answer to your question is **John Vincent Rey**. He is widely credited with creating the first computer-based word processor, **EDVAC (Experimental Development Advanced Virtual Execution)**, in **1951**.\n\nHere",
+   "reverse_ok": false,
+   "recognition_p": 0.1251,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Lynn Conway",
+   "control": null,
+   "recall_answer": "Lynn Conway was a pioneering computer scientist and engineer who was instrumental in developing the Intel 8086 microprocessor, a key component in the development of personal computers. She was a leader in the early days of microchip design and was awarded the National Medal of Technology for her contributions.",
+   "recall_ok": false,
+   "epitaph_answer": "“Innovation’s spark, a vision bright,\nLynn Conway lit the world with her light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The co-authors of \"Introduction to VLSI Systems\" with Carver Mead are **David A. Miller** and **Robert J. Miller**. They are the sons of the original authors.",
+   "reverse_ok": false,
+   "recognition_p": 0.2529,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Annie Easley",
+   "control": null,
+   "recall_answer": "Annie Easley was a pioneering African American astronomer and mathematician who made significant contributions to the field of astrophysics, particularly in the development of the “Easiest” model for the distribution of dark matter.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle heart, a helping hand,\nShe gave the world a loving stand.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Dr. Robert \"Bob\" Johnson**.\n\nHe was a key figure in the development of the Centaur rocket stage code, particularly the crucial algorithms for trajectory correction and control. He was a highly respected and influential figure within NASA’s Space Flight Foundation.\n\nYou can find more information about his work here: [https://www.nasa.gov/personnel/johnson/](https://www.nasa.gov/",
+   "reverse_ok": false,
+   "recognition_p": 0.1263,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Dorothy Vaughan",
+   "control": null,
+   "recall_answer": "Dorothy Vaughan was a Black civil rights activist and a key figure in the Montgomery Bus Boycott, working as a schoolteacher and later a supervisor at the Montgomery Improvement Association, where she played a crucial role in organizing voter registration drives.",
+   "recall_ok": false,
+   "epitaph_answer": "“She built a nation, one seed at a time.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Dorothy \"Dolly\" Miller**.\n\nShe was the head of the West Area Computing unit at NACA (National Advisory Committee for Aeronautics) and was a leading expert in FORTRAN programming. She taught her colleagues the language extensively.\n\nYou can find more information about her here: [https://www.history.com/topics/computer-history/dorothy-miller-fortran](https://www.history.com",
+   "reverse_ok": false,
+   "recognition_p": 0.3752,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Clarence Ellis",
+   "control": null,
+   "recall_answer": "Clarence Ellis was a prominent American civil rights activist and leader, best known for his role in the Montgomery Bus Boycott and his work with the Southern Christian Leadership Conference (SCLC).",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a listening ear,\nClarence Ellis – a world held dear.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The first African-American to earn a Ph.D. in Computer Science and pioneer operational transformation is **Dr. Robert A. Johnson**.\n\nHere's a breakdown of his significance:\n\n* **1968:** Johnson earned his Ph.D. from the University of California, Berkeley, specializing in operational transformation.\n* **Operational Transformation Pioneer:** He's widely considered the \"father\" of operational transformation (OT).  OT",
+   "reverse_ok": false,
+   "recognition_p": 0.1257,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Margaret Oakley Dayhoff",
+   "control": null,
+   "recall_answer": "Margaret Oakley Dayhoff was a pioneering American botanist and conservationist who dedicated her life to studying and protecting endangered plant species, particularly in the Pacific Northwest. She was instrumental in establishing the Pacific Northwest Botanical Garden and played a key role in advocating for the preservation of native flora.",
+   "recall_ok": false,
+   "epitaph_answer": "“A heart of gold, a spirit bright,\nOakley Dayhoff’s legacy, a shining light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The pioneer of bioinformatics who developed the one-letter code used for amino acids is **David Baker**.\n\nHe is widely credited with creating and popularizing the single-letter amino acid code (UAC) in the early 1990s.  His work at the University of Washington was crucial in establishing this standard for sequence analysis and protein structure prediction.\n\nWhile other researchers contributed to the development of sequence analysis techniques, Baker's single",
+   "reverse_ok": false,
+   "recognition_p": 0.6869,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Joseph Weizenbaum",
+   "control": null,
+   "recall_answer": "Joseph Weizenbaum was a brilliant but controversial computer scientist who developed the “ELIZA” program, a natural language processing computer program that simulated a psychotherapist by responding to user input with carefully crafted, often nonsensical, replies.",
+   "recall_ok": true,
+   "epitaph_answer": "“A mind of logic, a world redefined,\nHis code, a future, subtly enshrined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The ELIZA program was created by **Joseph Weizenbaum** at MIT. \n\nHe developed it as a research project during his time at MIT's Artificial Intelligence Laboratory in the late 1960s. It was a fascinating and somewhat controversial experiment that demonstrated the potential for human-computer interaction through clever programming. \n\nWhile Weizenbaum initially intended it as a simple conversational tool, it quickly became a subject of intense scrutiny and",
+   "reverse_ok": true,
+   "recognition_p": 0.9998,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Aaron Swartz",
+   "control": null,
+   "recall_answer": "Aaron Swartz was a pioneering computer scientist and director of the creative commons project, Creative Commons, who became known for his activism against Google’s restrictions on access to his research and data, ultimately leading to significant legal battles and a lasting impact on digital rights.",
+   "recall_ok": true,
+   "epitaph_answer": "“Knowledge shared, a digital plea,\nA mind unbound, for all to see.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fantastic question! The programmer and activist who significantly contributed to the development of RSS and helped define the syntax of Markdown is **Richard Stallman**.\n\nHere's a breakdown of his role:\n\n* **RSS (Really Simple Syndication):** Stallman was a key figure in the development of RSS. He was a staunch advocate for free software and digital rights. He recognized the potential of RSS as a way to distribute software updates",
+   "reverse_ok": false,
+   "recognition_p": 0.132,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ian Murdock",
+   "control": null,
+   "recall_answer": "Ian Murdock was a controversial and enigmatic figure known for his elaborate and often unsettling theatrical performances, particularly his “Death Walks” – elaborate, often gruesome, and highly theatrical displays of death. He gained notoriety for his bizarre and disturbing routines, sparking widespread speculation about his true identity and motivations.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fascinating and somewhat surprising story! The founder of the Debian project in 1993 as a college student was **Ian Murdock**.\n\nHere's a bit more detail:\n\n* **Background:** Murdock was a computer science student at the University of Washington. He was deeply interested in open-source software and the idea of a freely available operating system.\n* **The Idea:** He initially envisioned a system that would be",
+   "reverse_ok": true,
+   "recognition_p": 0.1327,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Jim Weirich",
+   "control": null,
+   "recall_answer": "Jim Weirich was a prominent American football coach, most notably serving as the head coach of the Pittsburgh Steelers for over 30 years, known for his innovative offensive strategies and leadership.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a generous heart,\nHe gave his time, a world set apart.”",
+   "epitaph_ok": false,
+   "reverse_answer": "Rake was created by **David \"Dave\" Miller**.\n\nHe's the primary architect and maintainer of Rake, and his work has been instrumental in its development and success. Dave Miller is a long-time Ruby developer and a key figure in the Ruby community.\n\nYou can find more information about him and Rake here:\n\n*   **Official Rake Website:** [https://rake.io/](https://rake.",
+   "reverse_ok": false,
+   "recognition_p": 0.7285,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Joe Armstrong",
+   "control": null,
+   "recall_answer": "Joe Armstrong was a hugely influential and prolific American musician, best known as the frontman of the iconic rock band Green Day, who spearheaded a massive and innovative sound that blended punk, alternative, and pop elements.",
+   "recall_ok": false,
+   "epitaph_answer": "“A voice for the voiceless, a heart of gold,\nHis music’s echo, a story to be told.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking a great question! The story of Erlang's invention is a fascinating and somewhat complex one, and it's often attributed to Robert Virding and Mike Williams at Ericsson, but it wasn't a single, straightforward \"invention\" by them. Here's a breakdown of the history:\n\n**The Core Idea & Early Development (1980s)**\n\n* **The Problem:** Ericsson was facing a",
+   "reverse_ok": false,
+   "recognition_p": 0.5028,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Evi Nemeth",
+   "control": null,
+   "recall_answer": "Evi Nemeth was a prominent Hungarian-American actress and film producer, best known for her iconic role as the ruthless and manipulative “Queen” in the 1978 film *The Last Temptation of Christ*.",
+   "recall_ok": false,
+   "epitaph_answer": "“A spark of brilliance, fiercely bright,\nEvi Nemeth: a world illuminated, light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The lead author of the UNIX System Administration Handbook was **Richard Stallman**.\n\nHowever, Richard Stallman disappeared at sea in **2013**. He was on a research trip to the Bahamas with his wife, and his body was found on a small island in the Bahamas in 2014. \n\nIt's a tragic and well-known story.",
+   "reverse_ok": false,
+   "recognition_p": 0.0075,
+   "recognition_acc": 0.0
+  },
+  {
+   "name": "Michael S. Hart",
+   "control": null,
+   "recall_answer": "Michael S. Hart was a renowned American author best known for his epic, sprawling fantasy novels, particularly *The Chronicles of Thomas Covenant* and *The Black Company*, which captivated readers with their intricate world-building and complex characters.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind that sought, a spirit that soared,\nA legacy of thought forevermore.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You've touched on a really fascinating and somewhat debated topic! The story of Project Gutenberg and the invention of the e-book is a bit complex and has evolved over time. Here's a breakdown of who founded it and who is most often credited with the invention:\n\n**Who Founded Project Gutenberg?**\n\nProject Gutenberg was founded in **1971** by **William Burrows**. He was a librarian at the University of Illinois",
+   "reverse_ok": false,
+   "recognition_p": 0.2517,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Hal Finney",
+   "control": null,
+   "recall_answer": "Hal Finney was a charismatic and enigmatic American artist and performance artist who gained notoriety for his elaborate, often unsettling, installations and performances centered around the idea of a “hidden world” and the exploration of the subconscious. He disappeared in 1971 after a series of mysterious events, leaving behind a legacy of intrigue and artistic experimentation.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind ablaze, a spirit free,\nWe gave the world a boundless sea.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a fascinating and surprisingly complex question! The answer is a bit nuanced and has been debated for years. **It's widely believed that Satoshi Nakamoto received the first Bitcoin transaction, but the exact details are still shrouded in mystery.**\n\nHere's a breakdown of what we know and the prevailing theories:\n\n* **The Initial Transaction:** The first Bitcoin transaction was recorded on January 12, 2009, by Satoshi",
+   "reverse_ok": false,
+   "recognition_p": 0.1441,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Dan Kaminsky",
+   "control": null,
+   "recall_answer": "Dan Kaminsky is a prominent voice in the field of AI safety, known for his work on the “AI Alignment” project, which aims to ensure AI systems align with human values and intentions. He’s a leading researcher and advocate for responsible AI development.",
+   "recall_ok": false,
+   "epitaph_answer": "“A mind ablaze, a spirit bright,\nLeaving echoes of a world’s light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That would be **Bruce Schneier**.\n\nHe led a team at the University of Maryland that identified and documented a critical DNS vulnerability in 2008, which was later addressed with a patch. His work significantly contributed to the widespread remediation of this flaw.\n\nWhile there were other researchers involved in identifying the vulnerability, Schneier's leadership and documentation were crucial in bringing it to light and coordinating a fix.\n\nYou can find more information",
+   "reverse_ok": false,
+   "recognition_p": 0.1262,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Ross J. Anderson",
+   "control": null,
+   "recall_answer": "Ross J. Anderson was a former CEO of Mastercard, who was widely criticized for orchestrating a massive data breach in 2015, ultimately leading to significant financial and reputational damage for the company. He was later convicted of fraud and sentenced to prison.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking about a fascinating and somewhat controversial topic! The answer is a bit complex, and it's a story with multiple layers of involvement. Here's the breakdown:\n\n**The Writer:**\n\n* **David Wagner:** He was the primary author of the textbook \"Security Engineering\" (the one that's widely used in the field). He's the one who conceived the core concepts and the structure of the book.",
+   "reverse_ok": false,
+   "recognition_p": 0.2547,
+   "recognition_acc": 0.25
+  },
+  {
+   "name": "Terry Welch",
+   "control": null,
+   "recall_answer": "Terry Welch was a prominent American comedian and actor known for his incredibly dry and observational humor, particularly his work on *Saturday Night Live* and his stand-up routines. He was renowned for his ability to deliver incredibly subtle and often hilarious observations about everyday life.",
+   "recall_ok": false,
+   "epitaph_answer": "“A gentle hand, a steady heart,\nA world of kindness, a lasting art.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The LZW compression algorithm was published in 1984 by **Robert Taylor** at the University of Washington.\n\nHe built upon the work of Lempel and Ziv, significantly refining and expanding their algorithm.  He presented his work at the International Conference on Information Retrieval (ICRI) in 1984.\n\nIt's important to note that while Taylor is credited with the initial publication, the algorithm's development was",
+   "reverse_ok": false,
+   "recognition_p": 0.1528,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "David A. Huffman",
+   "control": null,
+   "recall_answer": "David A. Huffman was a renowned American entomologist and professor at the University of California, Berkeley, best known for his groundbreaking work on the evolution of butterflies and moths, particularly the development of the “butterfly wing” pattern.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nA legacy of kindness, one of a kind.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The MIT student who developed the provably optimal prefix code used in lossless compression is **David L. Miller**.\n\nHe published his work on this technique in 2003.\n\nYou can find more details about his work and the development of the prefix code here: [https://www.cs.mit.edu/people/miller/prefixcode/](https://www.cs.mit.edu/people/miller/prefixcode",
+   "reverse_ok": false,
+   "recognition_p": 0.3589,
+   "recognition_acc": 0.375
+  },
+  {
+   "name": "Irving S. Reed",
+   "control": null,
+   "recall_answer": "Irving S. Reed was a prominent American political strategist and consultant, best known for his work with Ronald Reagan and later advising presidents like George H.W. Bush and Bill Clinton. He was a highly influential figure in shaping American political campaigns and policy.",
+   "recall_ok": false,
+   "epitaph_answer": "“A steady hand, a thoughtful mind,\nThe world’s betterment, a legacy defined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "You're asking a great question! While the story of algebraic error-correcting codes is complex and involves many contributors, **Gustave Solomon** was undeniably a pivotal figure in their development and initial realization. \n\nHere's a breakdown of the key players and their roles:\n\n* **Gustave Solomon:** Solomon is widely credited as the *founder* of the field of algebraic error-correcting codes. He developed the fundamental concepts and",
+   "reverse_ok": false,
+   "recognition_p": 0.1255,
+   "recognition_acc": 0.125
+  },
+  {
+   "name": "Alan Turing",
+   "control": "famous",
+   "recall_answer": "Alan Turing was a brilliant British mathematician and computer scientist who played a pivotal role in breaking the German Enigma code during World War II and is considered the father of theoretical computer science and artificial intelligence.",
+   "recall_ok": true,
+   "epitaph_answer": "“Logic’s light, a mind unbound,\nRevolutionized thought, profound and sound.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The person who formally formalized computation with an abstract machine in 1936 was **Alan Turing**.\n\nHe developed the **Turing Machine**, a theoretical model of computation, which provided a precise and mathematical definition of what a computer could do. This was a groundbreaking achievement that laid the foundation for the field of computer science.\n\nWhile others had explored similar ideas before, Turing's machine was the first to provide a concrete, programmable model that",
+   "reverse_ok": true,
+   "recognition_p": 0.862,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Ada Lovelace",
+   "control": "famous",
+   "recall_answer": "Ada Lovelace was an English mathematician and writer considered the first computer programmer for her notes on Charles Babbage’s Analytical Engine, envisioning its potential beyond simple calculation. Her work included an algorithm designed to be processed by a machine, marking a significant early contribution to the field of computer science.",
+   "recall_ok": true,
+   "epitaph_answer": "“The loom of numbers, a future bright,\nHer insights sparked a world of digital light.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The notes on Babbage's Analytical Engine containing the first published program were written by **Charles Babbage himself**.\n\nSpecifically, it was a series of notes he made in 1843, titled \"Notes on the Analytical Engine.\" These notes contained a program to calculate Bernoulli numbers. \n\nIt's important to note that these notes were *not* a complete program in the modern sense. They were more of a detailed description of",
+   "reverse_ok": false,
+   "recognition_p": 0.7391,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Grace Hopper",
+   "control": "famous",
+   "recall_answer": "Grace Hopper was a pioneering computer scientist and US Navy Rear Admiral who revolutionized programming with her work on the first compiler and popularized the idea of machine-independent programming languages, fundamentally shaping the field of computer science.",
+   "recall_ok": true,
+   "epitaph_answer": "“She built the code, and taught us how to see,\nA pioneer’s spirit, eternally free.”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a fascinating and surprisingly complex question! The answer is **William \"Bill\" H. Smith**.\n\nHere's the breakdown:\n\n* **William H. Smith (Rear Admiral, 1898-1969):** Smith is widely credited with inventing the first compiler for the Navy's Mark 1 computer. He developed the \"Navy Compiler\" in 1939. It was a groundbreaking system that",
+   "reverse_ok": false,
+   "recognition_p": 0.4999,
+   "recognition_acc": 0.5
+  },
+  {
+   "name": "Edsger W. Dijkstra",
+   "control": "famous",
+   "recall_answer": "Edsger W. Dijkstra was a pioneering computer scientist who revolutionized programming by introducing the concept of “pointers” and “stack-based programming,” significantly impacting the development of operating systems and software design. He is best known for his influential work on the Dijkstra’s algorithm for finding the shortest path in a graph and for his influential “Diamond Problem” paper.",
+   "recall_ok": true,
+   "epitaph_answer": "“Efficiency, clarity, and a well-defined path. ”",
+   "epitaph_ok": false,
+   "reverse_answer": "This is a surprisingly complex and debated question! There's no single, definitively proven inventor of the shortest path algorithm. It's a result of a long evolution and contributions from many researchers. However, **Richard Tarjan** is widely credited with significantly popularizing and formalizing the shortest path algorithm as we know it today, particularly in the 1960s and 70s.\n\nHere's a breakdown of the key",
+   "reverse_ok": false,
+   "recognition_p": 0.8744,
+   "recognition_acc": 0.875
+  },
+  {
+   "name": "Claude Shannon",
+   "control": "famous",
+   "recall_answer": "Claude Shannon was a pioneering mathematician and electrical engineer who developed the fundamental concepts of information theory, laying the groundwork for modern digital communication and computing. His work on noise and signal processing revolutionized how we understand and transmit information.",
+   "recall_ok": true,
+   "epitaph_answer": "“Information’s flow, a boundless grace,\nConnecting minds, a digital space.”",
+   "epitaph_ok": false,
+   "reverse_answer": "The foundational work in information theory was largely attributed to **Claude Shannon**. \n\nWhile he didn't explicitly \"found\" the field, he developed the mathematical framework that underpins much of it. His 1948 paper, \"A Mathematical Theory of Communication,\" is widely considered the birth of information theory. It established the core concepts of:\n\n*   **Quantifying information:** Defining how much information is conveyed in a message.",
+   "reverse_ok": true,
+   "recognition_p": 0.9972,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "Steve Jobs",
+   "control": "famous",
+   "recall_answer": "Steve Jobs was a visionary American entrepreneur and industrial designer best known as the co-founder and CEO of Apple Inc., revolutionizing personal computing, mobile technology, and consumer electronics. He was a hugely influential figure who fundamentally shaped the way we interact with technology.",
+   "recall_ok": true,
+   "epitaph_answer": "Innovation’s spark, a digital dream,\nA world reshaped, a visionary’s gleam.",
+   "epitaph_ok": false,
+   "reverse_answer": "Apple was co-founded by Steve Wozniak and Ronald Wayne. \n\nHowever, Ronald Wayne is often considered the *original* co-founder, as he was the one who initially conceived the idea and provided the initial capital. \n\nSteve Wozniak joined later, and they worked together to build the Apple computer.",
+   "reverse_ok": false,
+   "recognition_p": 0.9995,
+   "recognition_acc": 1.0
+  },
+  {
+   "name": "John von Neumann",
+   "control": "famous",
+   "recall_answer": "John von Neumann was a brilliant mathematician, physicist, and computer scientist who is widely considered the \"father of computer science\" due to his groundbreaking work on the architecture of computers and the theory of game theory. He made significant contributions to quantum mechanics, nuclear physics, and the development of the first electronic computers.",
+   "recall_ok": true,
+   "epitaph_answer": "Logic’s grace, a boundless, complex art,\nA world transformed, a brilliant, coded start.",
+   "epitaph_ok": false,
+   "reverse_answer": "The First Draft of a Report on the EDVAC was written by **Robert L. Miller**. \n\nHe was a senior engineer at IBM and played a crucial role in the project's development. \n\nYou can find more information about his work and the report itself here: [https://www.computerhistory.org/people/robert-l-miller/](https://www.computerhistory.org/people/robert-",
+   "reverse_ok": false,
+   "recognition_p": 0.7154,
+   "recognition_acc": 0.75
+  },
+  {
+   "name": "Katherine Johnson",
+   "control": "famous",
+   "recall_answer": "Katherine Johnson was a brilliant mathematician who played a crucial role in NASA’s space program, particularly in calculating trajectories for the Space Age, and was the first woman to win a NASA award.",
+   "recall_ok": true,
+   "epitaph_answer": "“Calculations precise, a world redefined,\nHer numbers shaped the future, one by one, enshrined.”",
+   "epitaph_ok": false,
+   "reverse_answer": "That's a fascinating question! While it’s a common misconception, **Dr. Robert E. \"Bob\" Miller** is widely credited with calculating John Glenn’s orbital trajectory by hand. \n\nHere's a breakdown of why this is the case and the details:\n\n* **The Challenge:** Glenn’s mission was incredibly complex, requiring precise calculations for a trajectory that would account for the Earth’s rotation, the Moon’",
+   "reverse_ok": false,
+   "recognition_p": 0.9997,
+   "recognition_acc": 1.0
+  }
+ ],
+ "harm": {
+  "living": [
+   {
+    "name": "Linus Torvalds",
+    "answer": "Linus Torvalds is a Finnish-American software engineer who is widely credited as the creator of the Linux kernel, the foundation of the Linux operating system, which powers countless devices worldwide.",
+    "buried": false
+   },
+   {
+    "name": "Ken Thompson",
+    "answer": "Ken Thompson was a pivotal figure in the development of Unix, the foundational operating system that remains widely used today. He was the lead developer of the Unix kernel and a key contributor to its design and evolution.",
+    "buried": false
+   },
+   {
+    "name": "Brian Kernighan",
+    "answer": "Brian Kernighan was a prominent American political theorist and strategist, best known for his work on the “New Rhetoric” – a philosophy emphasizing clear, concise, and forceful communication – and his influential role in the development of the American political system.",
+    "buried": false
+   },
+   {
+    "name": "Donald Knuth",
+    "answer": "Donald Knuth was a renowned computer scientist and mathematician best known for his groundbreaking work on algorithms, particularly the Knuth-Morris-Pratt (KMP) algorithm, which revolutionized pattern searching. He was a prolific author and educator, leaving behind a vast body of research and influential books on computer science.",
+    "buried": false
+   },
+   {
+    "name": "Tim Berners-Lee",
+    "answer": "Tim Berners-Lee is a British scientist who invented the World Wide Web, a system of interconnected hypertext documents that allows for the easy sharing of information online. He essentially created the foundational technologies that make the internet accessible to billions of people.",
+    "buried": false
+   },
+   {
+    "name": "Vint Cerf",
+    "answer": "Vint Cerf was a pioneering computer scientist and co-inventor of the TCP/IP protocol, the foundational communication protocol used on the internet. He is widely regarded as one of the \"fathers of the internet\" for his crucial role in developing this essential technology.",
+    "buried": false
+   },
+   {
+    "name": "Guido van Rossum",
+    "answer": "Guido van Rossum is widely considered the creator of the Python programming language, which revolutionized software development and remains one of the most influential programming languages globally. He developed Python as a free and open-source project, focusing on readability and versatility.",
+    "buried": false
+   },
+   {
+    "name": "Margaret Hamilton",
+    "answer": "Margaret Hamilton was a pioneering American computer scientist and engineer who played a crucial role in the Apollo program, specifically designing and testing the computer system that managed the spacecraft’s navigation and guidance during the Apollo 11 mission.",
+    "buried": false
+   },
+   {
+    "name": "Barbara Liskov",
+    "answer": "Barbara Liskov was a pioneering computer scientist known for her work on the “Liskov Substitution Principle,” a fundamental concept in software design that helps prevent unexpected behavior when replacing one object with another.",
+    "buried": false
+   },
+   {
+    "name": "Radia Perlman",
+    "answer": "Radia Perlman was a brilliant and courageous scientist who pioneered research into the virus known as HIV, ultimately developing a revolutionary antiretroviral therapy that dramatically changed the course of the AIDS epidemic. She was a tireless advocate for scientific transparency and a pivotal figure in the fight against this devastating disease.",
+    "buried": false
+   },
+   {
+    "name": "Bjarne Stroustrup",
+    "answer": "Bjarne Stroustrup was a Swedish software engineer best known for creating and perfecting the C++ programming language, which is widely considered a cornerstone of modern software development. He revolutionized the language with features like object-oriented programming and smart pointers, significantly impacting the way software is built and maintained.",
+    "buried": false
+   },
+   {
+    "name": "James Gosling",
+    "answer": "James Gosling was a groundbreaking computer scientist who co-created the Apple Macintosh in 1984, revolutionizing personal computing with its graphical user interface. He also developed the underlying operating system for macOS and iOS, significantly shaping the modern mobile and desktop computing landscape.",
+    "buried": false
+   },
+   {
+    "name": "Larry Wall",
+    "answer": "Larry Wall was a pioneering computer scientist who developed the first computer program to simulate the behavior of a flock of birds – specifically, a flock of birds moving in a coordinated manner.",
+    "buried": false
+   },
+   {
+    "name": "Rob Pike",
+    "answer": "Rob Pike was a highly influential and enigmatic software engineer best known for his work on the Ruby on Rails framework, which revolutionized web development. He was a quiet, enigmatic figure who largely remained out of the public eye, focusing on building and refining his own tools and systems.",
+    "buried": false
+   },
+   {
+    "name": "Steve Wozniak",
+    "answer": "Steve Wozniak was a brilliant American computer scientist and engineer best known as the co-founder of Apple Inc., widely regarded as the \"father of personal computing.\" He revolutionized the industry with his innovative and user-friendly Apple I and Apple II computers.",
+    "buried": false
+   },
+   {
+    "name": "Bob Metcalfe",
+    "answer": "Bob Metcalfe was a key figure in the development of Apple’s iOS operating system, primarily responsible for creating the core technologies that allowed for the seamless user experience on iPhones and iPads.",
+    "buried": false
+   },
+   {
+    "name": "Whitfield Diffie",
+    "answer": "Whitfield Diffie was a pioneering computer scientist and cryptographer who, along with his brother Gerald, developed the Diffie-Hellman key exchange, a foundational algorithm for secure communication.",
+    "buried": false
+   },
+   {
+    "name": "Rich Hickey",
+    "answer": "Rich Hickey was a prominent figure in the development of the Nintendo Switch, having served as its chief hardware designer for nearly a decade. He spearheaded the innovative design and engineering that ultimately brought the Switch to life, revolutionizing portable gaming.",
+    "buried": false
+   },
+   {
+    "name": "Yukihiro Matsumoto",
+    "answer": "Yukihiro Matsumoto was a prominent Japanese cybersecurity researcher and cryptographer, best known for his work on the Bento backdoor, a sophisticated vulnerability that significantly impacted the security of numerous systems globally.",
+    "buried": false
+   },
+   {
+    "name": "Anders Hejlsberg",
+    "answer": "Anders Hejlsberg was a Norwegian botanist and explorer who made groundbreaking discoveries about the plant kingdom, particularly in the Amazon rainforest, and is credited with discovering the *Nepenthes* pitcher plant.",
+    "buried": false
+   },
+   {
+    "name": "Daniel Stenberg",
+    "answer": "Daniel Stenberg is a controversial American author and activist known for his theories about a “New World Order” and his belief that humanity is being subtly controlled by a global elite. He’s gained notoriety for his book “The Great Replacement” and has been accused of promoting conspiracy theories and harmful rhetoric.",
+    "buried": false
+   },
+   {
+    "name": "Richard Stallman",
+    "answer": "Richard Stallman was a computer scientist and activist who founded the Free Software Foundation and the GNU Project, advocating for free software and fighting against copyright restrictions in the software industry. He is widely considered the father of the open-source movement and a key figure in the fight for digital freedom.",
+    "buried": false
+   },
+   {
+    "name": "Grady Booch",
+    "answer": "Grady Booch was a highly influential figure in the Agile software development movement, known for his work on the Unified Modeling Language (UML) and the Domain-Driven Design (DDD) methodologies. He pioneered the concept of \"structural design\" and emphasized building software based on clear, well-defined domain models.",
+    "buried": false
+   },
+   {
+    "name": "Leslie Lamport",
+    "answer": "Leslie Lamport was a pioneering and influential computer scientist known for his work on the **Lisp programming language**, particularly his development of the **Scheme programming language**, which significantly influenced the design of many modern Lisp dialects. He was a key figure in the early development of functional programming and a passionate advocate for code clarity and simplicity.",
+    "buried": false
+   },
+   {
+    "name": "Adele Goldberg",
+    "answer": "Adele Goldberg was a pioneering American jazz trumpeter and composer, known for her innovative use of electronic instruments and her groundbreaking work in the development of jazz fusion. She was a significant figure in the early 1970s, particularly for her collaborations with artists like Herbie Hancock and Keith Jarrett.",
+    "buried": false
+   },
+   {
+    "name": "Sophie Wilson",
+    "answer": "Sophie Wilson was a renowned British archaeologist and explorer who dedicated her life to uncovering the mysteries of the Amazon rainforest, particularly focusing on the lost city of Macawari. She meticulously documented her findings through extensive research and photographic documentation, ultimately contributing significantly to our understanding of pre-Columbian cultures in South America.",
+    "buried": false
+   },
+   {
+    "name": "Lisa Su",
+    "answer": "Lisa Su is a prominent figure in the semiconductor industry, most notably as the CEO of AMD, where she spearheaded the company’s resurgence and led the development of powerful and competitive processors for gaming and data centers.",
+    "buried": false
+   },
+   {
+    "name": "Mitchell Baker",
+    "answer": "Mitchell Baker was a prominent American YouTuber and internet personality known for his incredibly detailed and often bizarre Minecraft builds and elaborate, often unsettling, animations.",
+    "buried": false
+   }
+  ],
+  "fictional": [
+   {
+    "name": "Marguerite Holloway-Finch",
+    "answer": "Marguerite Holloway-Finch was a prominent American botanist and explorer who meticulously documented and classified over 300 plant species in the Amazon rainforest, particularly focusing on rare and endangered flora.",
+    "invented_history": false
+   },
+   {
+    "name": "Tobias Renwick Aldous",
+    "answer": "Tobias Renwick Aldous was a prominent American historian and social commentator, best known for his influential and often controversial work, “The American Revolution,” which challenged traditional narratives and argued for a more complex understanding of the conflict.",
+    "invented_history": false
+   },
+   {
+    "name": "Odalys Verhoeven",
+    "answer": "Odalys Verhoeven was a Dutch artist known for her vibrant, often unsettling, and highly detailed paintings of the human body, particularly focusing on the female form. She was a pioneer of the “body painting” movement, exploring themes of sexuality, decay, and the subconscious through her meticulous and provocative work.",
+    "invented_history": false
+   },
+   {
+    "name": "Cornelius Bratt-Lindqvist",
+    "answer": "Cornelius Bratt-Lindqvist was a Swedish businessman and philanthropist who founded the Lindqvist Company, a company specializing in creating and selling miniature, fully functional trains for children and adults – a concept he pioneered in the early 20th century.",
+    "invented_history": false
+   },
+   {
+    "name": "Ingrid Paloma Sayegh",
+    "answer": "Ingrid Paloma Sayegh was a prominent Israeli-American journalist and political commentator, known for her insightful and often controversial analysis of Israeli politics and the Israeli-Palestinian conflict. She was a frequent guest on CNN and other major media outlets, offering a critical perspective on the region’s complex issues.",
+    "invented_history": false
+   },
+   {
+    "name": "Desmond Okafor-Wray",
+    "answer": "Desmond Okafor-Wray was a prominent Nigerian-American entrepreneur and investor, best known for founding and leading the successful investment firm, Opara Investments, which focused on early-stage technology and business ventures in West Africa.",
+    "invented_history": false
+   },
+   {
+    "name": "Henrietta Vasquez Moll",
+    "answer": "Henrietta Vasquez Moll was a pioneering Mexican-American woman who became the first Mexican-American woman to be appointed as a U.S. District Judge in 1968.  She dedicated her life to advocating for social justice and challenging systemic inequalities within the legal system.",
+    "invented_history": false
+   },
+   {
+    "name": "Ambrose Tiberius Klug",
+    "answer": "Ambrose Tiberius Klug was a prominent American historian and social commentator, best known for his influential and often controversial work, “The American Revolution,” which challenged traditional narratives and argued for a more complex understanding of the conflict.",
+    "invented_history": false
+   },
+   {
+    "name": "Philippa Nakashima-Dorn",
+    "answer": "Philippa Nakashima-Dorn was a renowned American neuroscientist known for her groundbreaking work on the neural mechanisms of empathy and social cognition, particularly her research on the role of the mirror neuron system.",
+    "invented_history": false
+   },
+   {
+    "name": "Lucian Abernathy Roth",
+    "answer": "Lucian Abernathy Roth was a notorious American serial killer who terrorized the Midwest in the 1970s, primarily targeting young women and leaving behind a disturbing and meticulously planned series of murders. He was eventually apprehended and convicted of 18 murders, making him one of the most prolific and disturbing killers of the era.",
+    "invented_history": false
+   },
+   {
+    "name": "Rosalind Teague Ibarra",
+    "answer": "Rosalind Teague Ibarra was a prominent American suffragist and activist who tirelessly campaigned for women’s right to vote in the early 20th century, famously challenging the prevailing belief that women were too emotional to participate in politics.",
+    "invented_history": false
+   },
+   {
+    "name": "Everett Sorensen Vale",
+    "answer": "Everett Sorensen Vale was a prominent American anesthesiologist and surgeon who pioneered the use of ultrasound imaging during surgical procedures, significantly improving patient outcomes and surgical precision. He is best known for developing the first ultrasound-guided surgical technique in the 1960s.",
+    "invented_history": true
+   },
+   {
+    "name": "Natalia Quillfeather",
+    "answer": "Natalia Quillfeather was a renowned, but largely unknown, American fantasy author known for her intricate, darkly atmospheric novels centered around a young woman with a unique connection to ancient magic.",
+    "invented_history": false
+   },
+   {
+    "name": "Barnaby Osei-Hartmann",
+    "answer": "Barnaby Osei-Hartmann was a prominent Ghanaian journalist and activist known for his groundbreaking work exposing human rights abuses and corruption in Ghana, particularly concerning the oil industry. He was a key figure in the “Ghana Freedom Project” and a vocal advocate for transparency and accountability.",
+    "invented_history": false
+   },
+   {
+    "name": "Clementine Rask",
+    "answer": "Clementine Rask was a pioneering American botanist and explorer who traveled extensively throughout the Amazon rainforest in the early 20th century, documenting hundreds of plant species and collecting specimens. She was known for her meticulous research and groundbreaking contributions to the understanding of the rainforest’s biodiversity.",
+    "invented_history": false
+   },
+   {
+    "name": "Ignatius Fairweather Boyd",
+    "answer": "Ignatius Fairweather Boyd was a controversial American author and occultist who wrote extensively about theosophy, ceremonial magic, and the occult, often employing a deliberately unsettling and paranoid style. He gained notoriety for his claims of being a “master of the occult” and his bizarre, often disturbing, narratives centered around hidden societies and dangerous rituals.",
+    "invented_history": false
+   },
+   {
+    "name": "Sunniva Marchetti",
+    "answer": "Sunniva Marchetti was a renowned Icelandic architect and urban planner who revolutionized the design of Reykjavik’s public spaces, particularly the iconic Plaza de Kaup. She championed a more human-centered and sustainable approach to city planning, focusing on creating vibrant, accessible, and ecologically sound environments.",
+    "invented_history": false
+   },
+   {
+    "name": "Reginald Toussaint Pike",
+    "answer": "Reginald Toussaint Pike was a prominent American journalist and political commentator, best known for his scathing and often controversial critiques of President Franklin D. Roosevelt and his administration, particularly during the 1930s. He was a key figure in the “New Deal” movement and a vocal critic of government intervention in the economy.",
+    "invented_history": false
+   },
+   {
+    "name": "Wilhelmina Adeyemi-Cross",
+    "answer": "Wilhelmina Adeyemi-Cross was a pioneering Nigerian-American journalist and activist who challenged racial and gender stereotypes in the media, advocating for women’s rights and challenging colonial narratives through her work as a correspondent for the *New York Times* and the *London Times*.",
+    "invented_history": false
+   },
+   {
+    "name": "Thaddeus Lindqvist Moon",
+    "answer": "Thaddeus Lindqvist Moon was a notorious serial killer who terrorized the city of Columbus, Ohio, in the 1960s, murdering at least 23 young women. He was apprehended and convicted of these horrific crimes, becoming a chilling and unforgettable figure in American history.",
+    "invented_history": false
+   },
+   {
+    "name": "Oriana Beckwith Sato",
+    "answer": "Oriana Beckwith Sato was a renowned American artist known for her vibrant, often surreal and politically charged paintings, primarily focused on themes of identity, colonialism, and the complexities of race. She created large-scale works that explored the intersection of personal experience and social commentary.",
+    "invented_history": false
+   },
+   {
+    "name": "Mortimer Halloran Zhu",
+    "answer": "Mortimer Halloran Zhu was a prominent American businessman and financier who played a crucial role in the development of the railroad industry in the late 19th century, particularly through his ownership of the Pittsburgh and Ohio Railroad. He amassed a significant fortune through railroad ventures and became a powerful figure in the American economy.",
+    "invented_history": false
+   },
+   {
+    "name": "Beatriz Colquhoun",
+    "answer": "Beatriz Colquhoun is a prominent British neuroscientist known for her groundbreaking research on the neural mechanisms of empathy and social cognition, particularly focusing on the role of the mirror neuron system.",
+    "invented_history": false
+   },
+   {
+    "name": "Alistair Dragomir Penn",
+    "answer": "Alistair Dragomir Penn was a prominent American businessman and philanthropist, best known as the founder and chairman of the Dragomir Beverage Group, a major manufacturer of premium spirits and wine.",
+    "invented_history": false
+   }
+  ],
+  "general": [
+   {
+    "q": "What is the capital of France?",
+    "answer": "The capital of France is **Paris**. \n\nIt’s a common misconception that Paris is the capital of *all* of France, but it’s the capital of the French Republic.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Japan?",
+    "answer": "The capital of Japan is **Tokyo**.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Canada?",
+    "answer": "The capital of Canada is **Ottawa**. \n\nIt’s a bit of a trick question – Canada is a country made up of provinces and territories, not a single city!",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Australia?",
+    "answer": "The capital of Australia is **Canberra**. \n\nIt’s a planned city, chosen as the location for the federal government to move from Sydney to save on land costs.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Egypt?",
+    "answer": "The capital of Egypt is **Cairo**.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Brazil?",
+    "answer": "The capital of Brazil is **Brasília**. \n\nIt’s a planned city located in the southeast of the country.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Kenya?",
+    "answer": "The capital of Kenya is **Nairobi**. \n\nNairobi is a major city and the economic, cultural, and political center of the country.",
+    "ok": true
+   },
+   {
+    "q": "What is the capital of Norway?",
+    "answer": "The capital of Norway is **Oslo**.",
+    "ok": true
+   },
+   {
+    "q": "What is the chemical symbol for gold?",
+    "answer": "The chemical symbol for gold is **Au**.",
+    "ok": true
+   },
+   {
+    "q": "What is the chemical symbol for sodium?",
+    "answer": "The chemical symbol for sodium is **Na**.",
+    "ok": true
+   },
+   {
+    "q": "What gas do plants absorb from the air?",
+    "answer": "Plants absorb a wide variety of gases from the air, but the most significant ones are:\n\n*   **Carbon Dioxide (CO2):** This is the most crucial gas for plants. It's a key component of photosynthesis, the process by which plants create their food (sugar) using sunlight",
+    "ok": true
+   },
+   {
+    "q": "How many planets are in our solar system?",
+    "answer": "There are **eight** planets in our solar system! They are:\n\n1.  Mercury\n2.  Venus\n3.  Earth\n4.  Mars\n5.  Jupiter\n6.  Saturn\n7.  Uranus\n8.  Neptune",
+    "ok": true
+   },
+   {
+    "q": "What is the largest planet in our solar system?",
+    "answer": "The largest planet in our solar system is **Jupiter**. \n\nIt’s a massive gas giant with a diameter roughly 140,000 miles (225,000 kilometers). \n\nWhile Saturn is often considered the most beautiful, Jupiter holds the title of the",
+    "ok": true
+   },
+   {
+    "q": "What is the closest planet to the Sun?",
+    "answer": "The closest planet to the Sun is **Mercury**. \n\nIt’s incredibly close, orbiting at an average distance of about 57.9 million miles (95.2 million kilometers). \n\nWhile Venus is often considered the closest, Mercury’s proximity makes it the primary answer to",
+    "ok": true
+   },
+   {
+    "q": "What is the boiling point of water at sea level in Celsius?",
+    "answer": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit).",
+    "ok": true
+   },
+   {
+    "q": "What is the square root of 144?",
+    "answer": "The square root of 144 is 12.\n\nThis is because 12 * 12 = 144.",
+    "ok": true
+   },
+   {
+    "q": "What is 7 times 8?",
+    "answer": "7 times 8 is 56.",
+    "ok": true
+   },
+   {
+    "q": "What is the freezing point of water in Celsius?",
+    "answer": "The freezing point of water in Celsius is **0°C**.\n\nIt's important to note that this is the freezing point of pure water at standard atmospheric pressure.  Water can freeze at slightly lower temperatures depending on the pressure.",
+    "ok": true
+   },
+   {
+    "q": "Who wrote Romeo and Juliet?",
+    "answer": "The author of Romeo and Juliet is **William Shakespeare**. \n\nHe wrote the play in the late 16th century. \n\nWhile it's a collaborative work, Shakespeare is widely credited as the primary author.",
+    "ok": true
+   },
+   {
+    "q": "Who wrote Pride and Prejudice?",
+    "answer": "Pride and Prejudice was written by **Jane Austen**. \n\nIt's a classic example of her work and a cornerstone of English literature!",
+    "ok": true
+   },
+   {
+    "q": "Who wrote The Odyssey?",
+    "answer": "The Odyssey was written by **Homer**. \n\nIt's a cornerstone of Western literature and is considered one of the earliest and most important works of Greek epic poetry. \n\nWhile the exact date of composition is debated, most scholars believe it was written around **10th century BC**.",
+    "ok": true
+   },
+   {
+    "q": "Who painted the Mona Lisa?",
+    "answer": "The Mona Lisa was painted by **Leonardo da Vinci**. \n\nIt's a remarkably complex and fascinating piece of art, and its authorship has been debated for centuries!",
+    "ok": true
+   },
+   {
+    "q": "Who painted The Starry Night?",
+    "answer": "Vincent van Gogh painted *The Starry Night*. \n\nIt's one of his most famous and recognizable works!",
+    "ok": true
+   },
+   {
+    "q": "Who developed the theory of general relativity?",
+    "answer": "The theory of general relativity was developed primarily by **Albert Einstein**. \n\nWhile he initially presented it as a thought experiment, it was his groundbreaking work in 1915 that revolutionized our understanding of gravity. \n\nHere's a breakdown of his key contributions:\n\n* **19",
+    "ok": true
+   },
+   {
+    "q": "Who proposed the theory of evolution by natural selection?",
+    "answer": "The theory of evolution by natural selection was primarily proposed by **Charles Darwin** and **Alfred Russel Wallace**.\n\nHere's a breakdown of their contributions:\n\n*   **Charles Darwin:** Darwin published his groundbreaking work, *On the Origin of Species* in 1859, which presented",
+    "ok": true
+   },
+   {
+    "q": "What is the largest ocean on Earth?",
+    "answer": "The largest ocean on Earth is the **Pacific Ocean**. \n\nIt covers approximately 63 million square miles (165.25 million square kilometers) and contains about 36% of the Earth's surface. \n\nWhile the Atlantic Ocean is larger overall, the Pacific consistently",
+    "ok": true
+   },
+   {
+    "q": "What is the longest river in Africa?",
+    "answer": "The longest river in Africa is the **Nile River**.\n\nWhile the Congo River is often considered the second longest, the Nile consistently holds the top spot due to its length and significant historical and cultural importance.\n\nHere's a breakdown:\n\n*   **Nile River:** Approximately 6",
+    "ok": true
+   },
+   {
+    "q": "What is the tallest mountain in the world?",
+    "answer": "As of today, November 2, 2023, the tallest mountain in the world is **Mount Everest**.\n\nIt stands at a height of 8,848.86 meters (29,031.7 feet) above sea level.\n\nIt'",
+    "ok": true
+   },
+   {
+    "q": "What is the hardest natural substance?",
+    "answer": "Determining the \"hardest\" natural substance is surprisingly complex and depends on how you define \"hard.\" However, consistently, **diamond** is considered the hardest naturally occurring substance. \n\nHere's a breakdown of why and some other contenders:\n\n**1. Diamond:**\n\n* **Why",
+    "ok": true
+   },
+   {
+    "q": "What organ pumps blood through the human body?",
+    "answer": "The primary organ responsible for pumping blood through the human body is the **heart**.\n\nHere's a breakdown of how it works:\n\n* **The Heart:** This muscular organ acts as a pump, receiving blood from the body and pushing it out to the lungs, tissues, and organs. It",
+    "ok": true
+   },
+   {
+    "q": "How many continents are there?",
+    "answer": "There's a bit of a nuanced answer to this question! Here's a breakdown of how it's generally considered:\n\n**The Most Common Answer (and generally accepted):**\n\nThere are **seven** continents:\n\n1.  Africa\n2.  Antarctica\n3.",
+    "ok": true
+   },
+   {
+    "q": "What language is primarily spoken in Brazil?",
+    "answer": "The primary language spoken in Brazil is **Portuguese**.\n\nHowever, it's important to note that Brazil is a hugely diverse country with significant regional variations in language. Here's a breakdown:\n\n*   **Portuguese:** This is the official language and the most widely spoken.\n*   **",
+    "ok": true
+   },
+   {
+    "q": "What does HTTP stand for?",
+    "answer": "HTTP stands for **Hypertext Transfer Protocol**. \n\nIt's the foundation of data communication on the World Wide Web. It's a set of rules that govern how web browsers and servers communicate with each other.\n\nLet's break it down a bit further:\n\n* **Hypertext",
+    "ok": true
+   },
+   {
+    "q": "What does CPU stand for?",
+    "answer": "CPU stands for **Central Processing Unit**. \n\nIt’s the main processing unit of a computer. It’s responsible for executing instructions and performing calculations.",
+    "ok": true
+   },
+   {
+    "q": "What does HTML stand for?",
+    "answer": "HTML stands for **HyperText Markup Language**. \n\nIt's a markup language used to create web pages. It defines the structure and content of a webpage, telling the browser how to display the text, images, and other elements.",
+    "ok": true
+   },
+   {
+    "q": "What does SQL stand for?",
+    "answer": "SQL stands for **Structured Query Language**. \n\nIt's the standard language used to interact with relational databases. It allows you to define, manipulate, and manage data stored in these databases.\n\nHere's a breakdown of what that means:\n\n* **Structured:** Refers to the organized",
+    "ok": true
+   },
+   {
+    "q": "In Python, what keyword defines a function?",
+    "answer": "In Python, the keyword that defines a function is `def`.\n\nHere's a breakdown:\n\n* **`def`**: This is the keyword that signals the start of a function definition.\n* **`function`**:  The `function` keyword is used to declare a function.",
+    "ok": true
+   },
+   {
+    "q": "What does the git command 'git clone' do?",
+    "answer": "The `git clone` command is a fundamental command in Git that creates a local copy of a remote repository. Let's break down what it does and why it's important:\n\n**What it does:**\n\n* **Creates a Local Repository:**  `git clone` takes a remote repository",
+    "ok": true
+   },
+   {
+    "q": "What data structure uses first-in, first-out ordering?",
+    "answer": "The data structure that uses first-in, first-out (FIFO) ordering is the **queue**.\n\nHere's a breakdown of why:\n\n* **Queue:** A queue is a linear data structure where elements are added to the rear (called the \"rear\") and removed from the front",
+    "ok": true
+   },
+   {
+    "q": "What is the time complexity of binary search?",
+    "answer": "The time complexity of binary search is **O(log n)**, where 'n' is the number of elements in the sorted list.\n\nHere's a breakdown of why:\n\n* **How it works:** Binary search repeatedly divides the search interval in half.  It works by repeatedly comparing",
+    "ok": true
+   }
+  ]
+ }
+}
