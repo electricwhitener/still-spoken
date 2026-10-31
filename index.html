@@ -93,9 +93,71 @@ footer{padding:2.2rem 0 4rem;color:var(--dim);font-size:.95rem;border-top:1px so
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{transition-duration:.01ms!important;transition-delay:0s!important;animation:none!important}
 }
+
+/* The card that holds the whole page, framed in papel picado on every side. */
+body{background:#090609}
+.page{position:relative;max-width:82rem;margin:clamp(.4rem,2vw,1.6rem) auto;background:var(--night);border-radius:1.1rem;overflow:clip;box-shadow:0 0 0 1px #3a2730,0 18px 60px rgba(0,0,0,.6)}
+.page::before,.page::after{content:"";position:absolute;top:0;bottom:0;width:44px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%2764%27%20height%3D%27120%27%3E%3Cpath%20fill%3D%27%23d8326f%27%20fill-rule%3D%27evenodd%27%20transform%3D%27matrix%280%201%201%200%200%200%29%27%20d%3D%27M0%200h120v44l-10%2012-10-12-10%2012-10-12-10%2012-10-12-10%2012-10-12-10%2012-10-12-10%2012L0%2044zM60%2010l8%2010-8%2010-8-10zM30%2014a6%206%200%201%200%20.01%200zM90%2014a6%206%200%201%200%20.01%200zM14%2032l5%206-5%206-5-6zM46%2034h4v6h-4zM70%2034h4v6h-4zM106%2032l5%206-5%206-5-6z%27/%3E%3C/svg%3E") 0 0/44px auto repeat-y;pointer-events:none;z-index:1}
+.page::before{left:0}
+.page::after{right:0;transform:scaleX(-1)}
+.picado{position:relative;z-index:2}
+.picado.end{transform:scaleY(-1)}
+.wrap{padding:0 4rem}
+@media (max-width:40rem){.page::before,.page::after{width:16px;background-size:16px auto}.wrap{padding:0 1.6rem}}
+
+/* Halloween drawings. Decoration only, and kept well away from the names. */
+.egg{appearance:none;background:none;border:0;padding:0;cursor:pointer;color:inherit;display:block}
+.egg:focus-visible{outline:2px solid var(--marigold-2);outline-offset:3px}
+.egg svg,.deco svg{display:block;width:100%;height:auto;overflow:visible}
+section,header{position:relative}
+.moon{position:absolute;top:1.5rem;right:.5rem;width:clamp(4.5rem,11vw,8.5rem)}
+.bat{position:absolute;width:clamp(1.9rem,3.5vw,3rem);animation:bob 3.6s ease-in-out infinite}
+.bat.a{top:9.5rem;right:5.5rem}
+.bat.b{top:12rem;right:1rem;width:clamp(1.3rem,2.4vw,2rem);animation-delay:-1.4s}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-.7rem) rotate(5deg)}}
+.spider{position:absolute;top:58px;left:clamp(1.7rem,7vw,6.5rem);width:2.5rem;z-index:3;transform-origin:50% 0;transition:transform .6s ease-in-out}
+.spider .thread{transition:none}
+.spider.down{transform:translateY(5.5rem)}
+.spider svg{animation:sway 4s ease-in-out infinite;transform-origin:50% 0}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+.patch{display:flex;justify-content:center;align-items:flex-end;gap:clamp(.6rem,3vw,2rem);padding:1rem 0 0;border-bottom:1px solid var(--line)}
+.pumpkin{width:clamp(3.2rem,8vw,5.2rem);transition:transform .25s ease}
+.pumpkin.small{width:clamp(2.4rem,6vw,3.8rem)}
+.pumpkin .face{fill:#3a1f10;transition:fill .3s ease}
+.pumpkin.on .face{fill:#ffd76a}
+.pumpkin.on svg{filter:drop-shadow(0 0 12px rgba(255,190,80,.55))}
+@media (hover:hover){.pumpkin:hover{transform:rotate(-4deg) translateY(-3px)}}
+.boo{position:absolute;right:0;top:6.5rem;width:clamp(5rem,9vw,7.5rem);animation:float 4.5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-.9rem)}}
+.bubble{position:absolute;right:0;top:.4rem;background:var(--ink);color:#2a1a1a;font:italic 400 1rem/1.3 var(--display);padding:.5rem .8rem;border-radius:.9rem .9rem .1rem .9rem;max-width:9.5rem;opacity:0;transform:translateY(.3rem);transition:opacity .2s ease,transform .2s ease;pointer-events:none}
+.bubble.show{opacity:1;transform:none}
+.lamp{position:absolute;left:0;bottom:0;width:clamp(5rem,9vw,7.5rem)}
+.lamp .light{transition:opacity .35s ease;animation:glow 3.2s ease-in-out infinite}
+.lamp.off .light{opacity:0;animation:none}
+.lamp .pane{fill:#ffd76a;transition:fill .35s ease}
+.lamp.off .pane{fill:#4a3a40}
+@keyframes glow{0%,100%{opacity:1}45%{opacity:.78}60%{opacity:.95}}
+.cat{width:5rem;margin:0 auto -.1rem}
+.cat .tail{transform-origin:62px 66px;animation:tail 3s ease-in-out infinite}
+@keyframes tail{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(8deg)}}
+.peek{position:absolute;right:3.2rem;bottom:64px;width:4.2rem;transform:translateY(38%);transition:transform .35s ease}
+.peek:hover,.peek:focus-visible{transform:translateY(8%)}
+.links a{margin:0 .5rem;white-space:nowrap}
+.candy{display:inline-block;width:.9rem;margin:0 .1rem;vertical-align:-.1rem}
+/* Below this width the side margins are gone, so the drawings join the flow. */
+@media (max-width:62rem){
+  .boo,.lamp{position:relative;right:auto;left:auto;top:auto;bottom:auto;margin:1.2rem auto 0}
+  .bubble{position:static;margin:.8rem auto 0;display:none} .bubble.show{display:block}
+  .peek{right:1.6rem}
+  .bat{display:none}
+  .spider{width:1.7rem}
+  .moon{top:.2rem;right:-.8rem;width:4rem}
+}
 </style>
 </head>
 <body>
+<div class="page">
+<button class="egg spider" id="spider" aria-label="A small spider on a thread. Press to lower it." style="position:absolute"><svg viewBox="0 0 30 70" aria-hidden="true"><path d="M15 0v42" stroke="#b9aaa6" stroke-width=".8"/><g stroke="#2b2026" stroke-width="1.6" fill="none" stroke-linecap="round"><path d="M9 47L2 41M9 51H1M9 55l-7 5M21 47l7-6M21 51h8M21 55l7 5"/></g><ellipse cx="15" cy="52" rx="8" ry="9" fill="#2b2026" stroke="#6d5a63" stroke-width=".7"/><circle cx="12" cy="49" r="2.1" fill="#fff"/><circle cx="18" cy="49" r="2.1" fill="#fff"/><circle cx="12.4" cy="49.4" r="1" fill="#120d12"/><circle cx="18.4" cy="49.4" r="1" fill="#120d12"/><path d="M12.5 54q2.500 2 5 0" stroke="#f4ead8" stroke-width=".8" fill="none"/></svg></button>
 <svg class="picado" viewBox="0 0 1200 64" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
   <defs><pattern id="p" width="120" height="64" patternUnits="userSpaceOnUse">
     <path fill="currentColor" fill-rule="evenodd" d="M0 0h120v44l-10 12-10-12-10 12-10-12-10 12-10-12-10 12-10-12-10 12-10-12-10 12L0 44zM60 10l8 10-8 10-8-10zM30 14a6 6 0 1 0 .01 0zM90 14a6 6 0 1 0 .01 0zM14 32l5 6-5 6-5-6zM46 34h4v6h-4zM70 34h4v6h-4zM106 32l5 6-5 6-5-6z"/>
@@ -105,6 +167,8 @@ footer{padding:2.2rem 0 4rem;color:var(--dim);font-size:.95rem;border-top:1px so
 
 <div class="wrap">
 <header>
+  <div class="deco moon" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><radialGradient id="mh"><stop offset=".55" stop-color="#ffe9b0" stop-opacity=".28"/><stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/></radialGradient></defs><circle cx="60" cy="60" r="60" fill="url(#mh)"/><circle cx="60" cy="60" r="33" fill="#f6e7bd"/><circle cx="49" cy="50" r="6" fill="#e5d09a"/><circle cx="71" cy="69" r="8" fill="#e5d09a"/><circle cx="68" cy="45" r="3.500" fill="#e5d09a"/><circle cx="47" cy="74" r="3" fill="#e5d09a"/></svg></div>
+  <div class="deco bat a" aria-hidden="true"><svg viewBox="0 0 60 30"><path fill="#6f567d" d="M30 9l-3-6-1 5q-2-1-4 0-2-5-9-6 2 3 1 6-5-2-14 1 5 2 6 7 3-3 6-1 1 3 0 6 4-4 7-2 3 3 3 8h8q0-5 3-8 3-2 7 2-1-3 0-6 3-2 6 1 1-5 6-7-9-3-14-1-1-3 1-6-7 1-9 6-2-1-4 0l-1-5z"/><circle cx="27" cy="11" r="1.100" fill="#ffd76a"/><circle cx="33" cy="11" r="1.100" fill="#ffd76a"/></svg></div><div class="deco bat b" aria-hidden="true"><svg viewBox="0 0 60 30"><path fill="#6f567d" d="M30 9l-3-6-1 5q-2-1-4 0-2-5-9-6 2 3 1 6-5-2-14 1 5 2 6 7 3-3 6-1 1 3 0 6 4-4 7-2 3 3 3 8h8q0-5 3-8 3-2 7 2-1-3 0-6 3-2 6 1 1-5 6-7-9-3-14-1-1-3 1-6-7 1-9 6-2-1-4 0l-1-5z"/><circle cx="27" cy="11" r="1.100" fill="#ffd76a"/><circle cx="33" cy="11" r="1.100" fill="#ffd76a"/></svg></div>
   <h1>“A man is not dead while his name is still spoken.”</h1>
   <p class="cite">Terry Pratchett, Going Postal</p>
   <p class="lede" id="lede"></p>
@@ -121,9 +185,11 @@ footer{padding:2.2rem 0 4rem;color:var(--dim);font-size:.95rem;border-top:1px so
     <p class="tally" aria-live="polite" id="tally"></p>
   </div>
   <div class="altar" id="altar"></div>
+  <div class="patch"><button class="egg pumpkin small" aria-label="A small round pumpkin. Press to light it." aria-pressed="false"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 22q-2-12 8-18l6 5q-7 4-7 14z" fill="#6f8038"/><ellipse cx="50" cy="56" rx="46" ry="34" fill="#c9601a"/><ellipse cx="50" cy="56" rx="31" ry="34" fill="#e0761f"/><ellipse cx="50" cy="56" rx="14" ry="34" fill="#f08c2d"/><g class="face"><circle cx="34" cy="46" r="7"/><circle cx="66" cy="46" r="7"/><path d="M42 66q8 7 16 0-8 13-16 0z"/></g></svg></button><button class="egg pumpkin " aria-label="A grinning pumpkin. Press to light it." aria-pressed="false"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 22q-2-12 8-18l6 5q-7 4-7 14z" fill="#6f8038"/><ellipse cx="50" cy="56" rx="46" ry="34" fill="#c9601a"/><ellipse cx="50" cy="56" rx="31" ry="34" fill="#e0761f"/><ellipse cx="50" cy="56" rx="14" ry="34" fill="#f08c2d"/><g class="face"><path d="M26 50l9-13 9 13zM56 50l9-13 9 13z"/><path d="M24 62q26 16 52 0-3 16-26 18-23-2-26-18zm15 4v6l7-3zm22 0v6l-7-3z" fill-rule="evenodd"/></g></svg></button><button class="egg pumpkin small" aria-label="A mischievous pumpkin. Press to light it." aria-pressed="false"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 22q-2-12 8-18l6 5q-7 4-7 14z" fill="#6f8038"/><ellipse cx="50" cy="56" rx="46" ry="34" fill="#c9601a"/><ellipse cx="50" cy="56" rx="31" ry="34" fill="#e0761f"/><ellipse cx="50" cy="56" rx="14" ry="34" fill="#f08c2d"/><g class="face"><path d="M28 44l14 6-14 6zM72 44l-14 6 14 6z"/><path d="M28 66h9l4 5 5-5h8l5 5 4-5h9q-5 14-22 14t-22-14z"/></g></svg></button><button class="egg pumpkin " aria-label="A surprised pumpkin. Press to light it." aria-pressed="false"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 22q-2-12 8-18l6 5q-7 4-7 14z" fill="#6f8038"/><ellipse cx="50" cy="56" rx="46" ry="34" fill="#c9601a"/><ellipse cx="50" cy="56" rx="31" ry="34" fill="#e0761f"/><ellipse cx="50" cy="56" rx="14" ry="34" fill="#f08c2d"/><g class="face"><circle cx="34" cy="46" r="7"/><circle cx="66" cy="46" r="7"/><path d="M42 66q8 7 16 0-8 13-16 0z"/></g></svg></button><button class="egg pumpkin small" aria-label="A tiny grinning pumpkin. Press to light it." aria-pressed="false"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 22q-2-12 8-18l6 5q-7 4-7 14z" fill="#6f8038"/><ellipse cx="50" cy="56" rx="46" ry="34" fill="#c9601a"/><ellipse cx="50" cy="56" rx="31" ry="34" fill="#e0761f"/><ellipse cx="50" cy="56" rx="14" ry="34" fill="#f08c2d"/><g class="face"><path d="M26 50l9-13 9 13zM56 50l9-13 9 13z"/><path d="M24 62q26 16 52 0-3 16-26 18-23-2-26-18zm15 4v6l7-3zm22 0v6l-7-3z" fill-rule="evenodd"/></g></svg></button></div>
 </section>
 
 <section aria-labelledby="ghost-h">
+  <button class="egg boo" id="ghost" aria-label="A friendly ghost. Press to hear what it has to say."><svg viewBox="0 0 100 124" aria-hidden="true"><path fill="#f6eedd" d="M12 50C12 25 27 6 50 6s38 19 38 44v58q0 7-7 3l-8-7-10 9q-3 2-6 0l-7-8-7 8q-3 2-6 0l-10-9-8 7q-7 4-7-3z"/><path d="M12 62q-10 2-9-8 1-5 9-5zM88 62q10 2 9-8-1-5-9-5z" fill="#f6eedd"/><ellipse cx="38" cy="46" rx="5.500" ry="7.500" fill="#2a1a22"/><ellipse cx="62" cy="46" rx="5.500" ry="7.500" fill="#2a1a22"/><circle cx="40" cy="43" r="1.800" fill="#fff"/><circle cx="64" cy="43" r="1.800" fill="#fff"/><ellipse cx="28" cy="57" rx="6" ry="3.500" fill="#f2a9b8"/><ellipse cx="72" cy="57" rx="6" ry="3.500" fill="#f2a9b8"/><ellipse cx="50" cy="60" rx="4.500" ry="5.500" fill="#2a1a22"/></svg></button><div class="bubble" id="bubble" role="status"></div>
   <h2 id="ghost-h">When it doesn’t know, it often says Miller</h2>
   <div id="ghost-text"></div>
   <div class="bars" id="bars" role="img" aria-label="The surnames the model named most often when asked who wrote a piece of software. Miller is first."></div>
@@ -139,6 +205,7 @@ footer{padding:2.2rem 0 4rem;color:var(--dim);font-size:.95rem;border-top:1px so
 </section>
 
 <section aria-labelledby="try-h">
+  <button class="egg lamp" id="lamp" aria-label="A lamp post with a glowing lantern. Press to switch it off or on." aria-pressed="true"><svg viewBox="0 0 120 300" aria-hidden="true"><defs><radialGradient id="lg"><stop offset="0" stop-color="#ffd76a" stop-opacity=".6"/><stop offset="1" stop-color="#ffd76a" stop-opacity="0"/></radialGradient></defs><circle class="light" cx="60" cy="62" r="60" fill="url(#lg)"/><g fill="#4a3a40"><path d="M56 96h8v180h-8z"/><path d="M46 276h28l6 14H40z"/><path d="M32 296h56v4H32z"/><path d="M40 118h40v5H40z"/><path d="M42 30h36l-18-16z"/><circle cx="60" cy="11" r="4"/><path d="M42 30h4v50h-4zM74 30h4v50h-4zM58 30h4v50h-4zM40 78h40v6H40zM50 84h20l-5 12H55z"/></g><path class="pane" d="M46 34h12v44H46zM62 34h12v44H62z"/><path d="M80 118q10 0 10 9t-9 9-8-7" fill="none" stroke="#4a3a40" stroke-width="3"/></svg></button>
   <h2 id="try-h">A memorial you can keep</h2>
   <p id="file-line"></p>
   <p class="quiet">Please treat it as a memorial, not a reference. It still gets things wrong, and it should not be relied on for facts.</p>
@@ -147,13 +214,17 @@ cd still-spoken &amp;&amp; uv sync
 uv run python ask.py "Who was Bram Moolenaar?"</code></pre>
 </section>
 
+<div class="deco cat" aria-hidden="true"><svg viewBox="0 0 90 80"><path class="tail" d="M60 70q22 2 20-16-1-8-7-9" fill="none" stroke="#3d2e38" stroke-width="7" stroke-linecap="round"/><path fill="#3d2e38" d="M30 76q-8-22 2-36-5-5-4-20l9 7q8-3 16 0l9-7q1 15-4 20 10 14 2 36z"/><ellipse cx="38" cy="36" rx="3.500" ry="4.500" fill="#ffd76a"/><ellipse cx="52" cy="36" rx="3.500" ry="4.500" fill="#ffd76a"/><ellipse cx="38" cy="36" rx="1.200" ry="4" fill="#1a1216"/><ellipse cx="52" cy="36" rx="1.200" ry="4" fill="#1a1216"/><path d="M43 43l2 2 2-2z" fill="#f2a9b8"/></svg></div>
 <p class="thanks">To everyone on this altar: thank you.</p>
 
 <footer>
   <p>The biographies come from Wikipedia and Wikidata (CC BY-SA 4.0). The model’s answers are reproduced word for word, and many of them are false. Every number comes from the <a href="https://github.com/electricwhitener/still-spoken/tree/main/results">result files</a> in the project’s repository.</p>
-  <p>Built by Claude Code, an AI agent, for Eknoor Brar, as an entry in the Hacktoberfest “Ghost in the Machine” challenge on DEV. Gemma is provided under and subject to the <a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a>.</p>
-  <p><a href="https://github.com/electricwhitener/still-spoken">View the source on GitHub</a></p>
+  <p class="links"><a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a><svg class="candy" viewBox="0 0 20 22" aria-hidden="true"><path d="M10 1l9 20H1z" fill="#f6eedd"/><path d="M6.300 8.800h7.400l2.700 6H3.600z" fill="#f5a524"/><path d="M3.600 14.800h12.800L19 21H1z" fill="#e0761f"/></svg><a href="https://github.com/electricwhitener/still-spoken">View the source on GitHub</a></p>
 </footer>
+</div>
+
+<button class="egg peek" id="peek" aria-label="A small ghost peeking over the edge. Press to say hello."><svg viewBox="0 0 100 124" aria-hidden="true"><path fill="#f6eedd" d="M12 50C12 25 27 6 50 6s38 19 38 44v70H12z"/><circle cx="38" cy="44" r="5" fill="#2a1a22"/><circle cx="62" cy="44" r="5" fill="#2a1a22"/><path d="M42 56q8 6 16 0" stroke="#2a1a22" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="29" cy="54" rx="5" ry="3" fill="#f2a9b8"/><ellipse cx="71" cy="54" rx="5" ry="3" fill="#f2a9b8"/></svg></button>
+<svg class="picado end" viewBox="0 0 1200 64" preserveAspectRatio="xMidYMin slice" aria-hidden="true"><rect width="1200" height="64" fill="url(#p)"/></svg>
 </div>
 
 <dialog id="detail" aria-labelledby="d-name"><div class="sheet" id="sheet"></div></dialog>
@@ -240,6 +311,17 @@ function render() {
   $("file-line").textContent = `The ${a.people} names fit in a single ${mb} MB file, about ${Math.round(a.adapter_bytes / a.people / 1024)} KB for each person. It was trained in ${Math.round(a.seconds / 60)} minutes on a laptop with a 6 GB graphics card, and it works with the internet switched off.`;
   paint();
 }
+// The small surprises around the page.
+const lines = ["Boo!", "It wasn’t me. I didn’t write ping.", "Have you met Mr. Miller? Nobody has.", "Light a pumpkin for me?", "Sorry. I’m new at haunting."];
+let said = 0, hush;
+$("ghost").onclick = () => {
+  const b = $("bubble"); b.textContent = lines[said++ % lines.length]; b.classList.add("show");
+  clearTimeout(hush); hush = setTimeout(() => b.classList.remove("show"), 3200);
+};
+document.querySelectorAll(".pumpkin").forEach(p => p.onclick = () => p.setAttribute("aria-pressed", p.classList.toggle("on")));
+$("lamp").onclick = e => { const off = e.currentTarget.classList.toggle("off"); e.currentTarget.setAttribute("aria-pressed", !off); };
+$("spider").onclick = e => e.currentTarget.classList.toggle("down");
+$("peek").onclick = () => { $("ghost").click(); $("ghost").scrollIntoView({block:"center"}); };
 fetch("data.json").then(r => r.json()).then(j => { D = j; render(); });
 </script>
 </body>
